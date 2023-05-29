@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="jpeg data model generation in Graphiz + copy in markdown img folder" />
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="Mise à jour présentation markdown sur sélection des données.">
+      <change beforePath="$PROJECT_DIR$/data_selection/presentation/data_selection.md" beforeDir="false" afterPath="$PROJECT_DIR$/data_selection/presentation/data_selection.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685312327230</updated>
       <workItem from="1685312331265" duration="18909000" />
-      <workItem from="1685377353205" duration="6808000" />
+      <workItem from="1685377353205" duration="7578000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685386471850</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mise à jour présentation markdown sur sélection des données.">
+      <created>1685387866795</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685387866795</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +153,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="file folder reorganisation" />
     <MESSAGE value="jpeg data model generation in Graphiz + copy in markdown img folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="jpeg data model generation in Graphiz + copy in markdown img folder" />
+    <MESSAGE value="Mise à jour présentation markdown sur sélection des données." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour présentation markdown sur sélection des données." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/projet_itineraire$main.coverage" NAME="main Coverage Results" MODIFIED="1685384642924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_selection/graphviz" />

@@ -9,9 +9,20 @@
 ## Liste des Use case
 
 
-| Use case                         | Input                            |
-|----------------------------------|----------------------------------|
-| Optimisation itinéraire détaillé | zones et POI<br/>durée du séjour |
+| Use case                           | Input                            |
+|------------------------------------|----------------------------------|
+| Optimisation itinéraire détaillé   | zones et POI<br/>durée du séjour |
+| ---------------------------------- | âge                              |
+| ---------------------------------- | nombre de participants           |
+| ---------------------------------- | budget                           |
+| ---------------------------------- | nombre de chambre                |
+| ---------------------------------- | type de sortie recherché         |
+| ---------------------------------- | Période du séjour                |
+| ---------------------------------- | budget                           |
+
+
+
+
 
 
 
