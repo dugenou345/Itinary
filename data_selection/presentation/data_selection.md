@@ -15,44 +15,6 @@
 
 
 
-## Data Model: definition et format des données 
-
-#### Data definition et format
-
-
-## Data model: Pièges à éviter
-
-#### Règles business et dépendances sur le data model
-
-#### Définition des données
-
-#### Interfaces complèxes dues à des data model différents sur les différents systèmes
-
-#### Les données ne peuvent pas être partagées avec des tiers par manque de standardisation
-
-
-Data Model: Concept
-
-![data model](img/data_model_itineraire.gv.jpeg)
-
-
-## Dictionnaire des données
-
-| Description        | json reference               |
-|--------------------|------------------------------|
-| unique ID          | dc:identifier                |
-| description du POI | rdfs:comment[fr]             |
-| Nom                | rdfs:label[fr]               |
-| email              | hasContact[schema:email]     |
-| telephone          | hasContact[schema:telephone] |
-| adresse            | isLocatedAt[schema:address]  |
-| geo localisation   | isLocatedAt[schema:geo]  |
-| ouverture          | schema:startDate |
-| fermeture          | schema:endDate |
-| URL                | foaf:homepage |
-
-## Annex 1
-
 ## Datatourisme ontologie
 
 Datatourisme concept se base sur un document d’ontologie. Cette ontologie est destinée à structurer les données décrivant l’ensemble des points d’intérêts touristiques: https://gitlab.adullact.net/adntourisme/datatourisme/ontology/-/blob/master/Documentation/Doc-ontologie-3.1.0-FR.pdf
@@ -70,21 +32,82 @@ Graphe de l’ondotologie: https://info.datatourisme.fr/ontology/visualization/
     :PlaceOfInterest
 ![Concept de base](img/concept_base.png)
 
+### Un POI aggrege les informations suivantes 
+
+![POI info](img/POI_info1.png)
+
+## Data Model: Concept pour le projet Itineraire (basé sur Use case retenus)
+
+![data model](img/data_model_itineraire.gv.jpeg)
+
+
+## Dictionnaire des données
+
+| object_dm                            | json_tag                    | description_tag                                                                                                   |
+| ------------------------------------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Point of Interest                    | [poi]                       |                                                                                                                   |
+| Identifiant                          | [identifier]                | An unambiguous reference to the resource within a given context.                                                  |
+| classification                       | [core]                      | La classification de POI. Par exemple : festival, musée, chambre d’hôtes…                                         |
+| Nom                                  | [label]                     | Nom du POI                                                                                                        |
+| description                          | [comment]                   | Description du POI                                                                                                |
+| Est localisé à                       | [isLocatedAt]               | Où est localisé le POI et quels horaires y sont appliqués.                                                        |
+| a pour coordonnées géographiques     | [geo]                       | La localisation du POI, et donc le lieu où il peut être potentiellement consommé. Lieu de départ d'un itinéraire. |
+| a pour longitude                     | [longitude]                 | Valeur de la longitude de la ressource.                                                                           |
+| a pour latitude                      | [latitude]                  | Valeur de la latitude de la ressource.                                                                            |
+| a pour adresse postale               | [address]                   | L'adresse postale du lieu concerné                                                                                |
+| a comme localité                     | [addressLocality]           | La localité de cette addresse (code INSEE de la commune)                                                          |
+| Code postal                          | [postalCode]                | Le code postal d'une adresse.                                                                                     |
+| Numéro et nom de rue                 | [streetAddress]             | Le nom de rue incluant le numéro d'une adresse.                                                                   |
+| a pour horaires d'ouverture          | [openingHoursSpecification] | Les heures d'ouverture d'un lieu/service/produit.                                                                 |
+| Heure de fermeture                   | [closes]                    | La date de début de la période d'ouverture (aaaa-mm-jjThh:mm:ss).                                                 |
+| Heure d'ouverture                    | [opens]                     | La date de fin de la période d'ouverture (aaaa-mm-jjThh:mm:ss).                                                   |
+| Date de début de période d'ouverture | [validFrom]                 | Date ouverture POI                                                                                                |
+| Date de fin de période d'ouverture   | [validThrough]              | Date fermeture POI                                                                                                |
+| a pour contact                       | [hasContact]                | Contact POI                                                                                                       |
+| Site internet                        | [homepage]                  | Site internet POI                                                                                                 |
+| Courriel                             | [email]                     | email POI                                                                                                         |
+| Téléphone                            | [telephone]                 | Telephone POI                                                                                                     |
+| a comme conditions de vente          | [offers]                    | Condition tarifaire                                                                                               |
+| Spécifications tarifaires            | [priceSpecification]        | Specification tarifaire                                                                                           |
+| a pour tarif min                     | [minPrice]                  | prix minimum                                                                                                      |
+| a pour tarif max                     | [maxPrice]                  | prix maximum                                                                                                      |
+| devise                               | [priceCurrency]             | devise                                                                                                            |
+| topObjectProperty                    | [topObjectProperty]         | Propriete du POI                                                                                                  |
+| Description courte                   | [shortDescription]          | Courte description POI                                                                                            |
+| A pour thème                         | [asTheme]                   | Theme du POI                                                                                                      |
+| A pour classement                    | [hasReview]                 | Quels classements et labels évaluent le produit et avec quel score.                                               |
+| Rating                               | [hasReviewValue]            | Note du POI                                                                                                       |
+| Itinéraire                           | [Tour]                      | Itineraire                                                                                                        |
+| type itinéraire                      | [TourType]                  | Type d’itineraire                                                                                                 |
+| A comme étape                        | [TourPath]                  | Etape de l’itineraire                                                                                             |
+| Dénivelé                             | [elevation]                 | denivelé de l’itineraire                                                                                          |
+| Altitude max                         | [maxAltitude]               | Altitude max                                                                                                      |
+| Altitude min                         | [minAltitude]               | Altitude min                                                                                                      |
+| Durée en jour                        | [durantionDays]             | Duree en jour de l’itineraire                                                                                     |
+| Arrivée                              | [arrivedAt]                 | Lieu de destination de l’itineraire                                                                               |
+| Distance en mètre                    | [tourDistance]              | Distance en metre de l’itineraire                                                                                 |
+| Clientèle cible                      | [hasAudience]               | clientèle cible du POI                                                                                            |
+| maximum age                          | [requiredMaxAge]            | age max du POI                                                                                                    |
+| minimum age                          | [requiredMinAge]            | age min du POI                                                                                                    |
+| sexe                                 | [requiredGender]            | sexe exige du POI                                                                                                 |
+| Équipement                           | [hasFeature]                | equipement du POI                                                                                                 |
+| Capacité en nombre de personne       | [occupancy]                 | capacite en nombre de personnes du POI                                                                            |
+| Nombre de chambres                   | [numberOf Rooms]            | nombre de chambre du POI                                                                                          |
+
+
+## Annex 1
+
+
 
 ## Principal propriétés et relations
 
 ![Principales propriétés et relations](img/general_relations.png)
 
-### Un POI aggrege les informations suivantes 
 
-![POI info](img/POI_info1.png)
 
 ### Un POI reference d'autres POI comme suit 
 ![POI reference](img/POI_reference.png)
 
-## Data Modeling
-
-### Business case
 
 
 
