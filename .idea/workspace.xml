@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="jpeg data model generation in Graphiz + copy in markdown img folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_selection/.~lock.data_selection.xlsx#" beforeDir="false" afterPath="$PROJECT_DIR$/data_selection/.~lock.data_selection.xlsx#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_selection/data_selection.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_selection/data_selection.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_selection/presentation/data_selection.md" beforeDir="false" afterPath="$PROJECT_DIR$/data_selection/presentation/data_selection.md" afterDir="false" />
-    </list>
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="jpeg data model generation in Graphiz + copy in markdown img folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685312327230</updated>
       <workItem from="1685312331265" duration="18909000" />
-      <workItem from="1685377353205" duration="6086000" />
+      <workItem from="1685377353205" duration="6808000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -103,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685384870487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="jpeg data model generation in Graphiz + copy in markdown img folder">
+      <created>1685386471850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685386471850</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

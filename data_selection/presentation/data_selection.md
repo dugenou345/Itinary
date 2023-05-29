@@ -95,19 +95,6 @@ Graphe de l’ondotologie: https://info.datatourisme.fr/ontology/visualization/
 | Nombre de chambres                   | [numberOf Rooms]            | nombre de chambre du POI                                                                                          |
 
 
-## Annex 1
-
-
-
-## Principal propriétés et relations
-
-![Principales propriétés et relations](img/general_relations.png)
-
-
-
-### Un POI reference d'autres POI comme suit 
-![POI reference](img/POI_reference.png)
-
 
 
 
