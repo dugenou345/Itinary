@@ -33,9 +33,7 @@
 
 Data Model: Concept
 
-
-
-
+![data model](img/data_model_itineraire.gv.jpeg)
 
 
 ## Dictionnaire des données

@@ -1,5 +1,6 @@
 import graphviz  # doctest: +NO_EXE
 import pandas as pd
+import shutil
 
 # Read data model from excel file
 columns_to_read = ['source_gv','dest_gv','node_letter_gv','object_dm','json_tag']
@@ -34,6 +35,9 @@ def make_graph(df):
     #Generate Graphiz schema
     dot.render('doctest-output/data_model_itineraire.gv').replace('\\', '/')
     'doctest-output/data_model_itineraire.gv.pdf'
+    dot.render('doctest-output/data_model_itineraire.gv',format='jpeg')
+    shutil.copy('doctest-output/data_model_itineraire.gv.jpeg', '../presentation/img/')
+
 
 # execute Graph creation
 make_graph(df)
