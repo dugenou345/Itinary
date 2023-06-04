@@ -44,7 +44,7 @@ def find_json_files(folder_path):
 
 # function to establish connection to Mongodb database, and
 def connect_mongodb(host,port):
-    client = MongoClient(host = host, port = port)
+    client = MongoClient(host=host, port=port)
     return client
 
 def list_of_database(client):
@@ -73,10 +73,17 @@ def select_collection(client,database,collection):
 
 # function to load json files to mongodb
 def load_mongodb(collection, json_files):
+    count_insert = 0
+    count_json = 0
     for file in json_files:
         with open(file) as f:
             data = json.load(f)
-    print(data)
+            count_json+=1
+            print(data)
+            if(collection.insert_one(data)):
+               count_insert+=1
+    print(f"Inserted {count_insert} documents in mongodb of {count_json} json files" )
+
 
 
 ############################## Main area ########################################
@@ -111,6 +118,6 @@ list_collection(client,database.name)
 collection = select_collection(client,'itineraire','point_interest')
 
 # Load json data to mongodb to poi
-#load_mongodb(collection, json_files)
+load_mongodb(collection, json_files)
 
 

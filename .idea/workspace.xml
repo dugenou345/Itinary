@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="established communication to Mongodb with underlying ssh -L 27017:172.18.0.2:27017 zu789  to docker image in digital ocean">
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="creation of mongodb functions: connect, list ,select , create new collection, list collection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" afterDir="false" />
     </list>
@@ -71,7 +71,7 @@
       <workItem from="1685630982982" duration="24000" />
       <workItem from="1685633608838" duration="183000" />
       <workItem from="1685639465269" duration="4107000" />
-      <workItem from="1685772196603" duration="25092000" />
+      <workItem from="1685772196603" duration="29337000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685863490755</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="creation of mongodb functions: connect, list ,select , create new collection, list collection">
+      <created>1685880215300</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685880215300</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +207,8 @@
     <MESSAGE value="Mise à jour présentation markdown (use case input) sur sélection des données." />
     <MESSAGE value="download json file from datatourisme + unzip archive in data folder" />
     <MESSAGE value="established communication to Mongodb with underlying ssh -L 27017:172.18.0.2:27017 zu789  to docker image in digital ocean" />
-    <option name="LAST_COMMIT_MESSAGE" value="established communication to Mongodb with underlying ssh -L 27017:172.18.0.2:27017 zu789  to docker image in digital ocean" />
+    <MESSAGE value="creation of mongodb functions: connect, list ,select , create new collection, list collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of mongodb functions: connect, list ,select , create new collection, list collection" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -211,7 +219,8 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1685879851401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1685898604375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$Doctests_in_database.coverage" NAME="Doctests in database Coverage Results" MODIFIED="1685881224396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/lib/python3.10/site-packages/pymongo" />
     <SUITE FILE_PATH="coverage/projet_itineraire$main.coverage" NAME="main Coverage Results" MODIFIED="1685392583654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_selection/graphviz" />
   </component>
 </project>
