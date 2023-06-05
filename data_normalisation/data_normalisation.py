@@ -1,98 +1,13 @@
-from urllib import request
-import gzip
-import zipfile
-import json
-import os
-from pymongo import MongoClient
 
-################ Function definition area #####################################
-
-# function to download archive from a Url in parameter
-def download_archive(url):
-    request.urlretrieve(url, "data/all_data.gz")
-
-# function to gunzip and unzip an archive
-def extract(filename):
-    # gunzip .gz
-    input = gzip.GzipFile("data/"+filename, 'rb')
-    s = input.read()
-    input.close()
-
-    output = open("data/filename.zip", 'wb')
-    output.write(s)
-    output.close()
-
-    # unzip .zip
-    with zipfile.ZipFile("data/filename.zip", 'r') as zip_ref:
-        zip_ref.extractall("data")
-
-    print("unzipped")
-
-def find_json_files(folder_path):
-    json_files = []
-
-    # Iterate over all files and folders in the given folder path
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            # Check if the file has a .json extension
-            if file.endswith('.json'):
-                file_path = os.path.join(root, file)
-                json_files.append(file_path)
-    print(json_files)
-
-    return json_files
-
-# function to establish connection to Mongodb database, and
-def connect_mongodb(host,port):
-    client = MongoClient(host=host, port=port)
-    return client
-
-def list_of_database(client):
-    print(client.list_database_names())
-
-def select_database(client,database):
-    database = client[database]
-    return database
-
-# function to create a new collection in mongodb
-def create_collection(client,database_name, collection):
-    database = client[database_name]
-    database.create_collection(name=collection)
-
-def list_collection(client,database_name):
-    database = client[database_name]
-    collections = database.list_collections()
-    for collection in collections:
-        print(collection)
-
-def select_collection(client,database,collection):
-    database = client[database]
-    collection = database[collection]
-    print("selected collection:", collection.name)
-    return collection
-
-# function to load json files to mongodb
-def load_mongodb(collection, json_files):
-    count_insert = 0
-    count_json = 0
-    for file in json_files:
-        with open(file) as f:
-            data = json.load(f)
-            count_json+=1
-            print(data)
-            if(collection.insert_one(data)):
-               count_insert+=1
-    print(f"Inserted {count_insert} documents in mongodb of {count_json} json files" )
-
-
-
-############################## Main area ########################################
+from download_extract import *
+from mongodb_mgt import *
 
 host = '127.0.0.1'
+port = 27017
 
 # download json file from datatourisme (.gz)
 download_archive(url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e")
-
+#download_archive(url = "https://diffuseur.datatourisme.fr/webservice/5ee791b415ae416d146156e7a5dc3f2c/b09342b4-4114-4c68-9ece-e9bcc36c650e")
 # gunzip + unzip archive
 extract("all_data.gz")
 
@@ -100,7 +15,7 @@ extract("all_data.gz")
 json_files = find_json_files('data/objects')
 
 # connect to mongodb
-client = connect_mongodb(host,27017)
+client = connect_mongodb(host,port)
 
 # list database name from mongodb
 list_of_database(client)
@@ -115,9 +30,12 @@ create_collection(client,database.name,'point_interest')
 list_collection(client,database.name)
 
 # select collection from mongodb database
-collection = select_collection(client,'itineraire','point_interest')
+collection = select_collection(client,database.name,'point_interest')
 
 # Load json data to mongodb to poi
 load_mongodb(collection, json_files)
+
+#export relevant data in database itineraire / collection point_interest
+export_filtered_data_json(client,database.name,'point_interest')
 
 
