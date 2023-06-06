@@ -1,3 +1,4 @@
+# data to be selected from mongodb with find()
 my_projection = {
         "dc:identifier": 1,
         "hasContact": {
