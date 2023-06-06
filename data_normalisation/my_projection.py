@@ -27,9 +27,36 @@ my_projection = {
                     "isPartOfDepartment": {
                         "rdfs:label": {
                             "fr": 1
-                     }
+                        },
+                    "isPartOfRegion": {
+                        "rdfs:label": {
+                            "fr": 1
+                        }
+                    }
+                    }
+                }
+            },
+            "schema:geo": {
+                "schema:latitude": 1,
+                "schema:longitude": 1
+            },
+            "schema:openingHoursSpecification":{
+                "schema:validFrom": 1,
+                "schema:validThrough": 1
+            }
+        },
+        "offers":{
+            "schema:priceSpecification": {
+                "schema:maxPrice": 1,
+                "schema:minPrice": 1,
+                "schema:priceCurrency": 1
+            }
+        },
+        "hasReview": {
+            "hasReviewValue": {
+                "rdfs:label": {
+                    "fr": 1,
                 }
             }
         }
-    }
 }
