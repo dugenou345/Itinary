@@ -1,12 +1,15 @@
-
-from download_extract import *
+from download_remove_extract import *
 from mongodb_mgt import *
 from export_mongodb_2_json import *
 
 host = '127.0.0.1'
 port = 27017
+json_path = "data/objects"
 
-# download json file from datatourisme (.gz)
+# Remove previous json data
+remove_local_json_folder(json_path)
+
+#download json file from datatourisme (.gz)
 download_archive(url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e")
 #download_archive(url = "https://diffuseur.datatourisme.fr/webservice/5ee791b415ae416d146156e7a5dc3f2c/b09342b4-4114-4c68-9ece-e9bcc36c650e")
 
@@ -24,6 +27,9 @@ list_of_database(client)
 
 # select database in mongodb
 database = select_database(client,'itineraire')
+
+#delete previous collection
+delete_collection(client,database.name,'point_interest')
 
 # create new collection
 create_collection(client,database.name,'point_interest')

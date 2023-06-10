@@ -1,8 +1,10 @@
 from bson import ObjectId
 from my_projection import my_projection
 import json
+from decorators import progress_bar
 
 #function to export selected data to json from mongodb
+@progress_bar
 def export_filtered_data_json(client,database,collection):
     database = client[database]
     collection = database[collection]
