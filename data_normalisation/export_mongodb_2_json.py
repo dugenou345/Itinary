@@ -1,5 +1,5 @@
 from bson import ObjectId
-from my_projection import my_projection
+from my_projection import pipeline
 import json
 from decorators import progress_bar
 
@@ -10,7 +10,7 @@ def export_filtered_data_json(client,database,collection):
     collection = database[collection]
 
     # search for mongodb and extract result based on my_projection
-    result = collection.find({}, my_projection)
+    result = collection.aggregate(pipeline)
     # Convert the result to a list of dictionaries
     documents = list(result)
     # Define the file path for exporting the JSON data
