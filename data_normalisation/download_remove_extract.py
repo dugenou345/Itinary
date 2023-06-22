@@ -6,10 +6,9 @@ import shutil
 from decorators import progress_bar
 
 @progress_bar
-def remove_local_json_folder(data):
+def remove_json_folder(json_path):
     # Specify the path of the folder to be removed
-    folder_path = data
-
+    folder_path = json_path
     #print("removing previous json files")
         # Remove the folder and its contents
     if os.path.exists(folder_path):
@@ -18,27 +17,41 @@ def remove_local_json_folder(data):
         print(f"Subfolder '{folder_path}' does not exist.")
 
 
+@progress_bar
+def remove_data_files(data_path):
+    folder_path = data_path
+    file_list = os.listdir(folder_path)
+    for file_name in file_list:
+        file_path = os.path.join(folder_path, file_name)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
+            print(f"Deleted file: {file_path}")
+
+
 # function to download archive from a Url in parameter
 @progress_bar
-def download_archive(url):
-    print("downloading json files from datatoursime")
-    request.urlretrieve(url, "data/all_data.gz")
+def download_archive(url,file_path):
+    print("downloading json files from datatourisme")
+    #request.urlretrieve(url, "data/all_data.gz")
+    request.urlretrieve(url,file_path)
 
 # function to gunzip and unzip an archive
 @progress_bar
-def extract(filename):
+def extract(file_path):
     # gunzip .gz
-    input = gzip.GzipFile("data/"+filename, 'rb')
+    #input = gzip.GzipFile("data/"+filename, 'rb')
+    input = gzip.GzipFile(file_path+"/all_data.gz", 'rb')
     s = input.read()
     input.close()
 
-    output = open("data/filename.zip", 'wb')
+    output = open(file_path+"/filename.zip", 'wb')
     output.write(s)
     output.close()
 
     # unzip .zip
-    with zipfile.ZipFile("data/filename.zip", 'r') as zip_ref:
-        zip_ref.extractall("data")
+    #with zipfile.ZipFile("data/filename.zip", 'r') as zip_ref:
+    with zipfile.ZipFile(file_path+"/filename.zip", 'r') as zip_ref:
+        zip_ref.extractall(file_path)
 
     print("unzipped")
 

@@ -1,21 +1,26 @@
 from download_remove_extract import *
 from mongodb_mgt import *
 from export_mongodb_2_json import *
+import pytest
 
 host = '127.0.0.1'
 port = 27017
+data_path = "data"
 json_path = "data/objects"
 
 # Remove previous json data
-remove_local_json_folder(json_path)
+remove_json_folder(json_path)
+# Remove previous file in data folder
+remove_data_files(data_path)
 
 #download json file from datatourisme (.gz)
-download_archive(url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e")
-#download_archive(url = "https://diffuseur.datatourisme.fr/webservice/5ee791b415ae416d146156e7a5dc3f2c/b09342b4-4114-4c68-9ece-e9bcc36c650e")
+download_archive(url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e",file_path = 'data/all_data.gz')
+#download_archive('data/all_data.gz',url = "https://diffuseur.datatourisme.fr/webservice/5ee791b415ae416d146156e7a5dc3f2c/b09342b4-4114-4c68-9ece-e9bcc36c650e")
 
 # gunzip + unzip archive
-extract("all_data.gz")
-
+#extract("all_data.gz")
+#extract(file_path = 'data/all_data.gz')
+extract(file_path = 'data')
 # recurslively parse folder for json files
 json_files = find_json_files('data/objects')
 
