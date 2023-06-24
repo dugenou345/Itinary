@@ -18,8 +18,6 @@ download_archive(url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae88
 #download_archive('data/all_data.gz',url = "https://diffuseur.datatourisme.fr/webservice/5ee791b415ae416d146156e7a5dc3f2c/b09342b4-4114-4c68-9ece-e9bcc36c650e")
 
 # gunzip + unzip archive
-#extract("all_data.gz")
-#extract(file_path = 'data/all_data.gz')
 extract(file_path = 'data')
 # recurslively parse folder for json files
 json_files = find_json_files('data/objects')

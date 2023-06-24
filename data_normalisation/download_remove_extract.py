@@ -3,7 +3,11 @@ import gzip
 import zipfile
 import os
 import shutil
+
+import pytest
+
 from decorators import progress_bar
+
 
 @progress_bar
 def remove_json_folder(json_path):
@@ -18,6 +22,7 @@ def remove_json_folder(json_path):
 
 
 @progress_bar
+#@pytest.fixture(params=['./data'])
 def remove_data_files(data_path):
     folder_path = data_path
     file_list = os.listdir(folder_path)

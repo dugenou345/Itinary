@@ -1,10 +1,12 @@
 import json
+
+import pytest
 from pymongo import MongoClient
 from decorators import progress_bar
 
 # function to establish connection to Mongodb database, and
 @progress_bar
-def connect_mongodb(host,port):
+def connect_mongodb(host='127.0.0.1',port=27017):
     client = MongoClient(host=host, port=port)
     return client
 
