@@ -37,14 +37,12 @@ def remove_data_files(data_path):
 @progress_bar
 def download_archive(url,file_path):
     print("downloading json files from datatourisme")
-    #request.urlretrieve(url, "data/all_data.gz")
     request.urlretrieve(url,file_path)
 
 # function to gunzip and unzip an archive
 @progress_bar
 def extract(file_path):
     # gunzip .gz
-    #input = gzip.GzipFile("data/"+filename, 'rb')
     input = gzip.GzipFile(file_path+"/all_data.gz", 'rb')
     s = input.read()
     input.close()
@@ -54,7 +52,6 @@ def extract(file_path):
     output.close()
 
     # unzip .zip
-    #with zipfile.ZipFile("data/filename.zip", 'r') as zip_ref:
     with zipfile.ZipFile(file_path+"/filename.zip", 'r') as zip_ref:
         zip_ref.extractall(file_path)
 
