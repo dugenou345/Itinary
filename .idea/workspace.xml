@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="removed comments">
-      <change afterPath="$PROJECT_DIR$/data_normalisation/test/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_normalisation/test/test_mongodb_mgt.py" afterDir="false" />
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="remove comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_normalisation/download_remove_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/download_remove_extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_normalisation/mongodb_mgt.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/mongodb_mgt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_normalisation/test/test_download_remove_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/test/test_download_remove_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_normalisation/export_mongodb_2_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/export_mongodb_2_json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +206,7 @@
       <workItem from="1687297549145" duration="7695000" />
       <workItem from="1687370269580" duration="187000" />
       <workItem from="1687371246039" duration="13746000" />
-      <workItem from="1687447498866" duration="55182000" />
+      <workItem from="1687447498866" duration="61869000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -366,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687584290024</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="moved code to object oriented, and adapted test accordingly">
+      <created>1687683903919</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687683903919</updated>
+    </task>
+    <task id="LOCAL-00024" summary="remove comments">
+      <created>1687684054344</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687684054344</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +410,6 @@
       <path value="$PROJECT_DIR$/data_selection/graphviz" />
     </ignored-roots>
     <MESSAGE value="successful main.py generating a Graph file in data_model_itineraire.gv.pdf" />
-    <MESSAGE value="remove comments" />
     <MESSAGE value="added labels to edges from json tags" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="file folder reorganisation" />
@@ -419,7 +428,9 @@
     <MESSAGE value="creation of pytest assertion test" />
     <MESSAGE value="pytest fixture with use of params when needed" />
     <MESSAGE value="removed comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comments" />
+    <MESSAGE value="moved code to object oriented, and adapted test accordingly" />
+    <MESSAGE value="remove comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove comments" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -430,13 +441,13 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1687680607091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
-    <SUITE FILE_PATH="coverage/projet_itineraire$export_mongodb_2_json.coverage" NAME="export_mongodb_2_json Coverage Results" MODIFIED="1687116264602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1687698870632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$export_mongodb_2_json.coverage" NAME="export_mongodb_2_json Coverage Results" MODIFIED="1687697323992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$main.coverage" NAME="main Coverage Results" MODIFIED="1685392583654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_selection/graphviz" />
     <SUITE FILE_PATH="coverage/projet_itineraire$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1686385939103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_for_test_download_remove_extract_test_remove_json_folder.coverage" NAME="pytest for test_download_remove_extract.test_remove_json_folder Coverage Results" MODIFIED="1687408662964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$download.coverage" NAME="download Coverage Results" MODIFIED="1687368986691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
-    <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test_mongodb_mgt_py.coverage" NAME="pytest in test_mongodb_mgt.py Coverage Results" MODIFIED="1687683242244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test_mongodb_mgt_py.coverage" NAME="pytest in test_mongodb_mgt.py Coverage Results" MODIFIED="1687683830920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$Doctests_in_database.coverage" NAME="Doctests in database Coverage Results" MODIFIED="1686390505423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/lib/python3.10/site-packages/pymongo" />
     <SUITE FILE_PATH="coverage/projet_itineraire$projection.coverage" NAME="projection Coverage Results" MODIFIED="1686001802054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test.coverage" NAME="pytest in test Coverage Results" MODIFIED="1687408753249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />

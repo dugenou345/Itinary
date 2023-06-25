@@ -10,6 +10,7 @@ url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f79
 mongodb = 'itineraire'
 mongo_collection = 'point_interest'
 
+#instanciation object DataDownloader
 datadownloader = DataDownloader(host,port,data_path,url)
 
 # Remove previous json data
@@ -52,3 +53,13 @@ mongoloader.list_collection()
 
 # Load json data to mongodb database itineraire in collection point_of_interest
 mongoloader.load_mongodb()
+
+# JSON exporter instanciation
+export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
+#export_json = Export_Json()
+
+# connect to mongodb
+export_json.connect_mongodb()
+
+# Export filtered data from mongodb according to my_projection.py filter
+export_json.mongodb_projection()
