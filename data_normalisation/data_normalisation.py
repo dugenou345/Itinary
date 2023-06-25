@@ -11,6 +11,7 @@ mongodb = 'itineraire'
 mongo_collection = 'point_interest'
 
 datadownloader = DataDownloader(host,port,data_path,url)
+
 # Remove previous json data
 datadownloader.remove_json_folder()
 
@@ -51,23 +52,3 @@ mongoloader.list_collection()
 
 # Load json data to mongodb database itineraire in collection point_of_interest
 mongoloader.load_mongodb()
-"""
-#delete previous collection
-delete_collection(client,database.name,'point_interest')
-
-# create new collection
-create_collection(client,database.name,'point_interest')
-
-# list collection from mongodb (in currently selected database)
-list_collection(client,database.name)
-
-# select collection from mongodb database
-collection = select_collection(client,database.name,'point_interest')
-
-# Load json data to mongodb to poi
-load_mongodb(collection, json_files)
-
-#export relevant data in database itineraire / collection point_interest
-export_filtered_data_json(client,database.name,'point_interest')
-
-"""
