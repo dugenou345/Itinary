@@ -1,16 +1,74 @@
 import os.path
 import pymongo
+import pytest
 #from urllib import request
-import urllib.request # this format to avoid conflict wiht request from pytest fixture
+import urllib.request # this format to avoid conflict with request from pytest fixture
 from download_remove_extract import *
 
+host = '127.0.0.1'
+port = 27017
+data_path = "data"
+url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e"
 
+@pytest.fixture
+def data_downloader(tmpdir):
+    data_path = tmpdir.mkdir("data")
+    downloader = DataDownloader(host,port,str(data_path),url)
+    yield downloader
+
+
+def test_data_downloader(data_downloader):
+    data_downloader.remove_json_folder()
+    assert os.path.exists(data_downloader.data_path+'/objects') is not True
+
+    data_downloader.remove_data_files()
+    assert len(os.listdir(data_downloader.data_path)) == 0
+
+    data_downloader.download_archive()
+    assert os.path.exists(data_downloader.data_path + '/all_data.gz')
+
+    data_downloader.extract()
+    assert os.path.exists(data_downloader.data_path+"/objects")
+
+""""
+def test_remove_data_files(data_downloader):
+    data_downloader.remove_data_files()
+    assert len(os.listdir(data_downloader.data_path)) == 0
+"""
+
+""""
+def test_download_archive(data_downloader):
+    data_downloader.download_archive()
+    assert os.path.exists(data_downloader.data_path+'/all_data.gz')
+"""
+
+""""
+def test_extract(data_downloader):
+    data_downloader.extract()
+    #assert os.path.exists(data_downloader.data_path+"/objects")
+"""
+
+"""
+    url = "https://example.com/data.gz"
+    file_path = str(data_downloader.data_path.join("all_data.gz"))
+
+    data_downloader.download_archive(url, file_path)
+    data_downloader.extract(str(data_downloader.data_path))
+    json_files = data_downloader.find_json_files()
+
+    # Perform assertions or further actions based on json_files
+    """
+
+# Run the test
+#test_data_download()
+
+"""
 @pytest.fixture(params=['../data/objects'])
 def remove_json_folder(request):
-    folder_path = request.param
+    json_path = request.param
     # Call the function to remove the folder content
-    if os.path.exists(folder_path):
-        shutil.rmtree(folder_path)
+    if os.path.exists(json_path):
+        shutil.rmtree(json_path)
 
 def test_remove_json_folder(remove_json_folder):
    assert os.path.exists('../data/objects') is not True
@@ -59,18 +117,4 @@ def extract(request):
 def test_extract(extract):
     assert os.path.exists("../data/objects")
 
-
-@pytest.fixture()
-def connect_mongodb():
-    # Connection parameters
-    mongo_host = 'localhost'
-    mongo_port = 27017
-    # Create a MongoDB client
-    client = pymongo.MongoClient(mongo_host, mongo_port)
-    yield client
-    # Teardown: Close the MongoDB client connection
-    client.close()
-
-def test_connect_mongodb(connect_mongodb):
-    database_names = connect_mongodb.list_database_names()
-    assert isinstance(database_names, list), "Failed to connect to MongoDB"
+"""
