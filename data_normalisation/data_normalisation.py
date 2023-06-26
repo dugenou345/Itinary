@@ -56,7 +56,6 @@ mongoloader.load_mongodb()
 
 # JSON exporter instanciation
 export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
-#export_json = Export_Json()
 
 # connect to mongodb
 export_json.connect_mongodb()
