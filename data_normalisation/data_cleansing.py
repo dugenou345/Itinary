@@ -18,7 +18,7 @@ class Json_Pandas_Cleaner:
         #print("colonnes avec listes:", columns_with_lists)
         return df
 
-    # Recursive function to remove empty nested lists
+    # Recursive function to remove empty nested list
     def remove_multiple_bracket(self,df):
         self.df = df
         # Remove empty inner brackets from 'col1'
