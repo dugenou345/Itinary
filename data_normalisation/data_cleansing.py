@@ -31,7 +31,7 @@ class Json_Pandas_Cleaner:
         self.value = value
         if isinstance(value, list):
             self.value = str(self.value)
-            # Remove brackets and whitespace
+            # Remove brackets and whitespaces
             self.value = re.sub(r'\[\[.*?\]\]\]\s', '', self.value)
         """
         else:
