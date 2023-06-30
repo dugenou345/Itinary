@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="test git push to gitlab (comestic change)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="added mongodb docker-compose file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +16,7 @@
         <option value="JavaScript File" />
         <option value="package.json" />
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -209,7 +208,7 @@
       <workItem from="1687371246039" duration="13746000" />
       <workItem from="1687447498866" duration="75149000" />
       <workItem from="1687814794186" duration="25775000" />
-      <workItem from="1688075181241" duration="1867000" />
+      <workItem from="1688075181241" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -428,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688075239096</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added mongodb docker-compose file">
+      <created>1688163996164</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688163996164</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +467,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/data_selection/graphviz" />
     </ignored-roots>
-    <MESSAGE value="added labels to edges from json tags" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="file folder reorganisation" />
     <MESSAGE value="jpeg data model generation in Graphiz + copy in markdown img folder" />
@@ -486,7 +491,8 @@
     <MESSAGE value="data cleansing" />
     <MESSAGE value="test git push to gitlab" />
     <MESSAGE value="test git push to gitlab (comestic change)" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git push to gitlab (comestic change)" />
+    <MESSAGE value="added mongodb docker-compose file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mongodb docker-compose file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
