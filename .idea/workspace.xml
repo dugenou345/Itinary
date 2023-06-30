@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="suppression de commentaires">
-      <change afterPath="$PROJECT_DIR$/data_normalisation/data_cleansing.py" afterDir="false" />
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="test git push to gitlab (comestic change)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_normalisation/export_mongodb_2_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/export_mongodb_2_json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dugenou/OneDrive_frank_maestre@hotmail.com/datascientest/projet_itineraire/data_normalisation/test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/dugenou/OneDrive_frank_maestre@hotmail.com/datascientest/projet_itineraire/data_normalisation/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "ssh.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data_normalisation/test" />
@@ -168,6 +165,9 @@
     <option name="myConnectionType" value="NONE" />
     <option name="myConnectionId" value="" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="" />
@@ -208,7 +208,8 @@
       <workItem from="1687370269580" duration="187000" />
       <workItem from="1687371246039" duration="13746000" />
       <workItem from="1687447498866" duration="75149000" />
-      <workItem from="1687814794186" duration="22453000" />
+      <workItem from="1687814794186" duration="25775000" />
+      <workItem from="1688075181241" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -392,7 +393,42 @@
       <option name="project" value="LOCAL" />
       <updated>1687807865906</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="data cleansing">
+      <created>1688071468626</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688071468628</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test git push to gitlab">
+      <created>1688073232767</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688073232767</updated>
+    </task>
+    <task id="LOCAL-00029" summary="test git push to gitlab (comestic change)">
+      <created>1688073947960</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688073947960</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test git push to gitlab (comestic change)">
+      <created>1688074308500</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688074308500</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test git push to gitlab (comestic change)">
+      <created>1688075239096</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688075239096</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +445,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -425,7 +461,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/data_selection/graphviz" />
     </ignored-roots>
-    <MESSAGE value="successful main.py generating a Graph file in data_model_itineraire.gv.pdf" />
     <MESSAGE value="added labels to edges from json tags" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="file folder reorganisation" />
@@ -448,7 +483,10 @@
     <MESSAGE value="remove comments" />
     <MESSAGE value="refactor to Object Oriented" />
     <MESSAGE value="suppression de commentaires" />
-    <option name="LAST_COMMIT_MESSAGE" value="suppression de commentaires" />
+    <MESSAGE value="data cleansing" />
+    <MESSAGE value="test git push to gitlab" />
+    <MESSAGE value="test git push to gitlab (comestic change)" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git push to gitlab (comestic change)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -473,7 +511,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1688069743741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1688163427132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$export_mongodb_2_json.coverage" NAME="export_mongodb_2_json Coverage Results" MODIFIED="1687810680176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$main.coverage" NAME="main Coverage Results" MODIFIED="1685392583654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_selection/graphviz" />
     <SUITE FILE_PATH="coverage/projet_itineraire$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1686385939103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
@@ -485,7 +523,7 @@
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test.coverage" NAME="pytest in test Coverage Results" MODIFIED="1687408753249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$download_remove_extract.coverage" NAME="download_remove_extract Coverage Results" MODIFIED="1687591195353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_for_test_download_remove_extract_test_extract.coverage" NAME="pytest for test_download_remove_extract.test_extract Coverage Results" MODIFIED="1687408689618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
-    <SUITE FILE_PATH="coverage/projet_itineraire$.coverage" NAME=" Coverage Results" MODIFIED="1687814888779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$.coverage" NAME=" Coverage Results" MODIFIED="1688163365321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$mongodb_mgt.coverage" NAME="mongodb_mgt Coverage Results" MODIFIED="1687676895518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test_download_remove_extract_py.coverage" NAME="pytest in test_download_remove_extract.py Coverage Results" MODIFIED="1687724378501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$my_projection.coverage" NAME="my_projection Coverage Results" MODIFIED="1687122150539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
