@@ -1,7 +1,10 @@
+import pandas as pd
+
 from download_remove_extract import *
 from mongodb_mgt import *
 from export_mongodb_2_json import *
 from data_cleansing import *
+import numpy as np
 
 host = '127.0.0.1'
 port = 27017
@@ -77,12 +80,33 @@ df = json_pandas_cleaner.load_pandas()
 
 # Apply the parsing function to each cell using applymap
 # Convert lists to strings using applymap and lambda function
-df_converted_str = df.applymap(lambda x: str(x) if isinstance(x, list) else x)
+#df_converted_str = df.applymap(lambda x: str(x) if isinstance(x, list) else x)
 #parsed_df = df.applymap(json_pandas_cleaner.parse_value)
 
-df_removed_bracket = json_pandas_cleaner.remove_multiple_bracket(df_converted_str)
+#df_removed_bracket = json_pandas_cleaner.remove_multiple_bracket(df_converted_str)
 
+pd.set_option('display.max_columns', None)
+
+#print(df)
+
+# flatten list
+df['region'] = [val for sub_sublist in df['region'] for sublist in sub_sublist for val in sublist]
+#df['label'] = df[['label']].apply(lambda x: json_pandas_cleaner.flatten(x,'label') if np.any(pd.notnull(x)) else x, axis=1)
+df['new_label'] = json_pandas_cleaner.flatten_list(df,'label')
+pass
+
+# convert list to string
+df['new_latitude'] = [','.join(map(str, l)) for l in df['latitude']]
+#df['new_region'] = [','.join(map(str, l)) for l in df['region']]
+#
+
+#df['new_label'] = json_pandas_cleaner.list_to_string(df,'label')
+#df['new_label'] = [','.join(map(str, l)) for l in df['label']]
+
+#print('label:', result)
 print(df)
-print(df_converted_str)
-print(df_removed_bracket)
+#print("type:",type(df['label'][83]))
+
+#print(df_converted_str)
+#print(df_removed_bracket)
 
