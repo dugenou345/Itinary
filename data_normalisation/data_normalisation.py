@@ -75,24 +75,22 @@ json_pandas_cleaner = Json_Pandas_Cleaner(json_file)
 # load json file in pandas
 df = json_pandas_cleaner.load_pandas()
 
-# Apply the recursive function to remove empty lists in 'col1'
-#df = json_pandas_cleaner.remove_multiple_bracket(df)
-
-# Apply the parsing function to each cell using applymap
-# Convert lists to strings using applymap and lambda function
-#df_converted_str = df.applymap(lambda x: str(x) if isinstance(x, list) else x)
-#parsed_df = df.applymap(json_pandas_cleaner.parse_value)
-
-#df_removed_bracket = json_pandas_cleaner.remove_multiple_bracket(df_converted_str)
-
 pd.set_option('display.max_columns', None)
 
 #print(df)
 
-
 # flatten list
-df['region'] = [val for sub_sublist in df['region'] for sublist in sub_sublist for val in sublist]
-df['label'] = json_pandas_cleaner.flatten_list(df,'label')
+df['new_email'] = json_pandas_cleaner.flatten_list(df,'email')
+df['new_shortdescription'] = json_pandas_cleaner.flatten_list(df,'shortdescription')
+#df['new_streetaddress'] = [val for sub_sublist in df['streetaddress'] for sublist in sub_sublist for val in sublist]
+df['new_postalcode'] = [val for sub_sublist in df['postalcode'] for sublist in sub_sublist for val in sublist]
+df['new_department'] = [val for sub_sublist in df['department'] for sublist in sub_sublist for val in sublist]
+df['new_region'] = [val for sub_sublist in df['region'] for sublist in sub_sublist for val in sublist]
+df['new_maxprice'] = json_pandas_cleaner.flatten_list(df,'maxprice')
+df['new_minprice'] = json_pandas_cleaner.flatten_list(df,'minprice')
+df['new_pricecurrency'] = json_pandas_cleaner.flatten_list(df,'pricecurrency')
+df['new_review'] = json_pandas_cleaner.flatten_list(df,'review')
+df['new_label'] = json_pandas_cleaner.flatten_list(df,'label')
 
 # concat string ['Vélo', 'Vélo à assistance électrique, VAE'] ----> ['Vélo, Vélo à assistance électrique, VAE']
 #df['new_label'] = json_pandas_cleaner.concat_string(df,'label')
@@ -100,13 +98,17 @@ df['label'] = json_pandas_cleaner.flatten_list(df,'label')
 #df['new_label'] = json_pandas_cleaner.concat_string(df,'label')
 
 # convert list to string
-#df['new_latitude'] = [','.join(map(str, l)) for l in df['latitude']]
-#df['new_latitude'] = json_pandas_cleaner.list_to_string(df,'latitude')
-df['new_region'] = [','.join(map(str, l)) for l in df['region']]
-#df['new_label'] = [','.join(map(str, l)) for l in df['label']]
-
-
-#df['new_label'] = [','.join(map(str, l)) for l in df['label']]
+df['new_email'] = [','.join(map(str, l)) for l in df['new_email']]
+df['new_shortdescription'] = [','.join(map(str, l)) for l in df['new_shortdescription']]
+df['new_postalcode'] = [','.join(map(str, l)) for l in df['new_postalcode']]
+df['new_department'] = [','.join(map(str, l)) for l in df['new_department']]
+df['new_region'] = [','.join(map(str, l)) for l in df['new_region']]
+df['new_maxprice'] = [','.join(map(str, l)) for l in df['new_maxprice']]
+df['new_minprice'] = [','.join(map(str, l)) for l in df['new_minprice']]
+df['new_pricecurrency'] = [','.join(map(str, l)) for l in df['new_pricecurrency']]
+df['new_review'] = [','.join(map(str, l)) for l in df['new_review']]
+df['new_latitude'] = [','.join(map(str, l)) for l in df['latitude']]
+df['new_longitude'] = [','.join(map(str, l)) for l in df['longitude']]
 
 #print('label:', result)
 print(df)

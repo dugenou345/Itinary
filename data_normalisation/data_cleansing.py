@@ -36,9 +36,8 @@ class Json_Pandas_Cleaner:
         self.df = df
         self.column_name = column_name
         #self.df[self.column_name] = self.df[[self.column_name]].apply(lambda x: self.prim_concat_string(x) if np.any(pd.notnull(x)) else x, axis=1)
-        self.df[self.column_name] = self.df[[self.column_name]].apply(lambda x: [value for sublist in x for value in sublist] if np.any(pd.notnull(x)) else x, axis=1)
+        #self.df[self.column_name] = self.df[[self.column_name]].apply(lambda x: [value for sublist in x for value in sublist] if np.any(pd.notnull(x)) else x, axis=1)
         #self.df[self.column_name] = self.df[[self.column_name]].apply(lambda x: ','.join(map(str, x)) if np.any(pd.notnull(x)) else x, axis=1)
-
         return self.df[self.column_name]
 
     def prim_concat_string(self,list):
