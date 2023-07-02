@@ -89,18 +89,23 @@ pd.set_option('display.max_columns', None)
 
 #print(df)
 
+
 # flatten list
 df['region'] = [val for sub_sublist in df['region'] for sublist in sub_sublist for val in sublist]
-#df['label'] = df[['label']].apply(lambda x: json_pandas_cleaner.flatten(x,'label') if np.any(pd.notnull(x)) else x, axis=1)
-df['new_label'] = json_pandas_cleaner.flatten_list(df,'label')
-pass
+df['label'] = json_pandas_cleaner.flatten_list(df,'label')
+
+# concat string ['Vélo', 'Vélo à assistance électrique, VAE'] ----> ['Vélo, Vélo à assistance électrique, VAE']
+#df['new_label'] = json_pandas_cleaner.concat_string(df,'label')
+
+#df['new_label'] = json_pandas_cleaner.concat_string(df,'label')
 
 # convert list to string
-df['new_latitude'] = [','.join(map(str, l)) for l in df['latitude']]
-#df['new_region'] = [','.join(map(str, l)) for l in df['region']]
-#
+#df['new_latitude'] = [','.join(map(str, l)) for l in df['latitude']]
+#df['new_latitude'] = json_pandas_cleaner.list_to_string(df,'latitude')
+df['new_region'] = [','.join(map(str, l)) for l in df['region']]
+#df['new_label'] = [','.join(map(str, l)) for l in df['label']]
 
-#df['new_label'] = json_pandas_cleaner.list_to_string(df,'label')
+
 #df['new_label'] = [','.join(map(str, l)) for l in df['label']]
 
 #print('label:', result)

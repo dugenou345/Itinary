@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="test push to gitlab (delete one file)">
-      <change beforePath="$PROJECT_DIR$/.idea/projet_itineraire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet_itineraire.iml" afterDir="false" />
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="flatten working !!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_normalisation/data_cleansing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/data_cleansing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/data_normalisation.py" afterDir="false" />
@@ -56,7 +55,14 @@
   }
 }</component>
   <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="projet_itineraire" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="projet_itineraire" />
+      </console-settings>
+    </option>
     <option name="myShowVariablesByDefault" value="false" />
+    <option name="myUseExistingConsole" value="true" />
     <option name="myAutoCompletionEnabled" value="false" />
   </component>
   <component name="RecentsManager">
@@ -240,7 +246,8 @@
       <workItem from="1687447498866" duration="75149000" />
       <workItem from="1687814794186" duration="25775000" />
       <workItem from="1688075181241" duration="26841000" />
-      <workItem from="1688229357851" duration="13544000" />
+      <workItem from="1688229357851" duration="23785000" />
+      <workItem from="1688279808435" duration="4040000" />
     </task>
     <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
       <created>1685358921670</created>
@@ -487,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688165045164</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="flatten working !!!!">
+      <created>1688245755972</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688245755974</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +518,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -520,7 +534,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/data_selection/graphviz" />
     </ignored-roots>
-    <MESSAGE value="Mise à jour présentation markdown sur sélection des données." />
     <MESSAGE value="Mise à jour présentation markdown (use case input) sur sélection des données." />
     <MESSAGE value="download json file from datatourisme + unzip archive in data folder" />
     <MESSAGE value="established communication to Mongodb with underlying ssh -L 27017:172.18.0.2:27017 zu789  to docker image in digital ocean" />
@@ -545,45 +558,16 @@
     <MESSAGE value="renamed mongodb to docker-compose.yml file" />
     <MESSAGE value="test push to gitlab" />
     <MESSAGE value="test push to gitlab (delete one file)" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push to gitlab (delete one file)" />
+    <MESSAGE value="flatten working !!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="flatten working !!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/data_normalisation/data_cleansing.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_normalisation.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_cleansing.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_cleansing.py</url>
           <line>38</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_cleansing.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_cleansing.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_cleansing.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -591,11 +575,12 @@
       <configuration name="PythonConfigurationType">
         <watch expression="database['name']" language="Python" />
         <watch expression="database" language="Python" />
+        <watch expression="self.df[self.column_name][0]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1688244580121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1688282712074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$export_mongodb_2_json.coverage" NAME="export_mongodb_2_json Coverage Results" MODIFIED="1687810680176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$Doctests_in_construction.coverage" NAME="Doctests in construction Coverage Results" MODIFIED="1688233025963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv1/lib/python3.11/site-packages/pandas/core/internals" />
     <SUITE FILE_PATH="coverage/projet_itineraire$main.coverage" NAME="main Coverage Results" MODIFIED="1685392583654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_selection/graphviz" />
@@ -608,10 +593,10 @@
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test.coverage" NAME="pytest in test Coverage Results" MODIFIED="1687408753249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$download_remove_extract.coverage" NAME="download_remove_extract Coverage Results" MODIFIED="1687591195353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_for_test_download_remove_extract_test_extract.coverage" NAME="pytest for test_download_remove_extract.test_extract Coverage Results" MODIFIED="1687408689618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
-    <SUITE FILE_PATH="coverage/projet_itineraire$.coverage" NAME=" Coverage Results" MODIFIED="1688230297585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$.coverage" NAME=" Coverage Results" MODIFIED="1688279850537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$mongodb_mgt.coverage" NAME="mongodb_mgt Coverage Results" MODIFIED="1687676895518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test_download_remove_extract_py.coverage" NAME="pytest in test_download_remove_extract.py Coverage Results" MODIFIED="1687724378501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$my_projection.coverage" NAME="my_projection Coverage Results" MODIFIED="1687122150539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
-    <SUITE FILE_PATH="coverage/projet_itineraire$data_cleansing.coverage" NAME="data_cleansing Coverage Results" MODIFIED="1688201002891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/projet_itineraire$data_cleansing.coverage" NAME="data_cleansing Coverage Results" MODIFIED="1688253200553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
   </component>
 </project>
