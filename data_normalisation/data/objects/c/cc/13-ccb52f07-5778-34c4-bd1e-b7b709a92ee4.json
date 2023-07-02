@@ -1,0 +1,486 @@
+{
+  "@id": "https://data.datatourisme.fr/13/ccb52f07-5778-34c4-bd1e-b7b709a92ee4",
+  "dc:identifier": "6377025",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Die kurze, aber hügelige Strecke verbindet Dörfer und Orte, die stark von der Kastanienkultur und dem Vulkanismus geprägt sind. Begeben Sie sich auf ein Abenteuer in diesem unberührten Land, in dem die Schönheit der Natur eine Einladung zu einer sinnlichen Reise ist."
+    ],
+    "en": [
+      "The circuit, short but hilly, connects villages and sites strongly marked by the culture of the chestnut tree and volcanism. Go on an adventure in this preserved country where the beauty of nature is an invitation to a sensitive journey."
+    ],
+    "it": [
+      "Il percorso, breve ma collinare, collega villaggi e siti fortemente segnati dalla cultura della castagna e dal vulcanismo. Partite all'avventura in questo Paese incontaminato, dove la bellezza della natura è un invito a un viaggio sensibile."
+    ],
+    "fr": [
+      "Le circuit, court mais vallonnée, relie des villages et sites fortement marqués par la culture du châtaignier et le volcanisme. Partez à l’aventure dans ce pays préservé où la beauté de la nature est une invitation au voyage sensible."
+    ],
+    "es": [
+      "La ruta, corta pero accidentada, conecta pueblos y lugares fuertemente marcados por la cultura del castaño y el vulcanismo. Láncese a la aventura en este país virgen donde la belleza de la naturaleza invita a un viaje sensitivo."
+    ],
+    "nl": [
+      "De korte maar heuvelachtige route verbindt dorpen en plaatsen die sterk getekend zijn door de kastanjecultuur en het vulkanisme. Ga op avontuur in dit ongerepte land waar de schoonheid van de natuur een uitnodiging is voor een gevoelige reis."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Vallées, châtaignes et volcans"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/26657d5f-f902-3d2a-befe-558796b99584",
+    "dc:identifier": "96",
+    "schema:email": [
+      "ncharra@ardeche-guide.com"
+    ],
+    "schema:legalName": "Agence de Développement Touristique de l'Ardèche",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.ardeche-guide.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/dbca899d-3f22-364b-b99d-40af1e917c58",
+      "schema:legalName": "Agence de Développement Touristique de l'Ardèche - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/3030385e-9779-3e7c-8411-0d536647b86b",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.ardeche-guide.com/experiences-emerveillantes/l-ardeche-velo"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/01b1b3be-49b7-35d1-9c45-089d806085ec",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/141a43bb-474b-3591-bcde-b39a6fd779f4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2322ab04-c3c1-3136-94e8-6c16ad413597",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a01f1a3c-f408-3088-a554-45dca6a2aada",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d5800ac1-e1b7-3645-83a7-5c85d711bb31",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/df5e2a4f-b7a5-3c73-9461-cb2ac319bb15",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Die kurze, aber hügelige Strecke verbindet Dörfer und Orte, die stark von der Kastanienkultur und dem Vulkanismus geprägt sind. Begeben Sie sich auf ein Abenteuer in diesem unberührten Land, in dem die Schönheit der Natur eine Einladung zu einer sinnlichen Reise ist."
+        ],
+        "en": [
+          "The circuit, short but hilly, connects villages and sites strongly marked by the culture of the chestnut tree and volcanism. Go on an adventure in this preserved country where the beauty of nature is an invitation to a sensitive journey."
+        ],
+        "it": [
+          "Il percorso, breve ma collinare, collega villaggi e siti fortemente segnati dalla cultura della castagna e dal vulcanismo. Partite all'avventura in questo Paese incontaminato, dove la bellezza della natura è un invito a un viaggio sensibile."
+        ],
+        "fr": [
+          "Le circuit, court mais vallonnée, relie des villages et sites fortement marqués par la culture du châtaignier et le volcanisme. Partez à l’aventure dans ce pays préservé où la beauté de la nature est une invitation au voyage sensible."
+        ],
+        "es": [
+          "La ruta, corta pero accidentada, conecta pueblos y lugares fuertemente marcados por la cultura del castaño y el vulcanismo. Láncese a la aventura en este país virgen donde la belleza de la naturaleza invita a un viaje sensitivo."
+        ],
+        "nl": [
+          "De korte maar heuvelachtige route verbindt dorpen en plaatsen die sterk getekend zijn door de kastanjecultuur en het vulkanisme. Ga op avontuur in dit ongerepte land waar de schoonheid van de natuur een uitnodiging is voor een gevoelige reis."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Bike",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fahrrad"
+        ],
+        "pt": [
+          "Bicicleta"
+        ],
+        "en": [
+          "Bike"
+        ],
+        "it": [
+          "Bicicletta"
+        ],
+        "fr": [
+          "Vélo"
+        ],
+        "nl": [
+          "Fiets"
+        ],
+        "es": [
+          "Bicicleta"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ElectricallyAssistedBicycle",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Ladestation für Elektrofahrräder"
+        ],
+        "pt": [
+          "Bicicleta elétrica"
+        ],
+        "en": [
+          "Electrically assisted bicycle"
+        ],
+        "it": [
+          "Bicicletta a pedalata assistita"
+        ],
+        "fr": [
+          "Vélo à assistance électrique, VAE"
+        ],
+        "nl": [
+          "Elektrische fiets"
+        ],
+        "es": [
+          "Bicicleta eléctrica, VAE"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0c39cde5-612e-3ab6-903e-46664d32c8ab",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/283abb58-d38b-3457-962c-806814936147",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/34722545-987a-34b9-8883-e1836c82c216",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4e09389e-8ce6-3c4b-af7f-6fd837a2c21f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8645f1bc-e655-3bb7-a20e-1447bf63fe33",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/6ab8c713-10f9-3d06-9fb9-d7eb5493875d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c96c32a9-10ff-33b5-a591-3df99be6e88e",
+          "schema:addressLocality": "Vallées-d'Antraigues-Asperjoc",
+          "schema:postalCode": "07530",
+          "schema:streetAddress": [
+            "1 chemin des Muletiers"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:07011",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ],
+              "pt": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ],
+              "en": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ],
+              "it": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ],
+              "fr": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ],
+              "nl": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ],
+              "es": [
+                "Vallées-d'Antraigues-Asperjoc"
+              ]
+            },
+            "insee": "07011",
+            "isPartOfDepartment": {
+              "@id": "kb:France8407",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Ardèche"
+                ],
+                "pt": [
+                  "Ardèche"
+                ],
+                "en": [
+                  "Ardèche"
+                ],
+                "it": [
+                  "Ardèche"
+                ],
+                "fr": [
+                  "Ardèche"
+                ],
+                "nl": [
+                  "Ardèche"
+                ],
+                "es": [
+                  "Ardèche"
+                ]
+              },
+              "insee": "07",
+              "isPartOfRegion": {
+                "@id": "kb:France84",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "pt": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "en": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "it": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "fr": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "nl": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "es": [
+                    "Auvergne-Rhône-Alpes"
+                  ]
+                },
+                "insee": "84",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/410aa9c2-efb9-35b0-bc2f-b2ff21f1cf0b",
+        "schema:elevation": "453",
+        "schema:latitude": "44.719331",
+        "schema:longitude": "4.358658",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/6ef576cd-2c5c-33d6-b250-09b105230dfc",
+      "schema:email": [
+        "ncharra@ardeche-guide.com"
+      ],
+      "schema:legalName": "Agence de Développement Touristique de l'Ardèche",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.ardeche-guide.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-01",
+  "lastUpdateDatatourisme": "2023-02-08T06:39:49.074Z"
+}
