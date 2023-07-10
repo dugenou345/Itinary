@@ -60,6 +60,9 @@ mongoloader.list_collection()
 # Load json data to mongodb database itineraire in collection point_of_interest
 mongoloader.load_mongodb()
 
+#query poi in itinerary collection in mongodb
+mongoloader.list_poi()
+
 # JSON exporter instanciation
 export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
 
