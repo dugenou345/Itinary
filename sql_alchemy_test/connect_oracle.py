@@ -29,7 +29,8 @@ sql_drop_parcours = """
 with engine.connect() as conn:
     result_drop_students = conn.execute(text(sql_drop_students))
     result_drop_parcours = conn.execute(text(sql_drop_parcours))
-print(result)
+print(result_drop_parcours)
+print(result_drop_students)
 
 meta = MetaData()
 
