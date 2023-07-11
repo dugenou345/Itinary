@@ -5,6 +5,7 @@ from mongodb_mgt import *
 from export_mongodb_2_json import *
 from data_cleansing import *
 import numpy as np
+from pprint import pprint
 
 host = '127.0.0.1'
 port = 27017
@@ -64,13 +65,16 @@ mongoloader.load_mongodb()
 mongoloader.list_poi()
 
 # JSON exporter instanciation
-export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
+#export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
 
 # connect to mongodb
-export_json.connect_mongodb()
+#export_json.connect_mongodb()
 
 # Export filtered data from mongodb according to my_projection.py filter
-export_json.mongodb_projection()
+#export_json.mongodb_projection()
+
+
+"""
 
 # instanciation json pandas cleaner
 json_pandas_cleaner = Json_Pandas_Cleaner(json_file)
@@ -120,3 +124,4 @@ print(df)
 #print(df_converted_str)
 #print(df_removed_bracket)
 
+"""
