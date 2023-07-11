@@ -20,7 +20,8 @@ keys_to_match = ['dc:identifier',
 #                 'offers.schema:priceSpecification.schema:minPrice',
 #                 'offers.schema:priceSpecificationschema:priceCurrency',
 #                 'hasReview.hasReviewValue.rdfs:label.fr'
-                 ]
+               ]
+
 
 # Field mappings
 field_mappings = {
@@ -48,11 +49,62 @@ field_mappings = {
 fields_to_project = list(field_mappings.values())
 
 # Aggregate query using match and projection
+"""
 pipeline = [
     { "$match": { "$or": [ { key: { "$exists": True } } for key in field_mappings.keys() ] } },
     { "$project": { field_mappings[field]: f"${field}" for field in field_mappings.keys() } }
 ]
+"""
+"""
+pipeline = [
+    { "$match": { "$or": [ { key: { "$exists": True } } for key in field_mappings.keys() ] } },
+    { "$project": { field_mappings[field]: { "$toInt": f"${field}" } if field_mappings[field] == "isLocatedAt.schema:geo.schema:latitude" else f"${field}" for field in field_mappings.keys() } }
+]
+"""
+"""
+pipeline = [
+    { "$match": { "$or": [ { key: { "$exists": True } } for key in field_mappings.keys() ] } },
+    {
+        "$project": {
+            field_mappings[field]: {
+                "$cond": {
+                    "if": { "$eq": [field_mappings[field], "latitude"] },
+#                    "if": { "$eq": [field_mappings[field], "isLocatedAt.schema:geo.schema:latitude"] },
+                    "then": { "$toDouble": { "$arrayElemAt": [f"${field}", 0] } },
+                    #"then": { "$toInt": { "$toDouble": { "$arrayElemAt": [f"${field}", 0] } } },
+                    "else": f"${field}"
+                }
+            }
+            for field in field_mappings.keys()
+        }
+    }
+]
+"""
 
+pipeline = [
+    { "$match": { "$or": [ { key: { "$exists": True } } for key in field_mappings.keys() ] } },
+    {
+        "$project": {
+            field_mappings[field]: {
+                "$switch": {
+                    "branches": [
+                        {
+                            "case": { "$eq": [field_mappings[field], "latitude"] },
+                            "then": { "$toDouble": { "$arrayElemAt": [f"${field}", 0] } }
+                        },
+                        {
+                            "case": { "$eq": [field_mappings[field], "longitude"] },
+                            "then": { "$toDouble": { "$arrayElemAt": [f"${field}", 0] } }
+                        },
+                        # Add more branches as needed
+                    ],
+                    "default": f"${field}"  # Default value if none of the cases match
+                }
+            }
+            for field in field_mappings.keys()
+        }
+    }
+]
 
 """"
 my_projection = {
