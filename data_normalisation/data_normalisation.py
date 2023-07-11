@@ -65,13 +65,13 @@ mongoloader.load_mongodb()
 mongoloader.list_poi()
 
 # JSON exporter instanciation
-#export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
+export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
 
 # connect to mongodb
-#export_json.connect_mongodb()
+export_json.connect_mongodb()
 
 # Export filtered data from mongodb according to my_projection.py filter
-#export_json.mongodb_projection()
+export_json.mongodb_projection()
 
 
 """
