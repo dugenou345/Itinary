@@ -66,5 +66,10 @@ class MongoDataLoader:
     @progress_bar
     def list_poi(self):
         all_documents = self.client[self.mongodb][self.mongo_collection]
-        for i in list(all_documents.find({},{"dc:identifier": 1, "hasTheme.rdfs:label.fr": 1})):
+        projection = {"dc:identifier": 1,"rdfs:label.fr": 1, "hasTheme.rdfs:label.fr": 1, "isLocatedAt.schema:address.schema:addressLocality": 1,
+        "isLocatedAt.schema:address.schema:postalCode": 1, "isLocatedAt.schema:address.schema:streetAddress": 1,
+        "isLocatedAt.schema:address.hasAddressCity.isPartOfDepartment.rdfs:label.fr": 1, "isLocatedAt.schema:geo.schema:latitude": 1,
+        "isLocatedAt.schema:geo.schema:longitude": 1}
+
+        for i in list(all_documents.find({}, projection)):
             print(i)
