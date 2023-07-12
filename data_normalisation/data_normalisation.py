@@ -63,6 +63,15 @@ mongoloader.load_mongodb()
 #query poi in itinerary collection in mongodb
 mongoloader.list_poi()
 
+# JSON exporter instanciation
+export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
+
+# connect to mongodb
+export_json.connect_mongodb()
+
+# Export filtered data from mongodb according to my_projection.py filter
+export_json.mongodb_projection()
+
 # instanciation json pandas cleaner
 json_pandas_cleaner = Json_Pandas_Cleaner(json_file)
 
@@ -72,13 +81,4 @@ pd.set_option('display.max_columns', None)
 print(df)
 
 #check if df contains Nan
-json_pandas_cleaner.nan_check_pandas()
-
-# JSON exporter instanciation
-export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
-
-# connect to mongodb
-export_json.connect_mongodb()
-
-# Export filtered data from mongodb according to my_projection.py filter
-export_json.mongodb_projection()
+#json_pandas_cleaner.nan_check_pandas()
