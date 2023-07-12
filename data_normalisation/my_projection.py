@@ -16,10 +16,10 @@ field_mappings = {
     'isLocatedAt.schema:geo.schema:longitude': 'longitude',
 #    'isLocatedAt.schema:openingHoursSpecification.schema:validFrom': 'validfrom',
 #    'isLocatedAt.schema:openingHoursSpecification.schema:validThrough': 'validthrough',
-    'offers.schema:priceSpecification.schema:maxPrice': 'maxprice',
-    'offers.schema:priceSpecification.schema:minPrice': 'minprice',
-    'offers.schema:priceSpecificationschema:priceCurrency': 'pricecurrency',
-    'hasReview.hasReviewValue.rdfs:label.fr': 'review'
+#    'offers.schema:priceSpecification.schema:maxPrice': 'maxprice',
+#    'offers.schema:priceSpecification.schema:minPrice': 'minprice',
+#    'offers.schema:priceSpecificationschema:priceCurrency': 'pricecurrency',
+#    'hasReview.hasReviewValue.rdfs:label.fr': 'review'
 }
 
 # List of field names to project
@@ -34,6 +34,26 @@ pipeline = [
             field_mappings[field]: {
                 "$switch": {
                     "branches": [
+                        {
+                             "case": { "$eq": [field_mappings[field], "label"] },
+                            "then": { "$arrayElemAt": [f"${field}", 0] }
+                        },
+                        {
+                             "case": { "$eq": [field_mappings[field], "streetaddress"] },
+                            "then": { "$arrayElemAt": [{ "$arrayElemAt": [{ "$arrayElemAt": [f"${field}", 0] }, 0] }, 0] }
+                        },
+                        {
+                             "case": { "$eq": [field_mappings[field], "postalcode"] },
+                            "then": { "$toInt": {"$arrayElemAt": [{ "$arrayElemAt": [f"${field}", 0] }, 0] }}
+                        },
+                        {
+                             "case": { "$eq": [field_mappings[field], "department"] },
+                            "then": { "$arrayElemAt": [{ "$arrayElemAt": [{ "$arrayElemAt": [f"${field}", 0] }, 0] }, 0] }
+                        },
+                        {
+                             "case": { "$eq": [field_mappings[field], "region"] },
+                            "then": { "$arrayElemAt": [{ "$arrayElemAt": [{ "$arrayElemAt": [f"${field}", 0] }, 0] }, 0] }
+                        },
                         {
                             "case": { "$eq": [field_mappings[field], "latitude"] },
                             "then": { "$toDouble": { "$arrayElemAt": [f"${field}", 0] } }
