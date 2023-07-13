@@ -1,17 +1,14 @@
 import pandas as pd
-from decorators import progress_bar
-import re
-import itertools
-import numpy as np
-from urllib import request
 
-class Json_Pandas_Cleaner:
-    def __init__(self,json_file):
-        self.json_file = json_file
+class Pandas_Cleaner:
+    def __init__(self,filtered_data):
+        #self.json_file_filtered = json_file_filtered
+        self.filtered_data = filtered_data
 
     def load_pandas(self):
-        self.df = pd.read_json(self.json_file)
-        self.df.head(2)
+        #self.df_from_json = pd.read_json(self.json_file_filtered)
+        self.df = pd.DataFrame(self.filtered_data)
+        pd.set_option('display.max_columns', None)
         print(self.df)
         return self.df
 

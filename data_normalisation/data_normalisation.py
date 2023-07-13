@@ -1,10 +1,6 @@
-import pandas as pd
 from download_remove_extract import *
-from mongodb_mgt import *
 from extract_data_mongodb import *
 from data_cleansing import *
-import numpy as np
-from pprint import pprint
 
 host = '127.0.0.1'
 port = 27017
@@ -14,7 +10,7 @@ url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f79
 #url = "https://diffuseur.datatourisme.fr/webservice/4e966c92255e3a0a5cb01f6957d69a74/b09342b4-4114-4c68-9ece-e9bcc36c650e"
 mongodb = 'itineraire'
 mongo_collection = 'point_interest'
-json_file = './data_result/result_filtered.json'
+json_file_filtered = './data_result/result_filtered.json'
 
 #instanciation object DataDownloader
 datadownloader = DataDownloader(host,port,data_path,url)
@@ -29,15 +25,13 @@ datadownloader.remove_data_files()
 datadownloader.download_archive()
 
 # gunzip + unzip archive
-#extract(file_path = 'data')
 datadownloader.extract()
 
 # recurslively parse folder for json files
-#json_files = find_json_files('data/objects')
-json_files = datadownloader.find_json_files()
+json_file = datadownloader.find_json_files()
 
 # create mongoloader object
-mongoloader = MongoDataLoader(host,port,mongodb,mongo_collection,json_files)
+mongoloader = MongoDataLoader(host, port, mongodb, mongo_collection, json_file)
 
 # connect to mongodb
 mongoloader.connect_mongodb()
@@ -64,27 +58,26 @@ mongoloader.load_mongodb()
 mongoloader.list_poi()
 
 # JSON exporter instanciation
-extract_data_mongodb = Extract_data_mongodb(host,port,mongodb,mongo_collection,json_files)
+extract_data_mongodb = Extract_data_mongodb(host, port, mongodb, mongo_collection, json_file_filtered)
 
 # connect to mongodb
 extract_data_mongodb.connect_mongodb()
 
 # Extract filtered data from mongodb according to my_projection.py filter
-extract_data_mongodb.mongodb_projection()
-
-# Export filtered data from mongodb according to my_projection.py filter
-extract_data_mongodb.mongodb_export_2_json
+filtered_data = extract_data_mongodb.projection()
 
 # instanciation json pandas cleaner
-json_pandas_cleaner = Json_Pandas_Cleaner(json_file)
+pandas_cleaner = Pandas_Cleaner(filtered_data)
 
 # load json file in pandas
-df = json_pandas_cleaner.load_pandas()
-pd.set_option('display.max_columns', None)
-print(df)
+pandas_cleaner.load_pandas()
 
 #check if df contains Nan
-json_pandas_cleaner.nan_check_pandas()
+pandas_cleaner.nan_check_pandas()
 
 #check if df contains duplicates
-json_pandas_cleaner.number_duplicates()
+pandas_cleaner.number_duplicates()
+
+# Export filtered data to './data_result/result_filtered.json' from mongodb according
+# to my_projection.py filter
+extract_data_mongodb.export_2_json(filtered_data)
