@@ -1,7 +1,7 @@
 import pandas as pd
 from download_remove_extract import *
 from mongodb_mgt import *
-from export_mongodb_2_json import *
+from extract_data_mongodb import *
 from data_cleansing import *
 import numpy as np
 from pprint import pprint
@@ -64,13 +64,16 @@ mongoloader.load_mongodb()
 mongoloader.list_poi()
 
 # JSON exporter instanciation
-export_json = Export_Json(host,port,mongodb,mongo_collection,json_files)
+extract_data_mongodb = Extract_data_mongodb(host,port,mongodb,mongo_collection,json_files)
 
 # connect to mongodb
-export_json.connect_mongodb()
+extract_data_mongodb.connect_mongodb()
+
+# Extract filtered data from mongodb according to my_projection.py filter
+extract_data_mongodb.mongodb_projection()
 
 # Export filtered data from mongodb according to my_projection.py filter
-export_json.mongodb_projection()
+extract_data_mongodb.mongodb_export_2_json
 
 # instanciation json pandas cleaner
 json_pandas_cleaner = Json_Pandas_Cleaner(json_file)

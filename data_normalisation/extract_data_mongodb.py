@@ -6,16 +6,19 @@ from mongodb_mgt import *
 
 #function to export selected data to json from mongodb
 #@progress_bar
-class Export_Json(MongoDataLoader):
+class Extract_data_mongodb(MongoDataLoader):
     def __init__(self,host,port,mongodb,mongo_collection,json_files):
         super().__init__(host,port,mongodb,mongo_collection,json_files)
 
     @progress_bar
     def mongodb_projection(self):
         # search for mongodb and extract result based on my_projection
-        result = self.client[self.mongodb][self.mongo_collection].aggregate(pipeline)
+        self.result = self.client[self.mongodb][self.mongo_collection].aggregate(pipeline)
+
+    @progress_bar
+    def mongodb_export_2_json(self):
         # Convert the result to a list of dictionaries
-        documents = list(result)
+        documents = list(self.result)
         # Define the file path for exporting the JSON data
         file_path = "data_result/result_filtered.json"
 
