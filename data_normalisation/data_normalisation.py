@@ -81,4 +81,4 @@ pd.set_option('display.max_columns', None)
 print(df)
 
 #check if df contains Nan
-#json_pandas_cleaner.nan_check_pandas()
+json_pandas_cleaner.nan_check_pandas()
