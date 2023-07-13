@@ -23,3 +23,6 @@ class Json_Pandas_Cleaner:
         columns_with_nan = has_nan[has_nan].index.tolist()
         print("columns with NaN: ", columns_with_nan)
 
+    def number_duplicates(self):
+        print("Number of duplicates: ", self.df.duplicated().sum())
+

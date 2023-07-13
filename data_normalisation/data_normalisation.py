@@ -82,3 +82,6 @@ print(df)
 
 #check if df contains Nan
 json_pandas_cleaner.nan_check_pandas()
+
+#check if df contains duplicates
+json_pandas_cleaner.number_duplicates()
