@@ -73,7 +73,7 @@ pandas_cleaner = Pandas_Cleaner(filtered_data)
 pandas_cleaner.load_pandas()
 
 #check if df contains Nan
-pandas_cleaner.nan_check_pandas()
+pandas_cleaner.nan_check()
 
 #check if df contains duplicates
 pandas_cleaner.number_duplicates()

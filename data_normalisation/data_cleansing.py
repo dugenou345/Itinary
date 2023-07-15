@@ -12,7 +12,7 @@ class Pandas_Cleaner:
         print(self.df)
         return self.df
 
-    def nan_check_pandas(self):
+    def nan_check(self):
         # Check if there are any NaN values in each column
         has_nan = self.df.isna().any()
 
