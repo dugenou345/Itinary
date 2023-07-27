@@ -6,8 +6,8 @@
         <option name="dataSources">
           <list>
             <DataSourceV1>
-              <option name="uuid" value="c6ded936-d402-45a9-a2c4-82ded2578d38" />
-              <option name="name" value="datascientest" />
+              <option name="uuid" value="a03783d8-7350-48f4-9128-c83f3c998486" />
+              <option name="name" value="neo4j datascientest" />
               <option name="dataSourceType" value="NEO4J_BOLT" />
               <option name="configuration">
                 <map>

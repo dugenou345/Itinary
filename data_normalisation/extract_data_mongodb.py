@@ -22,7 +22,7 @@ class Extract_data_mongodb(MongoDataLoader):
         # Convert the result to a list of dictionaries
         documents = list(self.filtered_data)
         # Define the file path for exporting the JSON data
-        file_path = "data_result/result_filtered.json"
+        file_path = "data_normalisation/data_result/result_filtered.json"
 
         # Combine multiple JSON objects into an array
         combined_json = [obj for obj in documents]
