@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="flatten + convert list to string working !!! (fix to add)">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projet_itineraire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet_itineraire.iml" afterDir="false" />
+    <list default="true" id="6f5e80a4-ec03-41c1-91d1-d00985663654" name="Changes" comment="ok last">
+      <change afterPath="$PROJECT_DIR$/.idea/GraphDatabaseSupport_DataSourcesState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_normalisation/data_result/result_filtered.json" beforeDir="false" afterPath="$PROJECT_DIR$/data_normalisation/data_result/result_filtered.json" afterDir="false" />
     </list>
@@ -20,8 +21,9 @@
       <list>
         <option value="JavaScript File" />
         <option value="package.json" />
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -37,27 +39,44 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2QRNFCeg3I4QhiUIeEMCgyA1v0S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "Frank",
-    "last_opened_file_path": "/home/dugenou/OneDrive_frank_maestre@hotmail.com/datascientest/Itinary",
+    "last_opened_file_path": "/home/dugenou/OneDrive_frank_maestre@hotmail.com/datascientest/sql/langage_sql_requetes_avancees.md",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "ssh.settings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "oracle"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "Oracle"
+    ]
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
@@ -71,6 +90,9 @@
     <option name="myUseExistingConsole" value="true" />
     <option name="myAutoCompletionEnabled" value="false" />
   </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data_normalisation/test" />
@@ -80,7 +102,7 @@
       <recent name="$PROJECT_DIR$/data_normalisation" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_download_remove_extract.test_download_archive">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="projet_itineraire" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,23 +172,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_download_remove_extract.test_remove_json_folder" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="projet_itineraire" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_normalisation/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_download_remove_extract.test_remove_json_folder&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="projet_itineraire" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +193,6 @@
       <item itemvalue="Python tests.Python tests for test_download_remove_extract.test_download_archive" />
       <item itemvalue="Python tests.Python tests for test_download_remove_extract.test_remove_data_files" />
       <item itemvalue="Python tests.pytest for test_download_remove_extract.test_extract" />
-      <item itemvalue="Python tests.pytest for test_download_remove_extract.test_remove_json_folder" />
       <item itemvalue="Python tests.pytest in test" />
     </list>
     <recent_temporary>
@@ -197,7 +201,6 @@
         <item itemvalue="Python tests.pytest in test" />
         <item itemvalue="Python tests.pytest for test_download_remove_extract.test_extract" />
         <item itemvalue="Python tests.Python tests for test_download_remove_extract.test_remove_data_files" />
-        <item itemvalue="Python tests.pytest for test_download_remove_extract.test_remove_json_folder" />
       </list>
     </recent_temporary>
   </component>
@@ -256,63 +259,42 @@
       <workItem from="1688279808435" duration="4040000" />
       <workItem from="1688283903786" duration="6506000" />
       <workItem from="1688323270886" duration="1647000" />
-      <workItem from="1688409666390" duration="425000" />
-    </task>
-    <task id="LOCAL-00001" summary="successful main.py generating a Graph file in data_model_itineraire.gv.pdf">
-      <created>1685358921670</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1685358921670</updated>
-    </task>
-    <task id="LOCAL-00002" summary="remove comments">
-      <created>1685359041252</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1685359041252</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added labels to edges from json tags">
-      <created>1685360948386</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685360948386</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added labels to edges from json tags">
-      <created>1685361406826</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1685361406826</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <created>1685377808863</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1685377808863</updated>
-    </task>
-    <task id="LOCAL-00006" summary="file folder reorganisation">
-      <created>1685378785449</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1685378785450</updated>
-    </task>
-    <task id="LOCAL-00007" summary="jpeg data model generation in Graphiz + copy in markdown img folder">
-      <created>1685384870487</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1685384870487</updated>
-    </task>
-    <task id="LOCAL-00008" summary="jpeg data model generation in Graphiz + copy in markdown img folder">
-      <created>1685386471850</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1685386471850</updated>
+      <workItem from="1688409666390" duration="497000" />
+      <workItem from="1688428789218" duration="3703000" />
+      <workItem from="1688639863392" duration="571000" />
+      <workItem from="1688673509927" duration="3407000" />
+      <workItem from="1688768126614" duration="30168000" />
+      <workItem from="1688969555804" duration="6649000" />
+      <workItem from="1689024711921" duration="14257000" />
+      <workItem from="1689095333413" duration="17368000" />
+      <workItem from="1689192338834" duration="2393000" />
+      <workItem from="1689196029184" duration="7686000" />
+      <workItem from="1689227087921" duration="813000" />
+      <workItem from="1689264910998" duration="3955000" />
+      <workItem from="1689278578736" duration="1701000" />
+      <workItem from="1689280345743" duration="9779000" />
+      <workItem from="1689290626188" duration="1545000" />
+      <workItem from="1689380999008" duration="1832000" />
+      <workItem from="1689447531414" duration="7194000" />
+      <workItem from="1689620323709" duration="1138000" />
+      <workItem from="1689666263089" duration="1607000" />
+      <workItem from="1689669702986" duration="2428000" />
+      <workItem from="1689704861815" duration="3057000" />
+      <workItem from="1689872362304" duration="391000" />
+      <workItem from="1690013820333" duration="986000" />
+      <workItem from="1690030728540" duration="2498000" />
+      <workItem from="1690040177649" duration="750000" />
+      <workItem from="1690047312905" duration="617000" />
+      <workItem from="1690116549889" duration="920000" />
+      <workItem from="1690126681653" duration="493000" />
+      <workItem from="1690135110038" duration="1318000" />
+      <workItem from="1690184936557" duration="737000" />
+      <workItem from="1690192409743" duration="98000" />
+      <workItem from="1690230298552" duration="357000" />
+      <workItem from="1690262669404" duration="491000" />
+      <workItem from="1690263377729" duration="193000" />
+      <workItem from="1690319554512" duration="540000" />
+      <workItem from="1690320497487" duration="708000" />
     </task>
     <task id="LOCAL-00009" summary="Mise à jour présentation markdown sur sélection des données.">
       <created>1685387866795</created>
@@ -524,7 +506,140 @@
       <option name="project" value="LOCAL" />
       <updated>1688293704982</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="updated plugin in python interpreter">
+      <created>1688410152307</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688410152313</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ajout minutes">
+      <created>1688678267824</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1688678267824</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add docker-compose for Oracle">
+      <created>1688901591491</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1688901591491</updated>
+    </task>
+    <task id="LOCAL-00042" summary="sqlalchemy tabl destroy, create, query">
+      <created>1688972256795</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1688972256796</updated>
+    </task>
+    <task id="LOCAL-00043" summary="sqlalchemy added students table with foreign_kez reference + PL/SQL drop script">
+      <created>1688974973590</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1688974973590</updated>
+    </task>
+    <task id="LOCAL-00044" summary="sqlalchemy added students table with foreign_key reference + PL/SQL drop script">
+      <created>1688976339052</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1688976339052</updated>
+    </task>
+    <task id="LOCAL-00045" summary="list all poi in itinerary collection: extract ok">
+      <created>1689029191502</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1689029191502</updated>
+    </task>
+    <task id="LOCAL-00046" summary="list all poi in itinerary collection: extract ok, and display ok">
+      <created>1689036156901</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689036156901</updated>
+    </task>
+    <task id="LOCAL-00047" summary="list all poi in itinerary collection: extract ok, and display ok with all required fields">
+      <created>1689096962554</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1689096962554</updated>
+    </task>
+    <task id="LOCAL-00048" summary="my_projection configurée pour extraire requete ID, label d'un POI, adresse, lat, long; Il manque toujours catégorie qui doit être analysé.">
+      <created>1689098552935</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689098552935</updated>
+    </task>
+    <task id="LOCAL-00049" summary="my_projection configurée pour convertir latitude et longitude en float.">
+      <created>1689108916245</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689108916245</updated>
+    </task>
+    <task id="LOCAL-00050" summary="my_projection configurée pour convertir latitude et longitude en float + cleansing de my_projection.py">
+      <created>1689109142975</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689109142977</updated>
+    </task>
+    <task id="LOCAL-00051" summary="sanitised all fields in my_projection + load fields in df and display column with NaN before export to json">
+      <created>1689203171378</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689203171380</updated>
+    </task>
+    <task id="LOCAL-00052" summary="working without Nan_check">
+      <created>1689204109451</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689204109452</updated>
+    </task>
+    <task id="LOCAL-00053" summary="ok: checking for NaN">
+      <created>1689266600230</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1689266600230</updated>
+    </task>
+    <task id="LOCAL-00054" summary="ok: checking for number of duplicates">
+      <created>1689278956921</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1689278956922</updated>
+    </task>
+    <task id="LOCAL-00055" summary="ok: rename export_mongodb_2_json.py to extract_data_mongodb.py and subsequent Class. Split def to extract_data_mongodb.py and mongodb_export_2_json">
+      <created>1689282306763</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1689282306763</updated>
+    </task>
+    <task id="LOCAL-00056" summary="ok: extract from MongoDB to a DataFramce to be reused in Neo4j + generation result in json from DataFrame after Nan, and duplicates cleansing.">
+      <created>1689290553528</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1689290553529</updated>
+    </task>
+    <task id="LOCAL-00057" summary="ok last">
+      <created>1689452492901</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1689452492905</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,46 +684,38 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/data_selection/graphviz" />
     </ignored-roots>
-    <MESSAGE value="download json file from datatourisme + unzip archive in data folder" />
-    <MESSAGE value="established communication to Mongodb with underlying ssh -L 27017:172.18.0.2:27017 zu789  to docker image in digital ocean" />
-    <MESSAGE value="creation of mongodb functions: connect, list ,select , create new collection, list collection" />
-    <MESSAGE value="insert json in mongodb successful" />
-    <MESSAGE value="split function by topics in relevant python file including a projection file to define data to extract from json." />
-    <MESSAGE value="extract to json iterated line by line" />
-    <MESSAGE value="update data selection" />
-    <MESSAGE value="added progress bar decorators.py" />
-    <MESSAGE value="updated project using aggregate() match/project, and mapping of fields." />
-    <MESSAGE value="creation of pytest assertion test" />
-    <MESSAGE value="pytest fixture with use of params when needed" />
-    <MESSAGE value="removed comments" />
-    <MESSAGE value="moved code to object oriented, and adapted test accordingly" />
-    <MESSAGE value="remove comments" />
-    <MESSAGE value="refactor to Object Oriented" />
-    <MESSAGE value="suppression de commentaires" />
-    <MESSAGE value="data cleansing" />
-    <MESSAGE value="test git push to gitlab" />
-    <MESSAGE value="test git push to gitlab (comestic change)" />
     <MESSAGE value="added mongodb docker-compose file" />
     <MESSAGE value="renamed mongodb to docker-compose.yml file" />
     <MESSAGE value="test push to gitlab" />
     <MESSAGE value="test push to gitlab (delete one file)" />
     <MESSAGE value="flatten working !!!!" />
     <MESSAGE value="flatten + convert list to string working !!! (fix to add)" />
-    <option name="LAST_COMMIT_MESSAGE" value="flatten + convert list to string working !!! (fix to add)" />
+    <MESSAGE value="updated plugin in python interpreter" />
+    <MESSAGE value="ajout minutes" />
+    <MESSAGE value="add docker-compose for Oracle" />
+    <MESSAGE value="sqlalchemy tabl destroy, create, query" />
+    <MESSAGE value="sqlalchemy added students table with foreign_kez reference + PL/SQL drop script" />
+    <MESSAGE value="sqlalchemy added students table with foreign_key reference + PL/SQL drop script" />
+    <MESSAGE value="list all poi in itinerary collection: extract ok" />
+    <MESSAGE value="list all poi in itinerary collection: extract ok, and display ok" />
+    <MESSAGE value="list all poi in itinerary collection: extract ok, and display ok with all required fields" />
+    <MESSAGE value="my_projection configurée pour extraire requete ID, label d'un POI, adresse, lat, long; Il manque toujours catégorie qui doit être analysé." />
+    <MESSAGE value="my_projection configurée pour convertir latitude et longitude en float." />
+    <MESSAGE value="my_projection configurée pour convertir latitude et longitude en float + cleansing de my_projection.py" />
+    <MESSAGE value="sanitised all fields in my_projection + load fields in df and display column with NaN before export to json" />
+    <MESSAGE value="working without Nan_check" />
+    <MESSAGE value="ok: checking for NaN" />
+    <MESSAGE value="ok: checking for number of duplicates" />
+    <MESSAGE value="ok: rename export_mongodb_2_json.py to extract_data_mongodb.py and subsequent Class. Split def to extract_data_mongodb.py and mongodb_export_2_json" />
+    <MESSAGE value="ok: extract from MongoDB to a DataFramce to be reused in Neo4j + generation result in json from DataFrame after Nan, and duplicates cleansing." />
+    <MESSAGE value="ok last" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok last" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_normalisation/data_normalisation.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="database['name']" language="Python" />
@@ -619,10 +726,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/projet_itineraire$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1688288080738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
-    <SUITE FILE_PATH="coverage/Itinary$.coverage" NAME=" Coverage Results" MODIFIED="1688409845979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
+    <SUITE FILE_PATH="coverage/Itinary$pytest_for_test_download_remove_extract_test_extract.coverage" NAME="pytest for test_download_remove_extract.test_extract Coverage Results" MODIFIED="1689227299446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
+    <SUITE FILE_PATH="coverage/Itinary$.coverage" NAME=" Coverage Results" MODIFIED="1689450945482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$export_mongodb_2_json.coverage" NAME="export_mongodb_2_json Coverage Results" MODIFIED="1687810680176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$Doctests_in_construction.coverage" NAME="Doctests in construction Coverage Results" MODIFIED="1688233025963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv1/lib/python3.11/site-packages/pandas/core/internals" />
     <SUITE FILE_PATH="coverage/projet_itineraire$main.coverage" NAME="main Coverage Results" MODIFIED="1685392583654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_selection/graphviz" />
+    <SUITE FILE_PATH="coverage/Itinary$my_projection.coverage" NAME="my_projection Coverage Results" MODIFIED="1689265086857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1686385939103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_for_test_download_remove_extract_test_remove_json_folder.coverage" NAME="pytest for test_download_remove_extract.test_remove_json_folder Coverage Results" MODIFIED="1687408662964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$download.coverage" NAME="download Coverage Results" MODIFIED="1687368986691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
@@ -633,7 +742,9 @@
     <SUITE FILE_PATH="coverage/projet_itineraire$download_remove_extract.coverage" NAME="download_remove_extract Coverage Results" MODIFIED="1687591195353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_for_test_download_remove_extract_test_extract.coverage" NAME="pytest for test_download_remove_extract.test_extract Coverage Results" MODIFIED="1687408689618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$.coverage" NAME=" Coverage Results" MODIFIED="1688328723798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
+    <SUITE FILE_PATH="coverage/Itinary$data_normalisation.coverage" NAME="data_normalisation Coverage Results" MODIFIED="1689311473587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$mongodb_mgt.coverage" NAME="mongodb_mgt Coverage Results" MODIFIED="1687676895518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
+    <SUITE FILE_PATH="coverage/Itinary$pytest_in_test.coverage" NAME="pytest in test Coverage Results" MODIFIED="1689227511001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$pytest_in_test_download_remove_extract_py.coverage" NAME="pytest in test_download_remove_extract.py Coverage Results" MODIFIED="1687724378501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation/test" />
     <SUITE FILE_PATH="coverage/projet_itineraire$my_projection.coverage" NAME="my_projection Coverage Results" MODIFIED="1687122150539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />
     <SUITE FILE_PATH="coverage/projet_itineraire$data_cleansing.coverage" NAME="data_cleansing Coverage Results" MODIFIED="1688253200553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_normalisation" />

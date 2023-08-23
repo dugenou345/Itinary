@@ -2,6 +2,7 @@ import json
 import pytest
 from pymongo import MongoClient
 from decorators import progress_bar
+from pprint import pprint
 
 class MongoDataLoader:
     def __init__(self,host,port,mongodb,mongo_collection,json_files):
@@ -22,12 +23,12 @@ class MongoDataLoader:
         print(database_names)
         return database_names
 
-# MOngoDB database selection
+# MongoDB database selection
     @progress_bar
     def select_database(self):
         self.mydb = self.client[self.mongodb]
 
-# MOngodb delete collection itineraire if exist
+# Mongodb delete collection itineraire if exist
     @progress_bar
     def delete_collection(self):
         # Check if the collection exists
@@ -61,3 +62,14 @@ class MongoDataLoader:
         # stats on database
         result = self.client[self.mongodb].command("dbStats")
         print(result)
+
+    @progress_bar
+    def list_poi(self):
+        all_documents = self.client[self.mongodb][self.mongo_collection]
+        projection = {"dc:identifier": 1,"rdfs:label.fr": 1, "hasTheme.rdfs:label.fr": 1, "isLocatedAt.schema:address.schema:addressLocality": 1,
+        "isLocatedAt.schema:address.schema:postalCode": 1, "isLocatedAt.schema:address.schema:streetAddress": 1,
+        "isLocatedAt.schema:address.hasAddressCity.isPartOfDepartment.rdfs:label.fr": 1, "isLocatedAt.schema:geo.schema:latitude": 1,
+        "isLocatedAt.schema:geo.schema:longitude": 1}
+
+        for i in list(all_documents.find({}, projection)):
+            print(i)

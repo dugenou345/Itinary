@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: my-neo4j-container
+    ports:
+      - 7474:7474
+      - 7687:7687
+    environment:
+#      - NEO4J_AUTH=neo4j/Mafadu120c
+      - NEO4JLABS_PLUGINS=['apoc', 'graph-data-science']
+    volumes:
+      - /home/dugenou/data/neo4j:/data
