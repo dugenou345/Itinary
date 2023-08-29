@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from neo4j import GraphDatabase
 
 # Connexion à MongoDB
-mongo_client = MongoClient('mongodb://27017:2701/')
+mongo_client = MongoClient('mongodb://localhost:27017/')
 mongo_db = mongo_client['Itinary']
 mongo_collection = mongo_db['data']
 
