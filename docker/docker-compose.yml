@@ -1,0 +1,30 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:2701"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - mynetwork
+
+  neo4j:
+    image: neo4j:latest
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+#      - NEO4J_AUTH=neo4j/Mafadu120c
+      - NEO4JLABS_PLUGINS=['apoc', 'graph-data-science']
+    volumes:
+      - neo4j_data:/data
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+
+volumes:
+  mongodb_data:
+  neo4j_data:
