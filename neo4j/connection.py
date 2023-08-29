@@ -3,8 +3,8 @@ from neo4j import GraphDatabase
 
 # Connexion à MongoDB
 mongo_client = MongoClient('mongodb://localhost:27017/')
-mongo_db = mongo_client['Itinary']
-mongo_collection = mongo_db['data']
+mongo_db = mongo_client['itineraire']
+mongo_collection = mongo_db['point_interest']
 
 # Connexion à Neo4j
 neo4j_uri = "bolt://7687:7687"
@@ -28,8 +28,10 @@ class Neo4jSessionWrapper:
             "CREATE (node:DataNode {key: $key, value: $value})"
             "RETURN node"
         )
+        print("test ok")
         result = tx.run(query, key=data['_id'], value=data['field_to_transfer'])
         return result.single()[0]
+                
 
 # Transfert de données de MongoDB à Neo4j
 def transfer_data():
