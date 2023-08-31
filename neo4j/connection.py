@@ -27,7 +27,7 @@ class Neo4jSessionWrapper:
     
     @staticmethod
     def _find_node_by_id(session, node_id):
-        query = "MATCH (n:YourNodeLabel {id: $id}) RETURN n LIMIT 1"
+        query = "MATCH (n:PointOfInterest {id: $id}) RETURN n LIMIT 1"
         result = session.run(query, id=str(node_id))
         return result.single()
 
