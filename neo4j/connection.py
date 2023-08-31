@@ -48,7 +48,7 @@ class Neo4jSessionWrapper:
                    )
 
 # Récupérer les données depuis MongoDB
-docs = mongo_collection.find({})  # Ajoutez éventuellement des filtres ici
+docs = mongo_collection.find({})
 
 # Initialiser la connexion Neo4j
 neo4j_session_wrapper = Neo4jSessionWrapper(neo4j_uri, neo4j_user, neo4j_password)
