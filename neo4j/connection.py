@@ -34,7 +34,7 @@ class Neo4jSessionWrapper:
     @staticmethod
     def _create_node(session, data):
         query = (
-            "CREATE (n:YourNodeLabel {"
+            "CREATE (n:PointOfInterest {"
             "id: $id, name: $name, latitude: $latitude, longitude: $longitude})"
         )
         
