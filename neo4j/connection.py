@@ -27,14 +27,14 @@ class Neo4jSessionWrapper:
     
     @staticmethod
     def _find_node_by_id(session, node_id):
-        query = "MATCH (n:YourNodeLabel {id: $id}) RETURN n LIMIT 1"
+        query = "MATCH (n:PointOfInterest {id: $id}) RETURN n LIMIT 1"
         result = session.run(query, id=str(node_id))
         return result.single()
 
     @staticmethod
     def _create_node(session, data):
         query = (
-            "CREATE (n:YourNodeLabel {"
+            "CREATE (n:PointOfInterest {"
             "id: $id, name: $name, latitude: $latitude, longitude: $longitude})"
         )
         
@@ -48,7 +48,7 @@ class Neo4jSessionWrapper:
                    )
 
 # Récupérer les données depuis MongoDB
-docs = mongo_collection.find({})  # Ajoutez éventuellement des filtres ici
+docs = mongo_collection.find({})
 
 # Initialiser la connexion Neo4j
 neo4j_session_wrapper = Neo4jSessionWrapper(neo4j_uri, neo4j_user, neo4j_password)
