@@ -1,0 +1,23 @@
+version: '3'
+services:
+  
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j-container
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/Itinary1
+      - NEO4JLABS_PLUGINS=['apoc', 'graph-data-science']
+    volumes:
+      - neo4j_data:/data
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+
+volumes:
+  neo4j_data:
+
