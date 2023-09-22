@@ -591,9 +591,11 @@
         {
           "@id": "https://data.datatourisme.fr/2d993a9e-a7e0-3128-bc16-bff03bab0760",
           "ebucore:isCoveredBy": "CC BY 2.0",
-          "ebucore:title": [
-            "Gours des grottes de Saint Marcel d'Ardèche, France"
-          ],
+          "ebucore:title": {
+            "fr": [
+              "Gours des grottes de Saint Marcel d'Ardèche, France"
+            ]
+          },
           "@type": [
             "ebucore:Annotation"
           ],

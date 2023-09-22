@@ -1,60 +1,69 @@
 {
-  "@id": "https://data.datatourisme.fr/13/8c69e3d5-24b9-37fb-a4eb-302bb71858a0",
-  "dc:identifier": "4696422",
+  "@id": "https://data.datatourisme.fr/13/0b4d0784-3a34-3c05-b5d4-78e9785165ab",
+  "dc:identifier": "6628979",
   "@type": [
     "olo:OrderedList",
+    "schema:LocalBusiness",
+    "CyclingTour",
     "PlaceOfInterest",
     "PointOfInterest",
     "SportsAndLeisurePlace",
     "Tour",
-    "WalkingTour"
+    "TrackRollerOrSkateBoard"
   ],
   "rdfs:comment": {
     "de": [
-      "Ein sehr schöner, ziemlich schattiger Spaziergang durch angenehmes Unterholz und über schöne Wiesen. Hier können Sie den Fluss Ay und den Montbard, seine Kapelle und seinen bemerkenswerten Aussichtspunkt entdecken."
+      "Die Via Ardèche - Teilstück von Lalevade, beginnt im Viertel La Clape, einem frei zugänglichen und kostenlosen Ort, der für Sport im Freien eingerichtet wurde: Fahrräder, E-Bikes, Mountainbikes, Wanderer und andere Sportler sind willkommen! Weniger als 5 % Steigung, 6,4 km hin und zurück."
     ],
     "en": [
-      "A very nice walk, quite shaded, between pleasant undergrowth and beautiful meadows. You will discover the river Ay and the Montbard, its chapel and its remarkable viewpoint."
+      "The Via Ardèche - portion of Lalevade, starts in the district of La Clape, place in free access arranged for outdoor sports: bicycles, e-bikes, VTC, walkers and other athletes welcome! Less than 5% slope, 6.4km round trip."
     ],
     "it": [
-      "Una passeggiata molto bella, abbastanza ombreggiata, tra un piacevole sottobosco e bei prati. Scoprirete il fiume Ay e il Montbard, la sua cappella e il suo notevole punto panoramico."
+      "Il tratto Via Ardèche - Lalevade inizia nel quartiere di La Clape, uno spazio libero e gratuito destinato agli sport all'aria aperta: biciclette, mountain bike, escursionisti e altri sportivi sono i benvenuti! Pendenza inferiore al 5%, 6,4 km andata e ritorno."
     ],
     "fr": [
-      "Une très belle promenade assez ombragée entre d'agréables sous-bois et de belles prairies. Vous y découvrirez la rivière l'Ay et le Montbard, sa chapelle et son point de vue remarquable."
-    ],
-    "es": [
-      "Un paseo muy bonito, bastante sombreado, entre un agradable sotobosque y hermosas praderas. Descubrirá el río Ay y el Montbard, su capilla y su notable mirador."
+      "La Via Ardèche - portion de Lalevade, démarre dans le quartier de La Clape, lieu en accès libre et gratuit aménagé pour les sports de plein air : vélos, VAE, VTC, marcheurs et autres sportifs bienvenus ! Moins de 5% de pente, 6,4km en aller-retour."
     ],
     "nl": [
-      "Een zeer mooie wandeling, vrij schaduwrijk, tussen aangenaam kreupelhout en mooie weiden. U ontdekt de rivier de Ay en de Montbard, zijn kapel en zijn opmerkelijke uitzichtpunt."
+      "Het traject Via Ardèche - Lalevade begint in de wijk La Clape, een vrij toegankelijk gebied voor buitensporten: fietsen, mountainbikes, wandelaars en andere sportievelingen zijn welkom! Minder dan 5% helling, 6,4 km heen en terug."
+    ],
+    "es": [
+      "El tramo Via Ardèche - Lalevade comienza en el barrio de La Clape, una zona de acceso libre y gratuito destinada a la práctica de deportes al aire libre: ¡bicicletas, bicicletas de montaña, senderistas y otros deportistas son bienvenidos! Menos del 5% de desnivel, 6,4 km ida y vuelta."
     ]
   },
   "rdfs:label": {
+    "en": [
+      "Via Ardèche - Lalevade-Labégude cycle route"
+    ],
     "fr": [
-      "Le Montbard"
+      "Via Ardèche - tronçon cyclable Lalevade-Labégude"
     ]
   },
   "hasBeenCreatedBy": {
-    "@id": "https://data.datatourisme.fr/13/73278a4a-8696-3eeb-976a-8fd4c9ec6997",
-    "dc:identifier": "113",
+    "@id": "https://data.datatourisme.fr/13/41ae36ec-b9b3-3ee6-89d0-5b90c14222fb",
+    "dc:identifier": "417",
     "schema:email": [
-      "d.sanial@dromardeche.fr",
-      "j.bruyere@dromardeche.fr"
+      "aurore.auzas@asv-cdc.fr",
+      "emiliemazon@sourcesvolcans.com",
+      "maevalopez@sourcesvolcans.com",
+      "severinevignal@sourcesvolcans.com",
+      "tourisme@sourcesvolcans.com",
+      "web@sourcesvolcans.com"
     ],
-    "schema:legalName": "Office de Tourisme Porte de DrômArdèche",
+    "schema:legalName": "Office de Tourisme Ardèche des Sources et Volcans",
     "@type": [
       "schema:Organization",
       "foaf:Agent",
       "Agent"
     ],
     "foaf:homepage": [
-      "http://www.autour-du-palais-ideal.fr/"
+      "http://sourcesvolcans.com/"
     ]
   },
   "hasBeenPublishedBy": [
     {
-      "@id": "https://data.datatourisme.fr/d48f2ccd-2357-3a8e-b949-cb8bf19a361f",
-      "schema:legalName": "Agence d'Attractivité de la Drôme - source : Apidae Tourisme",
+      "@id": "https://data.datatourisme.fr/dbca899d-3f22-364b-b99d-40af1e917c58",
+      "schema:legalName": "Agence de Développement Touristique de l'Ardèche - source : Apidae Tourisme",
       "@type": [
         "schema:Organization",
         "foaf:Agent",
@@ -67,55 +76,28 @@
   ],
   "hasContact": [
     {
-      "@id": "https://data.datatourisme.fr/e4a61420-5736-3383-8b66-c11b58e648c9",
-      "schema:email": [
-        "porte@dromardeche.fr"
-      ],
+      "@id": "https://data.datatourisme.fr/a33932da-4996-3863-b639-12438717ae54",
       "schema:telephone": [
-        "+33 4 75 23 45 33"
+        "+33 4 75 38 00 51"
       ],
       "@type": [
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "http://www.autour-du-palais-ideal.fr/"
+        "https://sourcesvolcans.com/via-ardeche"
       ]
     }
   ],
   "hasDescription": [
     {
-      "@id": "https://data.datatourisme.fr/ebbf2e38-135f-3989-932c-e55b18c52499",
+      "@id": "https://data.datatourisme.fr/ca24fd47-b1fb-3d8e-a854-efeba1704c9f",
       "@type": [
         "Description"
       ],
       "hasTranslatedProperty": [
         {
-          "@id": "https://data.datatourisme.fr/29a91d66-b127-3008-9534-0f70ce868d88",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "en"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/565bdbd5-bf25-37eb-ae60-d64a0c6f8823",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "es"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/92174fa5-e4e6-3354-aa6f-8f3942570d5d",
+          "@id": "https://data.datatourisme.fr/229b6980-a5e9-3372-80a8-c11086cbf703",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -127,7 +109,19 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/aa9c2001-eb57-35bd-8892-7d7309fcdc97",
+          "@id": "https://data.datatourisme.fr/4c9f41d0-b3c2-3237-a873-6ad7451d4755",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5b30ca13-bcd9-3835-8a25-ac2071eed426",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -139,7 +133,7 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/e8b07c74-8ada-3e3f-ba41-0f7bc0c71265",
+          "@id": "https://data.datatourisme.fr/5f792e5c-0711-35d3-b615-03ee9a645d8a",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -153,123 +147,152 @@
       ],
       "shortDescription": {
         "de": [
-          "Ein sehr schöner, ziemlich schattiger Spaziergang durch angenehmes Unterholz und über schöne Wiesen. Hier können Sie den Fluss Ay und den Montbard, seine Kapelle und seinen bemerkenswerten Aussichtspunkt entdecken."
+          "Die Via Ardèche - Teilstück von Lalevade, beginnt im Viertel La Clape, einem frei zugänglichen und kostenlosen Ort, der für Sport im Freien eingerichtet wurde: Fahrräder, E-Bikes, Mountainbikes, Wanderer und andere Sportler sind willkommen! Weniger als 5 % Steigung, 6,4 km hin und zurück."
         ],
         "en": [
-          "A very nice walk, quite shaded, between pleasant undergrowth and beautiful meadows. You will discover the river Ay and the Montbard, its chapel and its remarkable viewpoint."
+          "The Via Ardèche - portion of Lalevade, starts in the district of La Clape, place in free access arranged for outdoor sports: bicycles, e-bikes, VTC, walkers and other athletes welcome! Less than 5% slope, 6.4km round trip."
         ],
         "it": [
-          "Una passeggiata molto bella, abbastanza ombreggiata, tra un piacevole sottobosco e bei prati. Scoprirete il fiume Ay e il Montbard, la sua cappella e il suo notevole punto panoramico."
+          "Il tratto Via Ardèche - Lalevade inizia nel quartiere di La Clape, uno spazio libero e gratuito destinato agli sport all'aria aperta: biciclette, mountain bike, escursionisti e altri sportivi sono i benvenuti! Pendenza inferiore al 5%, 6,4 km andata e ritorno."
         ],
         "fr": [
-          "Une très belle promenade assez ombragée entre d'agréables sous-bois et de belles prairies. Vous y découvrirez la rivière l'Ay et le Montbard, sa chapelle et son point de vue remarquable."
-        ],
-        "es": [
-          "Un paseo muy bonito, bastante sombreado, entre un agradable sotobosque y hermosas praderas. Descubrirá el río Ay y el Montbard, su capilla y su notable mirador."
+          "La Via Ardèche - portion de Lalevade, démarre dans le quartier de La Clape, lieu en accès libre et gratuit aménagé pour les sports de plein air : vélos, VAE, VTC, marcheurs et autres sportifs bienvenus ! Moins de 5% de pente, 6,4km en aller-retour."
         ],
         "nl": [
-          "Een zeer mooie wandeling, vrij schaduwrijk, tussen aangenaam kreupelhout en mooie weiden. U ontdekt de rivier de Ay en de Montbard, zijn kapel en zijn opmerkelijke uitzichtpunt."
+          "Het traject Via Ardèche - Lalevade begint in de wijk La Clape, een vrij toegankelijk gebied voor buitensporten: fietsen, mountainbikes, wandelaars en andere sportievelingen zijn welkom! Minder dan 5% helling, 6,4 km heen en terug."
+        ],
+        "es": [
+          "El tramo Via Ardèche - Lalevade comienza en el barrio de La Clape, una zona de acceso libre y gratuito destinada a la práctica de deportes al aire libre: ¡bicicletas, bicicletas de montaña, senderistas y otros deportistas son bienvenidos! Menos del 5% de desnivel, 6,4 km ida y vuelta."
         ]
       }
     }
   ],
   "hasTheme": [
     {
-      "@id": "kb:Hiking",
+      "@id": "kb:BicycleTouring",
       "@type": [
         "SportsTheme"
       ],
       "rdfs:label": {
         "de": [
-          "Wanderung"
+          "Radtourismus"
         ],
         "pt": [
-          "Caminhada"
+          "Cicloturismo"
         ],
         "en": [
-          "Hiking"
+          "Bicycle touring"
         ],
         "it": [
-          "Escursione"
+          "Cicloturismo"
         ],
         "fr": [
-          "Randonnée"
+          "Cyclotourisme"
         ],
         "nl": [
-          "Wandelen"
+          "Fietstoerisme"
         ],
         "es": [
-          "Senderismo"
+          "Cicloturismo"
         ]
       }
     },
     {
-      "@id": "kb:Pedestrian",
+      "@id": "kb:Bike",
       "@type": [
         "SportsTheme"
       ],
       "rdfs:label": {
         "de": [
-          "Zu Fuß"
+          "Fahrrad"
         ],
         "pt": [
-          "Pedestre"
+          "Bicicleta"
         ],
         "en": [
-          "Pedestrian"
+          "Bike"
         ],
         "it": [
-          "A piedi"
+          "Bicicletta"
         ],
         "fr": [
-          "Pédestre"
+          "Vélo"
         ],
         "nl": [
-          "Voetgangers"
+          "Fiets"
         ],
         "es": [
-          "Peatón"
+          "Bicicleta"
         ]
       }
     },
     {
-      "@id": "kb:Running",
+      "@id": "kb:ElectricallyAssistedBicycle",
       "@type": [
         "SportsTheme"
       ],
       "rdfs:label": {
         "de": [
-          "Laufen"
+          "Ladestation für Elektrofahrräder"
         ],
         "pt": [
-          "Corrida a pé"
+          "Bicicleta elétrica"
         ],
         "en": [
-          "Running"
+          "Electrically assisted bicycle"
         ],
         "it": [
-          "Corsa a piedi"
+          "Bicicletta a pedalata assistita"
         ],
         "fr": [
-          "Course à pied"
+          "Vélo à assistance électrique, VAE"
         ],
         "nl": [
-          "Hardlopen"
+          "Elektrische fiets"
         ],
         "es": [
-          "Carrera a pie"
+          "Bicicleta eléctrica, VAE"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Rollerblades",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Rollerblades"
+        ],
+        "pt": [
+          "Patins"
+        ],
+        "en": [
+          "Rollerblades"
+        ],
+        "it": [
+          "Rollerblade"
+        ],
+        "fr": [
+          "Roller"
+        ],
+        "nl": [
+          "Rollerblade"
+        ],
+        "es": [
+          "Patines"
         ]
       }
     }
   ],
   "hasTranslatedProperty": [
     {
-      "@id": "https://data.datatourisme.fr/a5779d09-c172-357d-8c52-f29661fec287",
+      "@id": "https://data.datatourisme.fr/01c3d0dc-5356-316b-a12a-e2a40223fb02",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "en"
+        "es"
       ],
       "rdf:predicate": [
         {
@@ -278,35 +301,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/a9834c14-fa44-3709-bd24-1332bcfecf74",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "nl"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/c53d1f60-0443-34e0-9e39-b9c60f9ae758",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "it"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/c93d73db-2dc9-3e0a-aaab-edc0ef46e2c2",
+      "@id": "https://data.datatourisme.fr/2f4118d9-b1fd-353f-be23-34db20fa3547",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -320,12 +315,26 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/ea7f0b49-2781-3fe8-882b-c4fa348a54c5",
+      "@id": "https://data.datatourisme.fr/6805f26a-4ccf-37d9-a9f1-365050db2853",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "es"
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ae78c7ca-b378-3b37-bce7-54904351bc31",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
       ],
       "rdf:predicate": [
         {
@@ -336,48 +345,48 @@
   ],
   "isLocatedAt": [
     {
-      "@id": "https://data.datatourisme.fr/6022095b-8e71-3ea5-9533-430d63bbdd78",
+      "@id": "https://data.datatourisme.fr/9143eda1-7cf9-31a5-812e-5c05b9ccf27a",
       "schema:address": [
         {
-          "@id": "https://data.datatourisme.fr/dcc57439-d84a-3bc5-9699-74037aff4d4c",
-          "schema:addressLocality": "Eclassan",
-          "schema:postalCode": "07370",
+          "@id": "https://data.datatourisme.fr/3e6757e3-631a-329d-8569-fd0c6aa63a79",
+          "schema:addressLocality": "Lalevade-d'Ardèche",
+          "schema:postalCode": "07380",
           "schema:streetAddress": [
-            "Au départ du chemin de la croix du Montbard : depuis la RD6, prendre la petite route direction \"Maison Neuve\" et \"camping l'oasis\" sur 800m"
+            "Quartier La Clape"
           ],
           "@type": [
             "schema:PostalAddress",
             "PostalAddress"
           ],
           "hasAddressCity": {
-            "@id": "kb:07084",
+            "@id": "kb:07127",
             "@type": [
               "City"
             ],
             "rdfs:label": {
               "de": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ],
               "pt": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ],
               "en": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ],
               "it": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ],
               "fr": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ],
               "nl": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ],
               "es": [
-                "Eclassan"
+                "Lalevade-d'Ardèche"
               ]
             },
-            "insee": "07084",
+            "insee": "07127",
             "isPartOfDepartment": {
               "@id": "kb:France8407",
               "@type": [
@@ -476,9 +485,9 @@
         }
       ],
       "schema:geo": {
-        "@id": "https://data.datatourisme.fr/3ab88933-cf58-3afd-bd9e-d3319ee75334",
-        "schema:latitude": "45.168158",
-        "schema:longitude": "4.746072",
+        "@id": "https://data.datatourisme.fr/211516c9-e8d4-374a-bc75-d1cead7aabd8",
+        "schema:latitude": "44.648447",
+        "schema:longitude": "4.324264",
         "@type": [
           "schema:GeoCoordinates"
         ]
@@ -501,22 +510,26 @@
   ],
   "isOwnedBy": [
     {
-      "@id": "https://data.datatourisme.fr/c34130c6-4437-3624-9afb-3511a8692fba",
+      "@id": "https://data.datatourisme.fr/66724468-eb04-313b-8038-2872ecb27340",
       "schema:email": [
-        "d.sanial@dromardeche.fr",
-        "j.bruyere@dromardeche.fr"
+        "aurore.auzas@asv-cdc.fr",
+        "emiliemazon@sourcesvolcans.com",
+        "maevalopez@sourcesvolcans.com",
+        "severinevignal@sourcesvolcans.com",
+        "tourisme@sourcesvolcans.com",
+        "web@sourcesvolcans.com"
       ],
-      "schema:legalName": "Office de Tourisme Porte de DrômArdèche",
+      "schema:legalName": "Office de Tourisme Ardèche des Sources et Volcans",
       "@type": [
         "schema:Organization",
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "http://www.autour-du-palais-ideal.fr/"
+        "http://sourcesvolcans.com/"
       ]
     }
   ],
-  "lastUpdate": "2023-05-31",
-  "lastUpdateDatatourisme": "2023-06-01T05:41:13.967Z"
+  "lastUpdate": "2023-08-09",
+  "lastUpdateDatatourisme": "2023-08-10T05:41:58.657Z"
 }

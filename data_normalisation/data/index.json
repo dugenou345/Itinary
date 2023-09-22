@@ -21,13 +21,18 @@
   },
   {
     "label": "Les rives de l'Ozon",
-    "lastUpdateDatatourisme": "2023-04-06T05:49:38.772Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.98Z",
     "file": "0/0a/13-0a2bba82-905b-3034-a43e-29ad7ecffba6.json"
   },
   {
     "label": "Circuit moto vers le Mont Gerbier de Jonc",
     "lastUpdateDatatourisme": "2023-02-01T18:07:35.808Z",
     "file": "0/0a/13-0aa961bc-f007-3b94-bdbb-6708e40d4d4b.json"
+  },
+  {
+    "label": "Via Ardèche - tronçon cyclable Lalevade-Labégude",
+    "lastUpdateDatatourisme": "2023-08-10T05:41:58.657Z",
+    "file": "0/0b/13-0b4d0784-3a34-3c05-b5d4-78e9785165ab.json"
   },
   {
     "label": "Circuit gourmand le long du Rhône",
@@ -43,6 +48,11 @@
     "label": "De la rivière d'Ay au Rhône",
     "lastUpdateDatatourisme": "2023-05-13T05:39:31.044Z",
     "file": "1/16/13-163306dc-486d-31f1-8b57-f6c2a44533ff.json"
+  },
+  {
+    "label": "La colline de Revirand",
+    "lastUpdateDatatourisme": "2023-09-13T05:53:47.755Z",
+    "file": "1/17/13-170753df-b61c-3afa-9bfe-62aaa028619d.json"
   },
   {
     "label": "Circuit voiture entre Vivarais et Vallée du Rhône",
@@ -61,12 +71,12 @@
   },
   {
     "label": "Les Terrasses",
-    "lastUpdateDatatourisme": "2023-02-14T06:40:22.737Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.893Z",
     "file": "1/1e/13-1e2ecf8d-cf79-3b5e-b2f9-8547c66b6b89.json"
   },
   {
     "label": "De la Dolce Via au plateau de Vernoux",
-    "lastUpdateDatatourisme": "2023-04-25T05:43:15.402Z",
+    "lastUpdateDatatourisme": "2023-09-07T05:43:11.087Z",
     "file": "2/21/13-214b96e6-a9f1-3dfd-a1b5-c4610f900c1c.json"
   },
   {
@@ -81,7 +91,7 @@
   },
   {
     "label": "La côte de Champagne",
-    "lastUpdateDatatourisme": "2023-02-14T06:40:22.737Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.893Z",
     "file": "2/2a/13-2a1b7eb0-1a18-3cbc-8f2f-01c6bff63f2d.json"
   },
   {
@@ -90,9 +100,19 @@
     "file": "2/2a/13-2a6e83fb-3f45-376b-a602-d4bcd078e36d.json"
   },
   {
-    "label": "Découverte de la Châtaigne",
-    "lastUpdateDatatourisme": "2023-02-01T18:07:35.852Z",
+    "label": "Route touristique \"Découverte de la Châtaigne\"",
+    "lastUpdateDatatourisme": "2023-08-02T05:48:10.019Z",
     "file": "2/2a/13-2a773745-5873-3247-8c97-de21b6549f75.json"
+  },
+  {
+    "label": "Du Rhône aux coteaux du saint joseph",
+    "lastUpdateDatatourisme": "2023-05-24T05:51:09.206Z",
+    "file": "3/34/13-34704d08-4502-391f-bc80-a806e7958b02.json"
+  },
+  {
+    "label": "Circuit moto \"La montagnarde\"",
+    "lastUpdateDatatourisme": "2023-09-06T05:48:27.942Z",
+    "file": "3/38/13-38311237-097c-33d0-8c8c-33c3459ea833.json"
   },
   {
     "label": "Table d'orientation de la Tour d'Arras",
@@ -101,8 +121,13 @@
   },
   {
     "label": "Le Château de Rochebonne",
-    "lastUpdateDatatourisme": "2023-04-21T05:52:11.976Z",
+    "lastUpdateDatatourisme": "2023-09-16T05:52:56.025Z",
     "file": "4/46/13-4600fee3-fb8a-3e6d-88ff-53967a0c5be3.json"
+  },
+  {
+    "label": "Circuit moto \"la belle Ardèche verte\"",
+    "lastUpdateDatatourisme": "2023-09-06T05:48:27.955Z",
+    "file": "4/48/13-48caf6f6-9c05-3d05-8ca7-08d7965a4f31.json"
   },
   {
     "label": "Les berges du fleuve",
@@ -131,7 +156,7 @@
   },
   {
     "label": "La Panoramique",
-    "lastUpdateDatatourisme": "2023-02-08T06:39:49.061Z",
+    "lastUpdateDatatourisme": "2023-08-18T05:41:49.619Z",
     "file": "5/59/13-5924f96b-196c-3222-adee-4b7efd67b74b.json"
   },
   {
@@ -166,8 +191,13 @@
   },
   {
     "label": "Saint Bosc",
-    "lastUpdateDatatourisme": "2023-02-14T06:40:22.807Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.962Z",
     "file": "6/66/13-6682f4d4-ebad-3bae-ad8d-24a2b22d3a13.json"
+  },
+  {
+    "label": "Circuit moto \"Du Coiron aux Gorges de l’Ardèche\"",
+    "lastUpdateDatatourisme": "2023-09-06T05:48:27.939Z",
+    "file": "6/68/13-685330e6-a8e0-3a62-a6d7-7378efce4d3a.json"
   },
   {
     "label": "Au coeur de la Vallée du Torrenson",
@@ -178,11 +208,6 @@
     "label": "Circuit Terroir",
     "lastUpdateDatatourisme": "2023-02-11T06:38:49.061Z",
     "file": "7/72/13-72583d0e-4bca-341c-8df8-c5265e34af5b.json"
-  },
-  {
-    "label": "Plage de la Théoule",
-    "lastUpdateDatatourisme": "2023-02-11T06:38:49.111Z",
-    "file": "7/73/13-73be0bc1-7515-31f4-8050-7d1b8b57592b.json"
   },
   {
     "label": "Parcours permanent d'orientation",
@@ -216,7 +241,7 @@
   },
   {
     "label": "Le Montbard",
-    "lastUpdateDatatourisme": "2023-02-10T06:39:19.953Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.967Z",
     "file": "8/8c/13-8c69e3d5-24b9-37fb-a4eb-302bb71858a0.json"
   },
   {
@@ -236,7 +261,7 @@
   },
   {
     "label": "Entre Vignes et Vallons",
-    "lastUpdateDatatourisme": "2023-03-17T06:40:44.055Z",
+    "lastUpdateDatatourisme": "2023-09-16T05:52:56.005Z",
     "file": "9/90/13-90e448e6-7c00-3201-8cf3-30f13dddeb39.json"
   },
   {
@@ -258,6 +283,11 @@
     "label": "Chemin de Croix du Montbard",
     "lastUpdateDatatourisme": "2023-02-01T18:07:36.104Z",
     "file": "9/9e/13-9e56f08f-f7b8-3b35-ae53-148e99f7d8f1.json"
+  },
+  {
+    "label": "Circuit moto \"Sucs et Tanargue\"",
+    "lastUpdateDatatourisme": "2023-09-06T05:48:28.013Z",
+    "file": "a/ad/13-ad45185d-565a-3f46-aec5-9a71919725cd.json"
   },
   {
     "label": "Circuit VAE : Le fleuve roi",
@@ -285,18 +315,13 @@
     "file": "c/c0/13-c0f342f8-abfb-34e6-a061-b8bcebda931e.json"
   },
   {
-    "label": "Vallées, châtaignes et volcans",
-    "lastUpdateDatatourisme": "2023-02-08T06:39:49.074Z",
-    "file": "c/cc/13-ccb52f07-5778-34c4-bd1e-b7b709a92ee4.json"
-  },
-  {
     "label": "Le sentier des vignes",
     "lastUpdateDatatourisme": "2023-02-10T06:39:19.971Z",
     "file": "c/ce/13-ce06a695-60c9-3c72-a70f-75d3367fa7fa.json"
   },
   {
     "label": "La chapelle de Verlieux",
-    "lastUpdateDatatourisme": "2023-02-10T06:39:19.801Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.952Z",
     "file": "d/d0/13-d0a05849-5e04-3828-aa62-38a7caf5c94e.json"
   },
   {
@@ -310,8 +335,8 @@
     "file": "d/df/13-df7e3b8f-524c-3fc1-8ed2-0498ab896719.json"
   },
   {
-    "label": "Au cœur des vallées cévenoles",
-    "lastUpdateDatatourisme": "2023-02-11T06:38:49.105Z",
+    "label": "Route touristique \"Au cœur des vallées cévenoles\"",
+    "lastUpdateDatatourisme": "2023-08-02T05:48:09.969Z",
     "file": "e/ea/13-ea502ebc-29ec-35bb-b72a-f6265713de99.json"
   },
   {
@@ -321,7 +346,7 @@
   },
   {
     "label": "La vallée du Torrenson",
-    "lastUpdateDatatourisme": "2023-02-14T06:40:22.726Z",
+    "lastUpdateDatatourisme": "2023-06-01T05:41:13.883Z",
     "file": "e/eb/13-eba69a5c-c88d-3e64-9650-fb67db355474.json"
   },
   {
@@ -346,7 +371,7 @@
   },
   {
     "label": "Base de loisirs aquatique Eyrium",
-    "lastUpdateDatatourisme": "2023-05-22T05:48:38.562Z",
+    "lastUpdateDatatourisme": "2023-09-20T05:51:01.739Z",
     "file": "f/f2/13-f2e66300-b2c9-3a24-9b32-fc402f2bbb47.json"
   },
   {
@@ -356,7 +381,7 @@
   },
   {
     "label": "De la Payre à Saint-Vincent-de-Barrès",
-    "lastUpdateDatatourisme": "2023-02-08T06:39:48.927Z",
+    "lastUpdateDatatourisme": "2023-09-16T05:52:55.967Z",
     "file": "f/f3/13-f3e9cedb-56a4-3317-b0af-75bdc5b94266.json"
   },
   {

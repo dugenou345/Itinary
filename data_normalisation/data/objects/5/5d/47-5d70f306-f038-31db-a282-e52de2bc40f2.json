@@ -429,9 +429,11 @@
         {
           "@id": "https://data.datatourisme.fr/f324fb6c-9e69-392e-ae08-62c37ec38d20",
           "ebucore:isCoveredBy": "CC BY-SA 4.0",
-          "ebucore:title": [
-            "00 0184 Aven d´Ornac - Cevennen"
-          ],
+          "ebucore:title": {
+            "fr": [
+              "00 0184 Aven d´Ornac - Cevennen"
+            ]
+          },
           "@type": [
             "ebucore:Annotation"
           ],
@@ -520,9 +522,11 @@
         {
           "@id": "https://data.datatourisme.fr/a19b332a-2b28-3aef-af8b-e700b00ccf1e",
           "ebucore:isCoveredBy": "CC BY-SA 3.0",
-          "ebucore:title": [
-            "Aven Orgnac salle sup"
-          ],
+          "ebucore:title": {
+            "fr": [
+              "Aven Orgnac salle sup"
+            ]
+          },
           "@type": [
             "ebucore:Annotation"
           ],
@@ -611,9 +615,11 @@
         {
           "@id": "https://data.datatourisme.fr/30f543c3-48d0-3fe7-9804-ba65755f3206",
           "ebucore:isCoveredBy": "CC BY-SA 4.0",
-          "ebucore:title": [
-            "00 0200 Aven d´Ornac - Cévennes, Frankreich"
-          ],
+          "ebucore:title": {
+            "fr": [
+              "00 0200 Aven d´Ornac - Cévennes, Frankreich"
+            ]
+          },
           "@type": [
             "ebucore:Annotation"
           ],

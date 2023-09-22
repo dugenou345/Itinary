@@ -489,9 +489,11 @@
         {
           "@id": "https://data.datatourisme.fr/57fc7dfc-4a78-337f-aafb-222e80a155b9",
           "ebucore:isCoveredBy": "CC BY-SA 4.0",
-          "ebucore:title": [
-            "Saint-Remèze - Aven-Marzal-01"
-          ],
+          "ebucore:title": {
+            "fr": [
+              "Saint-Remèze - Aven-Marzal-01"
+            ]
+          },
           "@type": [
             "ebucore:Annotation"
           ],

@@ -1,6 +1,6 @@
 {
-  "@id": "https://data.datatourisme.fr/13/178c704d-6789-32f2-a5c6-db6618e8e58a",
-  "dc:identifier": "782642",
+  "@id": "https://data.datatourisme.fr/13/ad45185d-565a-3f46-aec5-9a71919725cd",
+  "dc:identifier": "6653538",
   "@type": [
     "olo:OrderedList",
     "PlaceOfInterest",
@@ -11,49 +11,46 @@
   ],
   "rdfs:comment": {
     "de": [
-      "Auf dieser Tour können Sie eine manchmal enge, kurvenreiche Straße und wunderschöne Landschaften zu jeder Jahreszeit bewundern."
+      "Vom Süden des Tanargue bis zu den Seen des Naturparks Monts d'Ardèche ist dies der ideale Rundweg, um die geheime Ardèche zu durchqueren!"
     ],
     "en": [
-      "The trail is a chance to admire a sometimes narrow, winding road with magnificent landscapes in all seasons."
+      "From the southern Tanargue to the Monts d'Ardèche Natural Park, this is the ideal loop for exploring the secret Ardèche!"
     ],
     "it": [
-      "Questo tour vi permetterà di ammirare una strada a volte stretta e tortuosa e splendidi paesaggi in tutte le stagioni."
+      "Dal sud della Tanargue alle pendici del Parco Naturale dei Monts d'Ardèche, questo è il modo ideale per esplorare l'Ardèche segreta!"
     ],
     "fr": [
-      "Ce circuit vous permettra d’admirer une route parfois étroite, sinueuse et des paysages magnifiques en toutes saisons."
+      "Du sud du Tanargue aux sucs du Parc naturel des Monts d’Ardèche, c’est la boucle idéale pour parcourir l’Ardèche secrète !"
     ],
     "nl": [
-      "Tijdens deze tocht kunt u een soms smalle, bochtige weg en prachtige landschappen in alle seizoenen bewonderen."
+      "Van het zuiden van de Tanargue tot de hellingen van het natuurpark Monts d'Ardèche, dit is de ideale manier om de geheime Ardèche te verkennen!"
     ],
     "es": [
-      "Este recorrido le permitirá admirar una carretera a veces estrecha y sinuosa y hermosos paisajes en todas las estaciones."
+      "Desde el sur de la Tanargue hasta las laderas del Parque Natural de los Montes de Ardèche, ¡esta es la forma ideal de explorar la Ardèche secreta!"
     ]
   },
   "rdfs:label": {
     "en": [
-      "Car trip from Annonay to Villevocance"
+      "\"Sucs et Tanargue\" motorcycle tour"
     ],
     "fr": [
-      "Circuit voiture d’Annonay vers Villevocance"
+      "Circuit moto \"Sucs et Tanargue\""
     ]
   },
   "hasBeenCreatedBy": {
-    "@id": "https://data.datatourisme.fr/13/0f28b5d4-9b30-30af-aecd-95b4009adf4c",
-    "dc:identifier": "141",
+    "@id": "https://data.datatourisme.fr/13/26657d5f-f902-3d2a-befe-558796b99584",
+    "dc:identifier": "96",
     "schema:email": [
-      "communication@ardechegrandair.com",
-      "direction@ardechegrandair.com",
-      "directionvalday@ardechegrandair.com",
-      "myriam.guigal@ardechegrandair.com"
+      "ncharra@ardeche-guide.com"
     ],
-    "schema:legalName": "Office de Tourisme Ardèche Grand Air",
+    "schema:legalName": "Agence de Développement Touristique de l'Ardèche",
     "@type": [
       "schema:Organization",
       "foaf:Agent",
       "Agent"
     ],
     "foaf:homepage": [
-      "http://www.ardechegrandair.com/"
+      "https://www.ardeche-guide.com/"
     ]
   },
   "hasBeenPublishedBy": [
@@ -72,44 +69,28 @@
   ],
   "hasContact": [
     {
-      "@id": "https://data.datatourisme.fr/8d6c2ddd-3696-3282-b0a5-c86a490bc684",
-      "schema:email": [
-        "contact@ardechegrandair.com"
-      ],
+      "@id": "https://data.datatourisme.fr/0f3f1f83-cd1a-397e-aca3-087a8f2324f7",
       "schema:telephone": [
-        "+33 4 75 33 24 51"
+        "+33 4 75 64 04 66"
       ],
       "@type": [
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "http://www.ardechegrandair.com/",
-        "https://www.cirkwi.com/fr/circuit/50519-circuit-d-annonay-vers-villevocance"
+        "https://www.ardeche-guide.com/"
       ]
     }
   ],
   "hasDescription": [
     {
-      "@id": "https://data.datatourisme.fr/e53b9cec-4fa0-3b40-9dc6-c5e9c13df86d",
+      "@id": "https://data.datatourisme.fr/aacac694-7c65-35e3-b4a9-8d4f4f0c09d6",
       "@type": [
         "Description"
       ],
       "hasTranslatedProperty": [
         {
-          "@id": "https://data.datatourisme.fr/4c2c0b74-7f78-3240-a5da-3e69e8ec51c5",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "nl"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/51b57563-9890-3b9c-a5be-3a47648e992f",
+          "@id": "https://data.datatourisme.fr/5a09ce9b-085e-3aa1-adfe-17369e2c40fc",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -121,7 +102,7 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/9725be52-e0d0-33e6-aa70-7d784a1dc3e5",
+          "@id": "https://data.datatourisme.fr/888bf642-d7ae-353e-b005-65133ac2010f",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -133,7 +114,19 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/ab1a5042-2aba-3047-a6a9-78756db2f135",
+          "@id": "https://data.datatourisme.fr/c34a68d7-e98d-36cb-a626-fabcd0c08430",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f583ae70-6dac-3ca8-88cd-02aea5486be3",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -147,34 +140,34 @@
       ],
       "shortDescription": {
         "de": [
-          "Auf dieser Tour können Sie eine manchmal enge, kurvenreiche Straße und wunderschöne Landschaften zu jeder Jahreszeit bewundern."
+          "Vom Süden des Tanargue bis zu den Seen des Naturparks Monts d'Ardèche ist dies der ideale Rundweg, um die geheime Ardèche zu durchqueren!"
         ],
         "en": [
-          "The trail is a chance to admire a sometimes narrow, winding road with magnificent landscapes in all seasons."
+          "From the southern Tanargue to the Monts d'Ardèche Natural Park, this is the ideal loop for exploring the secret Ardèche!"
         ],
         "it": [
-          "Questo tour vi permetterà di ammirare una strada a volte stretta e tortuosa e splendidi paesaggi in tutte le stagioni."
+          "Dal sud della Tanargue alle pendici del Parco Naturale dei Monts d'Ardèche, questo è il modo ideale per esplorare l'Ardèche segreta!"
         ],
         "fr": [
-          "Ce circuit vous permettra d’admirer une route parfois étroite, sinueuse et des paysages magnifiques en toutes saisons."
+          "Du sud du Tanargue aux sucs du Parc naturel des Monts d’Ardèche, c’est la boucle idéale pour parcourir l’Ardèche secrète !"
         ],
         "nl": [
-          "Tijdens deze tocht kunt u een soms smalle, bochtige weg en prachtige landschappen in alle seizoenen bewonderen."
+          "Van het zuiden van de Tanargue tot de hellingen van het natuurpark Monts d'Ardèche, dit is de ideale manier om de geheime Ardèche te verkennen!"
         ],
         "es": [
-          "Este recorrido le permitirá admirar una carretera a veces estrecha y sinuosa y hermosos paisajes en todas las estaciones."
+          "Desde el sur de la Tanargue hasta las laderas del Parque Natural de los Montes de Ardèche, ¡esta es la forma ideal de explorar la Ardèche secreta!"
         ]
       }
     }
   ],
   "hasTranslatedProperty": [
     {
-      "@id": "https://data.datatourisme.fr/2e3c62f7-122e-353a-bceb-dfba9cff645f",
+      "@id": "https://data.datatourisme.fr/003d3b21-3d98-3724-b859-3937885bed1f",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "it"
+        "es"
       ],
       "rdf:predicate": [
         {
@@ -183,21 +176,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/31aef891-1565-3572-9005-9e1c317dcfbe",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "de"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/a33c9f32-76de-311c-87ce-2aad4cda21ef",
+      "@id": "https://data.datatourisme.fr/8f584b01-2e3e-39fc-bdd3-b885e95e38ed",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -211,12 +190,26 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/a6c35b23-4455-31e8-87bf-381630c162bc",
+      "@id": "https://data.datatourisme.fr/b90068d1-1ff5-302d-a4f9-25fdcef4e3a2",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "es"
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e95e4332-87f4-3650-93ff-bef3f6ae8145",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
       ],
       "rdf:predicate": [
         {
@@ -227,48 +220,45 @@
   ],
   "isLocatedAt": [
     {
-      "@id": "https://data.datatourisme.fr/372d0010-a3b9-3d66-a0ea-f583a58da9d9",
+      "@id": "https://data.datatourisme.fr/84fdb08d-4014-39e0-8b91-09a554b74170",
       "schema:address": [
         {
-          "@id": "https://data.datatourisme.fr/0220ea37-d8f3-3a0d-93da-ca2c2bbb5c00",
-          "schema:addressLocality": "Annonay",
-          "schema:postalCode": "07100",
-          "schema:streetAddress": [
-            "Départ devant l'Office de Tourisme, place des Cordeliers"
-          ],
+          "@id": "https://data.datatourisme.fr/9e1a00ba-d5d1-3a38-a326-7fcb52b435ef",
+          "schema:addressLocality": "Largentière",
+          "schema:postalCode": "07110",
           "@type": [
             "schema:PostalAddress",
             "PostalAddress"
           ],
           "hasAddressCity": {
-            "@id": "kb:07010",
+            "@id": "kb:07132",
             "@type": [
               "City"
             ],
             "rdfs:label": {
               "de": [
-                "Annonay"
+                "Largentière"
               ],
               "pt": [
-                "Annonay"
+                "Largentière"
               ],
               "en": [
-                "Annonay"
+                "Largentière"
               ],
               "it": [
-                "Annonay"
+                "Largentière"
               ],
               "fr": [
-                "Annonay"
+                "Largentière"
               ],
               "nl": [
-                "Annonay"
+                "Largentière"
               ],
               "es": [
-                "Annonay"
+                "Largentière"
               ]
             },
-            "insee": "07010",
+            "insee": "07132",
             "isPartOfDepartment": {
               "@id": "kb:France8407",
               "@type": [
@@ -367,9 +357,9 @@
         }
       ],
       "schema:geo": {
-        "@id": "https://data.datatourisme.fr/08ae4953-8dd1-33db-a893-5c1a7351b86d",
-        "schema:latitude": "45.240372",
-        "schema:longitude": "4.673066",
+        "@id": "https://data.datatourisme.fr/64775b32-180e-3a0b-9bac-596f0a6b99ca",
+        "schema:latitude": "44.480966",
+        "schema:longitude": "4.69167",
         "@type": [
           "schema:GeoCoordinates"
         ]
@@ -392,24 +382,21 @@
   ],
   "isOwnedBy": [
     {
-      "@id": "https://data.datatourisme.fr/3e141ebd-d3da-33b3-94c3-096fd7e178a7",
+      "@id": "https://data.datatourisme.fr/6ef576cd-2c5c-33d6-b250-09b105230dfc",
       "schema:email": [
-        "communication@ardechegrandair.com",
-        "direction@ardechegrandair.com",
-        "directionvalday@ardechegrandair.com",
-        "myriam.guigal@ardechegrandair.com"
+        "ncharra@ardeche-guide.com"
       ],
-      "schema:legalName": "Office de Tourisme Ardèche Grand Air",
+      "schema:legalName": "Agence de Développement Touristique de l'Ardèche",
       "@type": [
         "schema:Organization",
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "http://www.ardechegrandair.com/"
+        "https://www.ardeche-guide.com/"
       ]
     }
   ],
-  "lastUpdate": "2020-09-16",
-  "lastUpdateDatatourisme": "2023-02-23T06:39:42.737Z"
+  "lastUpdate": "2023-09-05",
+  "lastUpdateDatatourisme": "2023-09-06T05:48:28.013Z"
 }

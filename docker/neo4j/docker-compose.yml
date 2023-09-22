@@ -10,8 +10,12 @@ services:
     environment:
       - NEO4J_AUTH=neo4j/Itinary1
       - NEO4JLABS_PLUGINS=['apoc', 'graph-data-science']
+      - NEO4J_dbms_security_procedures_unrestricted= apoc.*
+      - NEO4J_dbms_security_procedures_whitelist= apoc.*
     volumes:
-      - neo4j_data:/data
+      - /home/dugenou/data/neo4j:/data
+      - ./import:/var/lib/neo4j/import
+      - ./plugins:/var/lib/neo4j/plugins
     networks:
       - mynetwork
 

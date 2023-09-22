@@ -1,37 +1,40 @@
 {
-  "@id": "https://data.datatourisme.fr/13/ccb52f07-5778-34c4-bd1e-b7b709a92ee4",
-  "dc:identifier": "6377025",
+  "@id": "https://data.datatourisme.fr/13/685330e6-a8e0-3a62-a6d7-7378efce4d3a",
+  "dc:identifier": "6652778",
   "@type": [
     "olo:OrderedList",
-    "CyclingTour",
     "PlaceOfInterest",
     "PointOfInterest",
+    "RoadTour",
     "SportsAndLeisurePlace",
     "Tour"
   ],
   "rdfs:comment": {
     "de": [
-      "Die kurze, aber hügelige Strecke verbindet Dörfer und Orte, die stark von der Kastanienkultur und dem Vulkanismus geprägt sind. Begeben Sie sich auf ein Abenteuer in diesem unberührten Land, in dem die Schönheit der Natur eine Einladung zu einer sinnlichen Reise ist."
+      "Motorradtour durch die südliche Ardèche, vom Rhonetal (Viviers...) zu den Ausläufern der Cevennen (Les Vans...), über die Schluchten der Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc...) und zurück über das Plateau du Coiron und Privas."
     ],
     "en": [
-      "The circuit, short but hilly, connects villages and sites strongly marked by the culture of the chestnut tree and volcanism. Go on an adventure in this preserved country where the beauty of nature is an invitation to a sensitive journey."
+      "Itinerary for motorcycling through the southern Ardèche, from the Rhône valley (Viviers...) to the foothills of the Cévennes (Les Vans...), via the Ardèche gorges (St Martin d'Ardèche, Vallon Pont d'Arc...) and back via the Coiron plateau and Privas."
     ],
     "it": [
-      "Il percorso, breve ma collinare, collega villaggi e siti fortemente segnati dalla cultura della castagna e dal vulcanismo. Partite all'avventura in questo Paese incontaminato, dove la bellezza della natura è un invito a un viaggio sensibile."
+      "Itinerario in moto attraverso l'Ardèche meridionale, dalla valle del Rodano (Viviers, ecc.) ai piedi delle Cévennes (Les Vans, ecc.), passando per le gole dell'Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc, ecc.) e tornando indietro attraverso l'altopiano del Coiron e Privas."
     ],
     "fr": [
-      "Le circuit, court mais vallonnée, relie des villages et sites fortement marqués par la culture du châtaignier et le volcanisme. Partez à l’aventure dans ce pays préservé où la beauté de la nature est une invitation au voyage sensible."
-    ],
-    "es": [
-      "La ruta, corta pero accidentada, conecta pueblos y lugares fuertemente marcados por la cultura del castaño y el vulcanismo. Láncese a la aventura en este país virgen donde la belleza de la naturaleza invita a un viaje sensitivo."
+      "Itinéraire pour sillonner à moto le sud Ardèche, de la vallée du Rhône (Viviers...) aux contreforts des Cévennes (Les Vans…),en passant par les gorges de l’Ardèche (St Martin d’Ardèche, Vallon Pont d’Arc…) et retour par le plateau du Coiron et Privas."
     ],
     "nl": [
-      "De korte maar heuvelachtige route verbindt dorpen en plaatsen die sterk getekend zijn door de kastanjecultuur en het vulkanisme. Ga op avontuur in dit ongerepte land waar de schoonheid van de natuur een uitnodiging is voor een gevoelige reis."
+      "Route voor motorrijden door de zuidelijke Ardèche, van de Rhônevallei (Viviers, etc.) naar de uitlopers van de Cevennen (Les Vans, etc.), via de kloven van de Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc, etc.) en terug via het Coiron plateau en Privas."
+    ],
+    "es": [
+      "Itinerario en moto por el sur de Ardèche, desde el valle del Ródano (Viviers, etc.) hasta las estribaciones de las Cevenas (Les Vans, etc.), pasando por las gargantas de Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc, etc.) y de vuelta por la meseta de Coiron y Privas."
     ]
   },
   "rdfs:label": {
+    "en": [
+      "Du Coiron aux Gorges de l'Ardèche\" motorcycle tour"
+    ],
     "fr": [
-      "Vallées, châtaignes et volcans"
+      "Circuit moto \"Du Coiron aux Gorges de l’Ardèche\""
     ]
   },
   "hasBeenCreatedBy": {
@@ -66,37 +69,28 @@
   ],
   "hasContact": [
     {
-      "@id": "https://data.datatourisme.fr/3030385e-9779-3e7c-8411-0d536647b86b",
+      "@id": "https://data.datatourisme.fr/0f3f1f83-cd1a-397e-aca3-087a8f2324f7",
+      "schema:telephone": [
+        "+33 4 75 64 04 66"
+      ],
       "@type": [
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "https://www.ardeche-guide.com/experiences-emerveillantes/l-ardeche-velo"
+        "https://www.ardeche-guide.com/"
       ]
     }
   ],
   "hasDescription": [
     {
-      "@id": "https://data.datatourisme.fr/01b1b3be-49b7-35d1-9c45-089d806085ec",
+      "@id": "https://data.datatourisme.fr/fab8c076-88a6-34cd-b42f-b0799debfd7f",
       "@type": [
         "Description"
       ],
       "hasTranslatedProperty": [
         {
-          "@id": "https://data.datatourisme.fr/141a43bb-474b-3591-bcde-b39a6fd779f4",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "en"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/2322ab04-c3c1-3136-94e8-6c16ad413597",
+          "@id": "https://data.datatourisme.fr/08cd8c19-0f08-35fe-a41d-938bf8f1eb0a",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -108,19 +102,7 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/a01f1a3c-f408-3088-a554-45dca6a2aada",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "nl"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/d5800ac1-e1b7-3645-83a7-5c85d711bb31",
+          "@id": "https://data.datatourisme.fr/3e2417b8-fd77-332e-b89c-5a55deee447f",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -132,7 +114,19 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/df5e2a4f-b7a5-3c73-9461-cb2ac319bb15",
+          "@id": "https://data.datatourisme.fr/80603e04-6a29-380f-a926-f3384478c073",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d1b1bc9b-7230-3b54-9f84-bad5032874b3",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -146,117 +140,29 @@
       ],
       "shortDescription": {
         "de": [
-          "Die kurze, aber hügelige Strecke verbindet Dörfer und Orte, die stark von der Kastanienkultur und dem Vulkanismus geprägt sind. Begeben Sie sich auf ein Abenteuer in diesem unberührten Land, in dem die Schönheit der Natur eine Einladung zu einer sinnlichen Reise ist."
+          "Motorradtour durch die südliche Ardèche, vom Rhonetal (Viviers...) zu den Ausläufern der Cevennen (Les Vans...), über die Schluchten der Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc...) und zurück über das Plateau du Coiron und Privas."
         ],
         "en": [
-          "The circuit, short but hilly, connects villages and sites strongly marked by the culture of the chestnut tree and volcanism. Go on an adventure in this preserved country where the beauty of nature is an invitation to a sensitive journey."
+          "Itinerary for motorcycling through the southern Ardèche, from the Rhône valley (Viviers...) to the foothills of the Cévennes (Les Vans...), via the Ardèche gorges (St Martin d'Ardèche, Vallon Pont d'Arc...) and back via the Coiron plateau and Privas."
         ],
         "it": [
-          "Il percorso, breve ma collinare, collega villaggi e siti fortemente segnati dalla cultura della castagna e dal vulcanismo. Partite all'avventura in questo Paese incontaminato, dove la bellezza della natura è un invito a un viaggio sensibile."
+          "Itinerario in moto attraverso l'Ardèche meridionale, dalla valle del Rodano (Viviers, ecc.) ai piedi delle Cévennes (Les Vans, ecc.), passando per le gole dell'Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc, ecc.) e tornando indietro attraverso l'altopiano del Coiron e Privas."
         ],
         "fr": [
-          "Le circuit, court mais vallonnée, relie des villages et sites fortement marqués par la culture du châtaignier et le volcanisme. Partez à l’aventure dans ce pays préservé où la beauté de la nature est une invitation au voyage sensible."
-        ],
-        "es": [
-          "La ruta, corta pero accidentada, conecta pueblos y lugares fuertemente marcados por la cultura del castaño y el vulcanismo. Láncese a la aventura en este país virgen donde la belleza de la naturaleza invita a un viaje sensitivo."
+          "Itinéraire pour sillonner à moto le sud Ardèche, de la vallée du Rhône (Viviers...) aux contreforts des Cévennes (Les Vans…),en passant par les gorges de l’Ardèche (St Martin d’Ardèche, Vallon Pont d’Arc…) et retour par le plateau du Coiron et Privas."
         ],
         "nl": [
-          "De korte maar heuvelachtige route verbindt dorpen en plaatsen die sterk getekend zijn door de kastanjecultuur en het vulkanisme. Ga op avontuur in dit ongerepte land waar de schoonheid van de natuur een uitnodiging is voor een gevoelige reis."
-        ]
-      }
-    }
-  ],
-  "hasTheme": [
-    {
-      "@id": "kb:Bike",
-      "@type": [
-        "SportsTheme"
-      ],
-      "rdfs:label": {
-        "de": [
-          "Fahrrad"
-        ],
-        "pt": [
-          "Bicicleta"
-        ],
-        "en": [
-          "Bike"
-        ],
-        "it": [
-          "Bicicletta"
-        ],
-        "fr": [
-          "Vélo"
-        ],
-        "nl": [
-          "Fiets"
+          "Route voor motorrijden door de zuidelijke Ardèche, van de Rhônevallei (Viviers, etc.) naar de uitlopers van de Cevennen (Les Vans, etc.), via de kloven van de Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc, etc.) en terug via het Coiron plateau en Privas."
         ],
         "es": [
-          "Bicicleta"
-        ]
-      }
-    },
-    {
-      "@id": "kb:ElectricallyAssistedBicycle",
-      "@type": [
-        "SportsTheme"
-      ],
-      "rdfs:label": {
-        "de": [
-          "Ladestation für Elektrofahrräder"
-        ],
-        "pt": [
-          "Bicicleta elétrica"
-        ],
-        "en": [
-          "Electrically assisted bicycle"
-        ],
-        "it": [
-          "Bicicletta a pedalata assistita"
-        ],
-        "fr": [
-          "Vélo à assistance électrique, VAE"
-        ],
-        "nl": [
-          "Elektrische fiets"
-        ],
-        "es": [
-          "Bicicleta eléctrica, VAE"
+          "Itinerario en moto por el sur de Ardèche, desde el valle del Ródano (Viviers, etc.) hasta las estribaciones de las Cevenas (Les Vans, etc.), pasando por las gargantas de Ardèche (St Martin d'Ardèche, Vallon Pont d'Arc, etc.) y de vuelta por la meseta de Coiron y Privas."
         ]
       }
     }
   ],
   "hasTranslatedProperty": [
     {
-      "@id": "https://data.datatourisme.fr/0c39cde5-612e-3ab6-903e-46664d32c8ab",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "en"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/283abb58-d38b-3457-962c-806814936147",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "de"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/34722545-987a-34b9-8883-e1836c82c216",
+      "@id": "https://data.datatourisme.fr/1af0e350-e459-33a9-a887-af73bf851230",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -270,7 +176,21 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/4e09389e-8ce6-3c4b-af7f-6fd837a2c21f",
+      "@id": "https://data.datatourisme.fr/49f0258d-e3b3-3ba4-b12c-3396d9158dee",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/edfbc711-1db0-34d9-bbc3-594e62367b9e",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -284,7 +204,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/8645f1bc-e655-3bb7-a20e-1447bf63fe33",
+      "@id": "https://data.datatourisme.fr/f1d5bb2d-64db-37cb-95d0-16652c113c61",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -300,48 +220,45 @@
   ],
   "isLocatedAt": [
     {
-      "@id": "https://data.datatourisme.fr/6ab8c713-10f9-3d06-9fb9-d7eb5493875d",
+      "@id": "https://data.datatourisme.fr/25a5e780-5b23-33aa-8275-fac8ef44289c",
       "schema:address": [
         {
-          "@id": "https://data.datatourisme.fr/c96c32a9-10ff-33b5-a591-3df99be6e88e",
-          "schema:addressLocality": "Vallées-d'Antraigues-Asperjoc",
-          "schema:postalCode": "07530",
-          "schema:streetAddress": [
-            "1 chemin des Muletiers"
-          ],
+          "@id": "https://data.datatourisme.fr/258861c9-5b18-3cc2-a27d-ad00d404c1bf",
+          "schema:addressLocality": "Viviers",
+          "schema:postalCode": "07220",
           "@type": [
             "schema:PostalAddress",
             "PostalAddress"
           ],
           "hasAddressCity": {
-            "@id": "kb:07011",
+            "@id": "kb:07346",
             "@type": [
               "City"
             ],
             "rdfs:label": {
               "de": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ],
               "pt": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ],
               "en": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ],
               "it": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ],
               "fr": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ],
               "nl": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ],
               "es": [
-                "Vallées-d'Antraigues-Asperjoc"
+                "Viviers"
               ]
             },
-            "insee": "07011",
+            "insee": "07346",
             "isPartOfDepartment": {
               "@id": "kb:France8407",
               "@type": [
@@ -440,10 +357,9 @@
         }
       ],
       "schema:geo": {
-        "@id": "https://data.datatourisme.fr/410aa9c2-efb9-35b0-bc2f-b2ff21f1cf0b",
-        "schema:elevation": "453",
-        "schema:latitude": "44.719331",
-        "schema:longitude": "4.358658",
+        "@id": "https://data.datatourisme.fr/64775b32-180e-3a0b-9bac-596f0a6b99ca",
+        "schema:latitude": "44.480966",
+        "schema:longitude": "4.69167",
         "@type": [
           "schema:GeoCoordinates"
         ]
@@ -481,6 +397,6 @@
       ]
     }
   ],
-  "lastUpdate": "2023-02-01",
-  "lastUpdateDatatourisme": "2023-02-08T06:39:49.074Z"
+  "lastUpdate": "2023-09-05",
+  "lastUpdateDatatourisme": "2023-09-06T05:48:27.939Z"
 }

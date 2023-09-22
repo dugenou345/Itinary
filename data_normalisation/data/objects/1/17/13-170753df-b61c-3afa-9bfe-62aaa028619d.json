@@ -1,37 +1,36 @@
 {
-  "@id": "https://data.datatourisme.fr/13/8c69e3d5-24b9-37fb-a4eb-302bb71858a0",
-  "dc:identifier": "4696422",
+  "@id": "https://data.datatourisme.fr/13/170753df-b61c-3afa-9bfe-62aaa028619d",
+  "dc:identifier": "6661398",
   "@type": [
-    "olo:OrderedList",
+    "schema:Landform",
+    "NaturalHeritage",
     "PlaceOfInterest",
     "PointOfInterest",
-    "SportsAndLeisurePlace",
-    "Tour",
-    "WalkingTour"
+    "PointOfView"
   ],
   "rdfs:comment": {
     "de": [
-      "Ein sehr schöner, ziemlich schattiger Spaziergang durch angenehmes Unterholz und über schöne Wiesen. Hier können Sie den Fluss Ay und den Montbard, seine Kapelle und seinen bemerkenswerten Aussichtspunkt entdecken."
+      "Der Hügel ist für Liebhaber des kulturellen Erbes aller Art interessant. Sie werden die Ruinen eines alten Schlosses und Terrassen entdecken, die für den Ackerbau und den Weinanbau genutzt werden. Außerdem können Sie die charakteristische Vegetation des Hügels beobachten."
     ],
     "en": [
-      "A very nice walk, quite shaded, between pleasant undergrowth and beautiful meadows. You will discover the river Ay and the Montbard, its chapel and its remarkable viewpoint."
+      "The hill will appeal to heritage enthusiasts of all kinds, with the ruins of an ancient castle and terraces used for crops and vines. You can also observe the hill's characteristic vegetation."
     ],
     "it": [
-      "Una passeggiata molto bella, abbastanza ombreggiata, tra un piacevole sottobosco e bei prati. Scoprirete il fiume Ay e il Montbard, la sua cappella e il suo notevole punto panoramico."
+      "La collina è un'attrazione per gli amanti del patrimonio culturale di tutti i tipi, con le rovine di un antico castello e le terrazze utilizzate per le colture e le viti. È inoltre possibile osservare la vegetazione che caratterizza la collina."
     ],
     "fr": [
-      "Une très belle promenade assez ombragée entre d'agréables sous-bois et de belles prairies. Vous y découvrirez la rivière l'Ay et le Montbard, sa chapelle et son point de vue remarquable."
+      "La colline séduira les amateurs de patrimoine en tous genres.Vous découvrirez les ruines d’un ancien château et des terrasses, utilisées pour les cultures et les vignes. Vous pourrez aussi observer la végétation si caractéristique de la colline."
     ],
     "es": [
-      "Un paseo muy bonito, bastante sombreado, entre un agradable sotobosque y hermosas praderas. Descubrirá el río Ay y el Montbard, su capilla y su notable mirador."
+      "La colina atraerá a los amantes del patrimonio de todo tipo, con las ruinas de un antiguo castillo y terrazas utilizadas para cultivos y viñedos. También se puede observar la vegetación tan característica de la colina."
     ],
     "nl": [
-      "Een zeer mooie wandeling, vrij schaduwrijk, tussen aangenaam kreupelhout en mooie weiden. U ontdekt de rivier de Ay en de Montbard, zijn kapel en zijn opmerkelijke uitzichtpunt."
+      "De heuvel zal alle soorten erfgoedliefhebbers aanspreken, met de ruïnes van een oud kasteel en terrassen die werden gebruikt voor gewassen en wijnstokken. Je kunt ook de vegetatie bekijken die zo kenmerkend is voor de heuvel."
     ]
   },
   "rdfs:label": {
     "fr": [
-      "Le Montbard"
+      "La colline de Revirand"
     ]
   },
   "hasBeenCreatedBy": {
@@ -65,33 +64,15 @@
       ]
     }
   ],
-  "hasContact": [
-    {
-      "@id": "https://data.datatourisme.fr/e4a61420-5736-3383-8b66-c11b58e648c9",
-      "schema:email": [
-        "porte@dromardeche.fr"
-      ],
-      "schema:telephone": [
-        "+33 4 75 23 45 33"
-      ],
-      "@type": [
-        "foaf:Agent",
-        "Agent"
-      ],
-      "foaf:homepage": [
-        "http://www.autour-du-palais-ideal.fr/"
-      ]
-    }
-  ],
   "hasDescription": [
     {
-      "@id": "https://data.datatourisme.fr/ebbf2e38-135f-3989-932c-e55b18c52499",
+      "@id": "https://data.datatourisme.fr/d4190e93-70a1-34f6-ac8c-3722fe6a0a73",
       "@type": [
         "Description"
       ],
       "hasTranslatedProperty": [
         {
-          "@id": "https://data.datatourisme.fr/29a91d66-b127-3008-9534-0f70ce868d88",
+          "@id": "https://data.datatourisme.fr/27bbe57d-2005-3ef7-a10e-7e01720be159",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -103,19 +84,7 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/565bdbd5-bf25-37eb-ae60-d64a0c6f8823",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "es"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/92174fa5-e4e6-3354-aa6f-8f3942570d5d",
+          "@id": "https://data.datatourisme.fr/71d9a0fe-3710-3765-a7a3-7aa95fdb513b",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -127,7 +96,19 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/aa9c2001-eb57-35bd-8892-7d7309fcdc97",
+          "@id": "https://data.datatourisme.fr/7d8b83eb-ea19-3e60-858e-08ffe8eab4e1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ad0e2ec7-d570-37ed-8583-b083c3bde3ac",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -139,12 +120,12 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/e8b07c74-8ada-3e3f-ba41-0f7bc0c71265",
+          "@id": "https://data.datatourisme.fr/c142e60f-7e62-3308-84f7-20bcc3f149fa",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
           "rdf:language": [
-            "it"
+            "es"
           ],
           "rdf:predicate": [
             "shortDescription"
@@ -153,132 +134,29 @@
       ],
       "shortDescription": {
         "de": [
-          "Ein sehr schöner, ziemlich schattiger Spaziergang durch angenehmes Unterholz und über schöne Wiesen. Hier können Sie den Fluss Ay und den Montbard, seine Kapelle und seinen bemerkenswerten Aussichtspunkt entdecken."
+          "Der Hügel ist für Liebhaber des kulturellen Erbes aller Art interessant. Sie werden die Ruinen eines alten Schlosses und Terrassen entdecken, die für den Ackerbau und den Weinanbau genutzt werden. Außerdem können Sie die charakteristische Vegetation des Hügels beobachten."
         ],
         "en": [
-          "A very nice walk, quite shaded, between pleasant undergrowth and beautiful meadows. You will discover the river Ay and the Montbard, its chapel and its remarkable viewpoint."
+          "The hill will appeal to heritage enthusiasts of all kinds, with the ruins of an ancient castle and terraces used for crops and vines. You can also observe the hill's characteristic vegetation."
         ],
         "it": [
-          "Una passeggiata molto bella, abbastanza ombreggiata, tra un piacevole sottobosco e bei prati. Scoprirete il fiume Ay e il Montbard, la sua cappella e il suo notevole punto panoramico."
+          "La collina è un'attrazione per gli amanti del patrimonio culturale di tutti i tipi, con le rovine di un antico castello e le terrazze utilizzate per le colture e le viti. È inoltre possibile osservare la vegetazione che caratterizza la collina."
         ],
         "fr": [
-          "Une très belle promenade assez ombragée entre d'agréables sous-bois et de belles prairies. Vous y découvrirez la rivière l'Ay et le Montbard, sa chapelle et son point de vue remarquable."
+          "La colline séduira les amateurs de patrimoine en tous genres.Vous découvrirez les ruines d’un ancien château et des terrasses, utilisées pour les cultures et les vignes. Vous pourrez aussi observer la végétation si caractéristique de la colline."
         ],
         "es": [
-          "Un paseo muy bonito, bastante sombreado, entre un agradable sotobosque y hermosas praderas. Descubrirá el río Ay y el Montbard, su capilla y su notable mirador."
+          "La colina atraerá a los amantes del patrimonio de todo tipo, con las ruinas de un antiguo castillo y terrazas utilizadas para cultivos y viñedos. También se puede observar la vegetación tan característica de la colina."
         ],
         "nl": [
-          "Een zeer mooie wandeling, vrij schaduwrijk, tussen aangenaam kreupelhout en mooie weiden. U ontdekt de rivier de Ay en de Montbard, zijn kapel en zijn opmerkelijke uitzichtpunt."
-        ]
-      }
-    }
-  ],
-  "hasTheme": [
-    {
-      "@id": "kb:Hiking",
-      "@type": [
-        "SportsTheme"
-      ],
-      "rdfs:label": {
-        "de": [
-          "Wanderung"
-        ],
-        "pt": [
-          "Caminhada"
-        ],
-        "en": [
-          "Hiking"
-        ],
-        "it": [
-          "Escursione"
-        ],
-        "fr": [
-          "Randonnée"
-        ],
-        "nl": [
-          "Wandelen"
-        ],
-        "es": [
-          "Senderismo"
-        ]
-      }
-    },
-    {
-      "@id": "kb:Pedestrian",
-      "@type": [
-        "SportsTheme"
-      ],
-      "rdfs:label": {
-        "de": [
-          "Zu Fuß"
-        ],
-        "pt": [
-          "Pedestre"
-        ],
-        "en": [
-          "Pedestrian"
-        ],
-        "it": [
-          "A piedi"
-        ],
-        "fr": [
-          "Pédestre"
-        ],
-        "nl": [
-          "Voetgangers"
-        ],
-        "es": [
-          "Peatón"
-        ]
-      }
-    },
-    {
-      "@id": "kb:Running",
-      "@type": [
-        "SportsTheme"
-      ],
-      "rdfs:label": {
-        "de": [
-          "Laufen"
-        ],
-        "pt": [
-          "Corrida a pé"
-        ],
-        "en": [
-          "Running"
-        ],
-        "it": [
-          "Corsa a piedi"
-        ],
-        "fr": [
-          "Course à pied"
-        ],
-        "nl": [
-          "Hardlopen"
-        ],
-        "es": [
-          "Carrera a pie"
+          "De heuvel zal alle soorten erfgoedliefhebbers aanspreken, met de ruïnes van een oud kasteel en terrassen die werden gebruikt voor gewassen en wijnstokken. Je kunt ook de vegetatie bekijken die zo kenmerkend is voor de heuvel."
         ]
       }
     }
   ],
   "hasTranslatedProperty": [
     {
-      "@id": "https://data.datatourisme.fr/a5779d09-c172-357d-8c52-f29661fec287",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "en"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/a9834c14-fa44-3709-bd24-1332bcfecf74",
+      "@id": "https://data.datatourisme.fr/14aac221-45ec-3add-94f5-364b28f487ff",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -292,7 +170,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/c53d1f60-0443-34e0-9e39-b9c60f9ae758",
+      "@id": "https://data.datatourisme.fr/42fc410d-eee7-3d3b-a160-bd436d807805",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -306,7 +184,21 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/c93d73db-2dc9-3e0a-aaab-edc0ef46e2c2",
+      "@id": "https://data.datatourisme.fr/6f3671f9-f862-33fc-a9d1-adf4fc53dd4c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/738024b0-821f-3144-9c9e-b7736d07b100",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -320,12 +212,12 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/ea7f0b49-2781-3fe8-882b-c4fa348a54c5",
+      "@id": "https://data.datatourisme.fr/89a56735-a0be-328f-bdda-9cf44cf0c317",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "es"
+        "en"
       ],
       "rdf:predicate": [
         {
@@ -336,48 +228,48 @@
   ],
   "isLocatedAt": [
     {
-      "@id": "https://data.datatourisme.fr/6022095b-8e71-3ea5-9533-430d63bbdd78",
+      "@id": "https://data.datatourisme.fr/16f133b5-e5ee-3318-82bf-9e958b398574",
       "schema:address": [
         {
-          "@id": "https://data.datatourisme.fr/dcc57439-d84a-3bc5-9699-74037aff4d4c",
-          "schema:addressLocality": "Eclassan",
+          "@id": "https://data.datatourisme.fr/dc5b2a61-3642-36b2-a1c0-f98748bda04c",
+          "schema:addressLocality": "Sarras",
           "schema:postalCode": "07370",
           "schema:streetAddress": [
-            "Au départ du chemin de la croix du Montbard : depuis la RD6, prendre la petite route direction \"Maison Neuve\" et \"camping l'oasis\" sur 800m"
+            "route de revirand"
           ],
           "@type": [
             "schema:PostalAddress",
             "PostalAddress"
           ],
           "hasAddressCity": {
-            "@id": "kb:07084",
+            "@id": "kb:07308",
             "@type": [
               "City"
             ],
             "rdfs:label": {
               "de": [
-                "Eclassan"
+                "Sarras"
               ],
               "pt": [
-                "Eclassan"
+                "Sarras"
               ],
               "en": [
-                "Eclassan"
+                "Sarras"
               ],
               "it": [
-                "Eclassan"
+                "Sarras"
               ],
               "fr": [
-                "Eclassan"
+                "Sarras"
               ],
               "nl": [
-                "Eclassan"
+                "Sarras"
               ],
               "es": [
-                "Eclassan"
+                "Sarras"
               ]
             },
-            "insee": "07084",
+            "insee": "07308",
             "isPartOfDepartment": {
               "@id": "kb:France8407",
               "@type": [
@@ -476,9 +368,9 @@
         }
       ],
       "schema:geo": {
-        "@id": "https://data.datatourisme.fr/3ab88933-cf58-3afd-bd9e-d3319ee75334",
-        "schema:latitude": "45.168158",
-        "schema:longitude": "4.746072",
+        "@id": "https://data.datatourisme.fr/fb9f2f4b-2864-3bde-bdbf-9cbd7df43378",
+        "schema:latitude": "45.194529",
+        "schema:longitude": "4.79643",
         "@type": [
           "schema:GeoCoordinates"
         ]
@@ -517,6 +409,6 @@
       ]
     }
   ],
-  "lastUpdate": "2023-05-31",
-  "lastUpdateDatatourisme": "2023-06-01T05:41:13.967Z"
+  "lastUpdate": "2023-09-12",
+  "lastUpdateDatatourisme": "2023-09-13T05:53:47.755Z"
 }

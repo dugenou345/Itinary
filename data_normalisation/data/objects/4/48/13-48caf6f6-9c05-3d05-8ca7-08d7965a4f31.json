@@ -1,6 +1,6 @@
 {
-  "@id": "https://data.datatourisme.fr/13/178c704d-6789-32f2-a5c6-db6618e8e58a",
-  "dc:identifier": "782642",
+  "@id": "https://data.datatourisme.fr/13/48caf6f6-9c05-3d05-8ca7-08d7965a4f31",
+  "dc:identifier": "6653147",
   "@type": [
     "olo:OrderedList",
     "PlaceOfInterest",
@@ -11,49 +11,46 @@
   ],
   "rdfs:comment": {
     "de": [
-      "Auf dieser Tour können Sie eine manchmal enge, kurvenreiche Straße und wunderschöne Landschaften zu jeder Jahreszeit bewundern."
+      "Das Haut-Vivarais ist ein authentisches Land, ein Erlebnis der besonderen Art. Zwischen dem Rhône-Tal und den Hochebenen des Zentralmassivs durchstreifen Sie die kontrastreichen Landschaften des \"Landes der Hügel und des Wassers\", das unter anderem die Brüder Montgolfier inspiriert hat."
     ],
     "en": [
-      "The trail is a chance to admire a sometimes narrow, winding road with magnificent landscapes in all seasons."
+      "The Haut-Vivarais is an authentic land, an experience in a class of its own. Between the Rhône valley and the high plateaus of the Massif Central, explore the contrasting landscapes of the \"land of hills and water\" that inspired the Montgolfier brothers, among others."
     ],
     "it": [
-      "Questo tour vi permetterà di ammirare una strada a volte stretta e tortuosa e splendidi paesaggi in tutte le stagioni."
+      "L'Haut-Vivarais è una terra autentica, un'esperienza senza precedenti. Tra la valle del Rodano e gli altipiani del Massiccio Centrale, esplorate i paesaggi contrastanti della \"terra delle colline e dell'acqua\" che ha ispirato, tra gli altri, i fratelli Montgolfier."
     ],
     "fr": [
-      "Ce circuit vous permettra d’admirer une route parfois étroite, sinueuse et des paysages magnifiques en toutes saisons."
-    ],
-    "nl": [
-      "Tijdens deze tocht kunt u een soms smalle, bochtige weg en prachtige landschappen in alle seizoenen bewonderen."
+      "Le Haut-Vivarais est une terre authentique, une expérience à part. Entre vallée du Rhône et hauts plateaux du Massif Central, parcourez les paysages contrastés du “ pays des collines et de l’eau ” qui ont inspiré, notamment, les frères Montgolfier."
     ],
     "es": [
-      "Este recorrido le permitirá admirar una carretera a veces estrecha y sinuosa y hermosos paisajes en todas las estaciones."
+      "El Haut-Vivarais es una tierra auténtica, una experiencia sin igual. Entre el valle del Ródano y las altas mesetas del Macizo Central, explore los contrastes paisajísticos de la \"tierra de colinas y agua\" que inspiró, entre otros, a los hermanos Montgolfier."
+    ],
+    "nl": [
+      "De Haut-Vivarais is een authentiek land, een ervaring als geen ander. Tussen de Rhônevallei en de hoge plateaus van het Centraal Massief ontdek je de contrasterende landschappen van het \"land van heuvels en water\" dat onder andere de gebroeders Montgolfier inspireerde."
     ]
   },
   "rdfs:label": {
     "en": [
-      "Car trip from Annonay to Villevocance"
+      "\"La belle Ardèche verte\" motorcycle tour"
     ],
     "fr": [
-      "Circuit voiture d’Annonay vers Villevocance"
+      "Circuit moto \"la belle Ardèche verte\""
     ]
   },
   "hasBeenCreatedBy": {
-    "@id": "https://data.datatourisme.fr/13/0f28b5d4-9b30-30af-aecd-95b4009adf4c",
-    "dc:identifier": "141",
+    "@id": "https://data.datatourisme.fr/13/26657d5f-f902-3d2a-befe-558796b99584",
+    "dc:identifier": "96",
     "schema:email": [
-      "communication@ardechegrandair.com",
-      "direction@ardechegrandair.com",
-      "directionvalday@ardechegrandair.com",
-      "myriam.guigal@ardechegrandair.com"
+      "ncharra@ardeche-guide.com"
     ],
-    "schema:legalName": "Office de Tourisme Ardèche Grand Air",
+    "schema:legalName": "Agence de Développement Touristique de l'Ardèche",
     "@type": [
       "schema:Organization",
       "foaf:Agent",
       "Agent"
     ],
     "foaf:homepage": [
-      "http://www.ardechegrandair.com/"
+      "https://www.ardeche-guide.com/"
     ]
   },
   "hasBeenPublishedBy": [
@@ -72,32 +69,28 @@
   ],
   "hasContact": [
     {
-      "@id": "https://data.datatourisme.fr/8d6c2ddd-3696-3282-b0a5-c86a490bc684",
-      "schema:email": [
-        "contact@ardechegrandair.com"
-      ],
+      "@id": "https://data.datatourisme.fr/0f3f1f83-cd1a-397e-aca3-087a8f2324f7",
       "schema:telephone": [
-        "+33 4 75 33 24 51"
+        "+33 4 75 64 04 66"
       ],
       "@type": [
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "http://www.ardechegrandair.com/",
-        "https://www.cirkwi.com/fr/circuit/50519-circuit-d-annonay-vers-villevocance"
+        "https://www.ardeche-guide.com/"
       ]
     }
   ],
   "hasDescription": [
     {
-      "@id": "https://data.datatourisme.fr/e53b9cec-4fa0-3b40-9dc6-c5e9c13df86d",
+      "@id": "https://data.datatourisme.fr/61645ab2-d5b5-35e6-831e-f99c03344965",
       "@type": [
         "Description"
       ],
       "hasTranslatedProperty": [
         {
-          "@id": "https://data.datatourisme.fr/4c2c0b74-7f78-3240-a5da-3e69e8ec51c5",
+          "@id": "https://data.datatourisme.fr/5f56dc10-fbe6-3928-ad54-860f364ec78e",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -109,19 +102,19 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/51b57563-9890-3b9c-a5be-3a47648e992f",
+          "@id": "https://data.datatourisme.fr/97b49434-bb71-38db-a754-eff29debc618",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
           "rdf:language": [
-            "es"
+            "it"
           ],
           "rdf:predicate": [
             "shortDescription"
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/9725be52-e0d0-33e6-aa70-7d784a1dc3e5",
+          "@id": "https://data.datatourisme.fr/aa85531c-56eb-3f19-be88-a7b268d13fb1",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -133,12 +126,12 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/ab1a5042-2aba-3047-a6a9-78756db2f135",
+          "@id": "https://data.datatourisme.fr/d217d3c2-7308-3c99-83d3-abe7d65521ef",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
           "rdf:language": [
-            "it"
+            "es"
           ],
           "rdf:predicate": [
             "shortDescription"
@@ -147,43 +140,29 @@
       ],
       "shortDescription": {
         "de": [
-          "Auf dieser Tour können Sie eine manchmal enge, kurvenreiche Straße und wunderschöne Landschaften zu jeder Jahreszeit bewundern."
+          "Das Haut-Vivarais ist ein authentisches Land, ein Erlebnis der besonderen Art. Zwischen dem Rhône-Tal und den Hochebenen des Zentralmassivs durchstreifen Sie die kontrastreichen Landschaften des \"Landes der Hügel und des Wassers\", das unter anderem die Brüder Montgolfier inspiriert hat."
         ],
         "en": [
-          "The trail is a chance to admire a sometimes narrow, winding road with magnificent landscapes in all seasons."
+          "The Haut-Vivarais is an authentic land, an experience in a class of its own. Between the Rhône valley and the high plateaus of the Massif Central, explore the contrasting landscapes of the \"land of hills and water\" that inspired the Montgolfier brothers, among others."
         ],
         "it": [
-          "Questo tour vi permetterà di ammirare una strada a volte stretta e tortuosa e splendidi paesaggi in tutte le stagioni."
+          "L'Haut-Vivarais è una terra autentica, un'esperienza senza precedenti. Tra la valle del Rodano e gli altipiani del Massiccio Centrale, esplorate i paesaggi contrastanti della \"terra delle colline e dell'acqua\" che ha ispirato, tra gli altri, i fratelli Montgolfier."
         ],
         "fr": [
-          "Ce circuit vous permettra d’admirer une route parfois étroite, sinueuse et des paysages magnifiques en toutes saisons."
-        ],
-        "nl": [
-          "Tijdens deze tocht kunt u een soms smalle, bochtige weg en prachtige landschappen in alle seizoenen bewonderen."
+          "Le Haut-Vivarais est une terre authentique, une expérience à part. Entre vallée du Rhône et hauts plateaux du Massif Central, parcourez les paysages contrastés du “ pays des collines et de l’eau ” qui ont inspiré, notamment, les frères Montgolfier."
         ],
         "es": [
-          "Este recorrido le permitirá admirar una carretera a veces estrecha y sinuosa y hermosos paisajes en todas las estaciones."
+          "El Haut-Vivarais es una tierra auténtica, una experiencia sin igual. Entre el valle del Ródano y las altas mesetas del Macizo Central, explore los contrastes paisajísticos de la \"tierra de colinas y agua\" que inspiró, entre otros, a los hermanos Montgolfier."
+        ],
+        "nl": [
+          "De Haut-Vivarais is een authentiek land, een ervaring als geen ander. Tussen de Rhônevallei en de hoge plateaus van het Centraal Massief ontdek je de contrasterende landschappen van het \"land van heuvels en water\" dat onder andere de gebroeders Montgolfier inspireerde."
         ]
       }
     }
   ],
   "hasTranslatedProperty": [
     {
-      "@id": "https://data.datatourisme.fr/2e3c62f7-122e-353a-bceb-dfba9cff645f",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "it"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/31aef891-1565-3572-9005-9e1c317dcfbe",
+      "@id": "https://data.datatourisme.fr/226f241b-7917-3d9f-a679-e104921e7ed0",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -197,21 +176,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/a33c9f32-76de-311c-87ce-2aad4cda21ef",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "nl"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/a6c35b23-4455-31e8-87bf-381630c162bc",
+      "@id": "https://data.datatourisme.fr/2b5cd1cf-537c-3fc1-8fc7-01b02f4552bc",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -223,52 +188,77 @@
           "@id": "rdfs:comment"
         }
       ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2d9ad962-fe70-37d0-b5b3-f1a20552e9ea",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ea45d40f-cce3-3fba-a3e5-dca85bae8fac",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
     }
   ],
   "isLocatedAt": [
     {
-      "@id": "https://data.datatourisme.fr/372d0010-a3b9-3d66-a0ea-f583a58da9d9",
+      "@id": "https://data.datatourisme.fr/daf8df75-fe3d-3c07-a657-4d1f73c5d4a6",
       "schema:address": [
         {
-          "@id": "https://data.datatourisme.fr/0220ea37-d8f3-3a0d-93da-ca2c2bbb5c00",
-          "schema:addressLocality": "Annonay",
-          "schema:postalCode": "07100",
-          "schema:streetAddress": [
-            "Départ devant l'Office de Tourisme, place des Cordeliers"
-          ],
+          "@id": "https://data.datatourisme.fr/542cf8da-5c60-3374-b0bd-e88295e4d8a6",
+          "schema:addressLocality": "Lamastre",
+          "schema:postalCode": "07270",
           "@type": [
             "schema:PostalAddress",
             "PostalAddress"
           ],
           "hasAddressCity": {
-            "@id": "kb:07010",
+            "@id": "kb:07129",
             "@type": [
               "City"
             ],
             "rdfs:label": {
               "de": [
-                "Annonay"
+                "Lamastre"
               ],
               "pt": [
-                "Annonay"
+                "Lamastre"
               ],
               "en": [
-                "Annonay"
+                "Lamastre"
               ],
               "it": [
-                "Annonay"
+                "Lamastre"
               ],
               "fr": [
-                "Annonay"
+                "Lamastre"
               ],
               "nl": [
-                "Annonay"
+                "Lamastre"
               ],
               "es": [
-                "Annonay"
+                "Lamastre"
               ]
             },
-            "insee": "07010",
+            "insee": "07129",
             "isPartOfDepartment": {
               "@id": "kb:France8407",
               "@type": [
@@ -367,9 +357,9 @@
         }
       ],
       "schema:geo": {
-        "@id": "https://data.datatourisme.fr/08ae4953-8dd1-33db-a893-5c1a7351b86d",
-        "schema:latitude": "45.240372",
-        "schema:longitude": "4.673066",
+        "@id": "https://data.datatourisme.fr/64775b32-180e-3a0b-9bac-596f0a6b99ca",
+        "schema:latitude": "44.480966",
+        "schema:longitude": "4.69167",
         "@type": [
           "schema:GeoCoordinates"
         ]
@@ -392,24 +382,21 @@
   ],
   "isOwnedBy": [
     {
-      "@id": "https://data.datatourisme.fr/3e141ebd-d3da-33b3-94c3-096fd7e178a7",
+      "@id": "https://data.datatourisme.fr/6ef576cd-2c5c-33d6-b250-09b105230dfc",
       "schema:email": [
-        "communication@ardechegrandair.com",
-        "direction@ardechegrandair.com",
-        "directionvalday@ardechegrandair.com",
-        "myriam.guigal@ardechegrandair.com"
+        "ncharra@ardeche-guide.com"
       ],
-      "schema:legalName": "Office de Tourisme Ardèche Grand Air",
+      "schema:legalName": "Agence de Développement Touristique de l'Ardèche",
       "@type": [
         "schema:Organization",
         "foaf:Agent",
         "Agent"
       ],
       "foaf:homepage": [
-        "http://www.ardechegrandair.com/"
+        "https://www.ardeche-guide.com/"
       ]
     }
   ],
-  "lastUpdate": "2020-09-16",
-  "lastUpdateDatatourisme": "2023-02-23T06:39:42.737Z"
+  "lastUpdate": "2023-09-05",
+  "lastUpdateDatatourisme": "2023-09-06T05:48:27.955Z"
 }

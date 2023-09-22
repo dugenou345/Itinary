@@ -433,9 +433,11 @@
         {
           "@id": "https://data.datatourisme.fr/edee0865-adaa-3f75-8091-4135552dd797",
           "ebucore:isCoveredBy": "CC BY-SA 4.0",
-          "ebucore:title": [
-            "Grotte de la Madeleine 17"
-          ],
+          "ebucore:title": {
+            "fr": [
+              "Grotte de la Madeleine 17"
+            ]
+          },
           "@type": [
             "ebucore:Annotation"
           ],

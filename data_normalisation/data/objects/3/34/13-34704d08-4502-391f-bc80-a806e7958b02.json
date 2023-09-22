@@ -1,37 +1,37 @@
 {
-  "@id": "https://data.datatourisme.fr/13/8c69e3d5-24b9-37fb-a4eb-302bb71858a0",
-  "dc:identifier": "4696422",
+  "@id": "https://data.datatourisme.fr/13/34704d08-4502-391f-bc80-a806e7958b02",
+  "dc:identifier": "6537028",
   "@type": [
     "olo:OrderedList",
+    "CyclingTour",
     "PlaceOfInterest",
     "PointOfInterest",
     "SportsAndLeisurePlace",
-    "Tour",
-    "WalkingTour"
+    "Tour"
   ],
   "rdfs:comment": {
     "de": [
-      "Ein sehr schöner, ziemlich schattiger Spaziergang durch angenehmes Unterholz und über schöne Wiesen. Hier können Sie den Fluss Ay und den Montbard, seine Kapelle und seinen bemerkenswerten Aussichtspunkt entdecken."
+      "Entdecken Sie die Natur und das historische Erbe mit unserer Mountainbike-Runde durch die Weinberge und Obstgärten von der Rhône bis zum Plateau der Ardèche.\r\nZu entdecken in der App die \"inspirierten Fluchten\"."
     ],
     "en": [
-      "A very nice walk, quite shaded, between pleasant undergrowth and beautiful meadows. You will discover the river Ay and the Montbard, its chapel and its remarkable viewpoint."
+      "Discover nature and historical heritage with our mountain bike loop through the vineyards and orchards of the Rhône to the Ardèche plateau.\r\nTo discover in the application \"inspired escapes\"."
     ],
     "it": [
-      "Una passeggiata molto bella, abbastanza ombreggiata, tra un piacevole sottobosco e bei prati. Scoprirete il fiume Ay e il Montbard, la sua cappella e il suo notevole punto panoramico."
+      "Scoprite la natura e il patrimonio storico con il nostro itinerario in mountain bike attraverso i vigneti e i frutteti dell'altopiano del Rodano e dell'Ardèche.\r\nDa scoprire nell'applicazione \"Fughe ispirate\"."
     ],
     "fr": [
-      "Une très belle promenade assez ombragée entre d'agréables sous-bois et de belles prairies. Vous y découvrirez la rivière l'Ay et le Montbard, sa chapelle et son point de vue remarquable."
-    ],
-    "es": [
-      "Un paseo muy bonito, bastante sombreado, entre un agradable sotobosque y hermosas praderas. Descubrirá el río Ay y el Montbard, su capilla y su notable mirador."
+      "Partez à la découverte de la nature et du patrimoine historique avec notre boucle VTT à travers les vignobles et vergers du Rhône au plateau ardéchois. \r\nA découvrir dans l'application les \"échappées inspirées\"."
     ],
     "nl": [
-      "Een zeer mooie wandeling, vrij schaduwrijk, tussen aangenaam kreupelhout en mooie weiden. U ontdekt de rivier de Ay en de Montbard, zijn kapel en zijn opmerkelijke uitzichtpunt."
+      "Ontdek de natuur en het historisch erfgoed met onze mountainbikeroute door de wijn- en boomgaarden van het plateau van de Rhône en de Ardèche.\r\nTe ontdekken in de applicatie \"geïnspireerde ontsnappingen\"."
+    ],
+    "es": [
+      "Descubra la naturaleza y el patrimonio histórico con nuestro bucle en bicicleta de montaña por los viñedos y huertos de la meseta del Ródano y Ardèche.\r\nA descubrir en la aplicación \"escapadas inspiradas\"."
     ]
   },
   "rdfs:label": {
     "fr": [
-      "Le Montbard"
+      "Du Rhône aux coteaux du saint joseph"
     ]
   },
   "hasBeenCreatedBy": {
@@ -67,10 +67,7 @@
   ],
   "hasContact": [
     {
-      "@id": "https://data.datatourisme.fr/e4a61420-5736-3383-8b66-c11b58e648c9",
-      "schema:email": [
-        "porte@dromardeche.fr"
-      ],
+      "@id": "https://data.datatourisme.fr/055e0a47-f4a9-371f-bec5-c4f56507c129",
       "schema:telephone": [
         "+33 4 75 23 45 33"
       ],
@@ -85,13 +82,25 @@
   ],
   "hasDescription": [
     {
-      "@id": "https://data.datatourisme.fr/ebbf2e38-135f-3989-932c-e55b18c52499",
+      "@id": "https://data.datatourisme.fr/a82f67a9-c44e-3fd4-aad6-50b6a6d8b284",
       "@type": [
         "Description"
       ],
       "hasTranslatedProperty": [
         {
-          "@id": "https://data.datatourisme.fr/29a91d66-b127-3008-9534-0f70ce868d88",
+          "@id": "https://data.datatourisme.fr/2a0b2b8f-b078-30ad-a76b-a9c6037b7b28",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/691dd4db-bd7c-39de-9fc2-0c4e6015dc2c",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -103,19 +112,7 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/565bdbd5-bf25-37eb-ae60-d64a0c6f8823",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "es"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/92174fa5-e4e6-3354-aa6f-8f3942570d5d",
+          "@id": "https://data.datatourisme.fr/7d732d9c-7790-38be-b2a6-f4d4608d9b20",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -127,7 +124,19 @@
           ]
         },
         {
-          "@id": "https://data.datatourisme.fr/aa9c2001-eb57-35bd-8892-7d7309fcdc97",
+          "@id": "https://data.datatourisme.fr/a933a3bb-04d5-3bd4-8c26-16799767fb81",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ac18656a-94f6-37b4-a647-2bfc2d2c40a6",
           "dc:contributor": [
             "https://api.deepl.com/v2/translate"
           ],
@@ -137,139 +146,127 @@
           "rdf:predicate": [
             "shortDescription"
           ]
-        },
-        {
-          "@id": "https://data.datatourisme.fr/e8b07c74-8ada-3e3f-ba41-0f7bc0c71265",
-          "dc:contributor": [
-            "https://api.deepl.com/v2/translate"
-          ],
-          "rdf:language": [
-            "it"
-          ],
-          "rdf:predicate": [
-            "shortDescription"
-          ]
         }
       ],
       "shortDescription": {
         "de": [
-          "Ein sehr schöner, ziemlich schattiger Spaziergang durch angenehmes Unterholz und über schöne Wiesen. Hier können Sie den Fluss Ay und den Montbard, seine Kapelle und seinen bemerkenswerten Aussichtspunkt entdecken."
+          "Entdecken Sie die Natur und das historische Erbe mit unserer Mountainbike-Runde durch die Weinberge und Obstgärten von der Rhône bis zum Plateau der Ardèche.\r\nZu entdecken in der App die \"inspirierten Fluchten\"."
         ],
         "en": [
-          "A very nice walk, quite shaded, between pleasant undergrowth and beautiful meadows. You will discover the river Ay and the Montbard, its chapel and its remarkable viewpoint."
+          "Discover nature and historical heritage with our mountain bike loop through the vineyards and orchards of the Rhône to the Ardèche plateau.\r\nTo discover in the application \"inspired escapes\"."
         ],
         "it": [
-          "Una passeggiata molto bella, abbastanza ombreggiata, tra un piacevole sottobosco e bei prati. Scoprirete il fiume Ay e il Montbard, la sua cappella e il suo notevole punto panoramico."
+          "Scoprite la natura e il patrimonio storico con il nostro itinerario in mountain bike attraverso i vigneti e i frutteti dell'altopiano del Rodano e dell'Ardèche.\r\nDa scoprire nell'applicazione \"Fughe ispirate\"."
         ],
         "fr": [
-          "Une très belle promenade assez ombragée entre d'agréables sous-bois et de belles prairies. Vous y découvrirez la rivière l'Ay et le Montbard, sa chapelle et son point de vue remarquable."
-        ],
-        "es": [
-          "Un paseo muy bonito, bastante sombreado, entre un agradable sotobosque y hermosas praderas. Descubrirá el río Ay y el Montbard, su capilla y su notable mirador."
+          "Partez à la découverte de la nature et du patrimoine historique avec notre boucle VTT à travers les vignobles et vergers du Rhône au plateau ardéchois. \r\nA découvrir dans l'application les \"échappées inspirées\"."
         ],
         "nl": [
-          "Een zeer mooie wandeling, vrij schaduwrijk, tussen aangenaam kreupelhout en mooie weiden. U ontdekt de rivier de Ay en de Montbard, zijn kapel en zijn opmerkelijke uitzichtpunt."
+          "Ontdek de natuur en het historisch erfgoed met onze mountainbikeroute door de wijn- en boomgaarden van het plateau van de Rhône en de Ardèche.\r\nTe ontdekken in de applicatie \"geïnspireerde ontsnappingen\"."
+        ],
+        "es": [
+          "Descubra la naturaleza y el patrimonio histórico con nuestro bucle en bicicleta de montaña por los viñedos y huertos de la meseta del Ródano y Ardèche.\r\nA descubrir en la aplicación \"escapadas inspiradas\"."
         ]
       }
     }
   ],
   "hasTheme": [
     {
-      "@id": "kb:Hiking",
+      "@id": "kb:ATV",
       "@type": [
         "SportsTheme"
       ],
       "rdfs:label": {
         "de": [
-          "Wanderung"
+          "MTB"
         ],
         "pt": [
-          "Caminhada"
+          "Bicicleta-todo-o-terreno (BTT)"
         ],
         "en": [
-          "Hiking"
+          "Atv"
         ],
         "it": [
-          "Escursione"
+          "Mountain bike"
         ],
         "fr": [
-          "Randonnée"
+          "Vtt"
         ],
         "nl": [
-          "Wandelen"
+          "Mountainbike"
         ],
         "es": [
-          "Senderismo"
+          "BTT"
         ]
       }
     },
     {
-      "@id": "kb:Pedestrian",
+      "@id": "kb:Bike",
       "@type": [
         "SportsTheme"
       ],
       "rdfs:label": {
         "de": [
-          "Zu Fuß"
+          "Fahrrad"
         ],
         "pt": [
-          "Pedestre"
+          "Bicicleta"
         ],
         "en": [
-          "Pedestrian"
+          "Bike"
         ],
         "it": [
-          "A piedi"
+          "Bicicletta"
         ],
         "fr": [
-          "Pédestre"
+          "Vélo"
         ],
         "nl": [
-          "Voetgangers"
+          "Fiets"
         ],
         "es": [
-          "Peatón"
+          "Bicicleta"
         ]
       }
     },
     {
-      "@id": "kb:Running",
+      "@id": "kb:ElectricATV",
       "@type": [
         "SportsTheme"
       ],
       "rdfs:label": {
         "de": [
-          "Laufen"
+          "Elektro-Mountainbike"
         ],
         "pt": [
-          "Corrida a pé"
+          "Bicicleta-todo-o-terreno (BTT) elétrica"
         ],
         "en": [
-          "Running"
+          "Electri atv"
         ],
         "it": [
-          "Corsa a piedi"
+          "Mountain bike elettrica"
         ],
         "fr": [
-          "Course à pied"
+          "Vtt électrique"
         ],
         "nl": [
-          "Hardlopen"
+          "Elektrische mountainbike"
         ],
         "es": [
-          "Carrera a pie"
+          "Bicicleta eléctrica de montaña"
         ]
       }
     }
   ],
   "hasTranslatedProperty": [
     {
-      "@id": "https://data.datatourisme.fr/a5779d09-c172-357d-8c52-f29661fec287",
+      "@id": "https://data.datatourisme.fr/42ab67e7-b560-308a-ad2b-8185e9c6d7f4",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "en"
+        "es"
       ],
       "rdf:predicate": [
         {
@@ -278,21 +275,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/a9834c14-fa44-3709-bd24-1332bcfecf74",
-      "dc:contributor": [
-        "https://api.deepl.com/v2/translate"
-      ],
-      "rdf:language": [
-        "nl"
-      ],
-      "rdf:predicate": [
-        {
-          "@id": "rdfs:comment"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.datatourisme.fr/c53d1f60-0443-34e0-9e39-b9c60f9ae758",
+      "@id": "https://data.datatourisme.fr/5780b522-b44d-3bad-baa8-3444923ec6f2",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -306,7 +289,7 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/c93d73db-2dc9-3e0a-aaab-edc0ef46e2c2",
+      "@id": "https://data.datatourisme.fr/6b0b4315-9fdc-3ae2-b0f8-d35614745c9c",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
@@ -320,12 +303,26 @@
       ]
     },
     {
-      "@id": "https://data.datatourisme.fr/ea7f0b49-2781-3fe8-882b-c4fa348a54c5",
+      "@id": "https://data.datatourisme.fr/c53e018c-066e-3e0e-8bb7-20cbd077a942",
       "dc:contributor": [
         "https://api.deepl.com/v2/translate"
       ],
       "rdf:language": [
-        "es"
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ccb6cf3b-60ae-3562-a4aa-bea62c9c81cc",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
       ],
       "rdf:predicate": [
         {
@@ -336,48 +333,48 @@
   ],
   "isLocatedAt": [
     {
-      "@id": "https://data.datatourisme.fr/6022095b-8e71-3ea5-9533-430d63bbdd78",
+      "@id": "https://data.datatourisme.fr/a53ca462-f543-3fac-ae9f-308799f4970b",
       "schema:address": [
         {
-          "@id": "https://data.datatourisme.fr/dcc57439-d84a-3bc5-9699-74037aff4d4c",
-          "schema:addressLocality": "Eclassan",
-          "schema:postalCode": "07370",
+          "@id": "https://data.datatourisme.fr/ef5f420d-e928-3141-8005-8770af193067",
+          "schema:addressLocality": "Champagne",
+          "schema:postalCode": "07340",
           "schema:streetAddress": [
-            "Au départ du chemin de la croix du Montbard : depuis la RD6, prendre la petite route direction \"Maison Neuve\" et \"camping l'oasis\" sur 800m"
+            "Pile du bac à traille - Rue du Port"
           ],
           "@type": [
             "schema:PostalAddress",
             "PostalAddress"
           ],
           "hasAddressCity": {
-            "@id": "kb:07084",
+            "@id": "kb:07051",
             "@type": [
               "City"
             ],
             "rdfs:label": {
               "de": [
-                "Eclassan"
+                "Champagne"
               ],
               "pt": [
-                "Eclassan"
+                "Champagne"
               ],
               "en": [
-                "Eclassan"
+                "Champagne"
               ],
               "it": [
-                "Eclassan"
+                "Champagne"
               ],
               "fr": [
-                "Eclassan"
+                "Champagne"
               ],
               "nl": [
-                "Eclassan"
+                "Champagne"
               ],
               "es": [
-                "Eclassan"
+                "Champagne"
               ]
             },
-            "insee": "07084",
+            "insee": "07051",
             "isPartOfDepartment": {
               "@id": "kb:France8407",
               "@type": [
@@ -476,9 +473,9 @@
         }
       ],
       "schema:geo": {
-        "@id": "https://data.datatourisme.fr/3ab88933-cf58-3afd-bd9e-d3319ee75334",
-        "schema:latitude": "45.168158",
-        "schema:longitude": "4.746072",
+        "@id": "https://data.datatourisme.fr/1dfc1f55-8523-3b2e-89e1-bd4792016089",
+        "schema:latitude": "45.270986",
+        "schema:longitude": "4.803705",
         "@type": [
           "schema:GeoCoordinates"
         ]
@@ -517,6 +514,6 @@
       ]
     }
   ],
-  "lastUpdate": "2023-05-31",
-  "lastUpdateDatatourisme": "2023-06-01T05:41:13.967Z"
+  "lastUpdate": "2023-05-23",
+  "lastUpdateDatatourisme": "2023-05-24T05:51:09.206Z"
 }
