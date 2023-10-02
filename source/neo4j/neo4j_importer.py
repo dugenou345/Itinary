@@ -20,6 +20,9 @@ class Neo4j_Importer:
         with self._driver.session() as session:
             session.write_transaction(self._import_relationships, rels_data)
 
+    def create_attribute_point_srid(self):
+        with self._driver.session() as session:
+            session.write_transaction(self._calcul_point_srid)
 
     def _create_constraints(self, tx):
         # Your Cypher constraint queries here
@@ -92,43 +95,13 @@ class Neo4j_Importer:
             total += results[0]['total']
             batch += 1
 
-        
-"""
-# Example usage:
 
-uri = "bolt://localhost:7687"
-user = "your_username"
-password = "your_password"
+    def _calcul_point_srid(self,tx):
+        # Cypher query to create geospatial srid attribute to label PointOfInterest
+        geo_srid_query = '''
+        MATCH (n:PointOfInterest)
+        WHERE n.longitude IS NOT NULL AND n.latitude IS NOT NULL
+        SET n.location = point({ x: toFloat(n.longitude), y: toFloat(n.latitude), srid: 4326 })
+        '''
+        tx.run(geo_srid_query)
 
-# Create an instance of Neo4jImporter
-neo4j_importer = Neo4jImporter(uri, user, password)
-
-# Create constraints and indexes
-neo4j_importer.create_constraints_and_indexes()
-
-# Import nodes and relationships using your data
-nodes_data = [...]  # Replace with your data
-rels_data = [...]   # Replace with your data
-
-neo4j_importer.import_nodes(nodes_data)
-neo4j_importer.import_relationships(rels_data)
-
-# Close the Neo4j driver when done
-neo4j_importer.close()
-
-"""
-
-"""
-    def insert_data(tx, query, rows, batch_size=10000):
-    total = 0
-    batch = 0
-    while batch * batch_size < len(rows):
-        results = tx.run(query, parameters = {'rows': rows[batch*batch_size:(batch+1)*batch_size].to_dict('records')}).data()
-        print(results)
-        total += results[0]['total']
-        batch += 1
-    # Run our constraints queries and nodes GeoDataFrame import
-    with self._driver.session() as session:
-        session.execute_write(create_constraints)
-        session.execute_write(insert_data, node_query, gdf_nodes.drop(columns=['geometry'])) #FIXME: handle geome
-"""

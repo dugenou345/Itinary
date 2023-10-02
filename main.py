@@ -14,10 +14,10 @@ def main():
     subprocess.call(['python', 'source/neo4j/import_POI_mongo_to_neo4j.py'])
 
     # generate a geo dataframe of the selected city  
-    #city = "Paris"
-    city = "San Mateo"
-    #country = "France"
-    country = "USA"
+    city = "Paris"
+    #city = "San Mateo"
+    country = "France"
+    #country = "USA"
     network_type = "drive"
     graph = Load_Graph(city,country,network_type)
 
@@ -39,6 +39,10 @@ def main():
     
     print(gdf_relationships.drop(columns=['geometry']))
     neo4j_importer.import_relationships(gdf_relationships.drop(columns=['geometry']))
+
+    neo4j_importer.create_attribute_point_srid()
+
+
 
 if __name__ == '__main__':
     main()
