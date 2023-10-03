@@ -1,6 +1,7 @@
 from neo4j import GraphDatabase
 
 class Neo4j_Importer:
+    
     def __init__(self, uri, user, password):
         self._driver = GraphDatabase.driver(uri, auth=(user, password))
 

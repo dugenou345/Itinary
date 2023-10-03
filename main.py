@@ -42,7 +42,7 @@ def main():
 
     neo4j_importer.create_attribute_point_srid()
 
-
+    neo4j_closest_inter = Neo4j_Closest_Intersection(uri, user, password)
 
 if __name__ == '__main__':
     main()
