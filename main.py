@@ -1,6 +1,8 @@
 import subprocess
 from source.neo4j.import_osmnx_city_country import *
 from source.neo4j.neo4j_importer import *
+from source.neo4j.calcul_closest_intersection import *
+from source.neo4j.calcul_shortest_path import *
 
 uri = "bolt://localhost:7687"
 user = "neo4j"
@@ -8,7 +10,7 @@ password = "Itinary1"
 
 def main():
     # get data from datatourisme, inject in Mongodb, return a filtered json 
-    subprocess.call(['python', 'source/data_normalisation/data_normalisation.py'])
+    subprocess.call(['python', 'source/mongo_data_normalisation/data_normalisation.py'])
 
     # insert in list of POI filtered in neo4j
     subprocess.call(['python', 'source/neo4j/import_POI_mongo_to_neo4j.py'])
@@ -43,6 +45,12 @@ def main():
     neo4j_importer.create_attribute_point_srid()
 
     neo4j_closest_inter = Neo4j_Closest_Intersection(uri, user, password)
+    neo4j_closest_inter.closest_intersection()
+
+    neo4j_shortest_path = Neo4j_Shortest_Path(uri,user,password)
+    neo4j_shortest_path.shortest_path()
+
+
 
 if __name__ == '__main__':
     main()

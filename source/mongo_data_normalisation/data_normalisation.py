@@ -7,16 +7,16 @@ port = 27017
 data_path = "data"
 
 #Paris
-#url= "https://diffuseur.datatourisme.fr/webservice/fe8914c89c11729fa1098441833b7835/b09342b4-4114-4c68-9ece-e9bcc36c650e"
+url= "https://diffuseur.datatourisme.fr/webservice/fe8914c89c11729fa1098441833b7835/b09342b4-4114-4c68-9ece-e9bcc36c650e"
 
 #Ardéche
-url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e"
+#url = "https://diffuseur.datatourisme.fr/webservice/88bb302ae883e577743cce4f0f793282/b09342b4-4114-4c68-9ece-e9bcc36c650e"
 
 #url = "https://diffuseur.datatourisme.fr/webservice/5ee791b415ae416d146156e7a5dc3f2c/b09342b4-4114-4c68-9ece-e9bcc36c650e"
 #url = "https://diffuseur.datatourisme.fr/webservice/4e966c92255e3a0a5cb01f6957d69a74/b09342b4-4114-4c68-9ece-e9bcc36c650e"
 mongodb = 'itineraire'
 mongo_collection = 'point_interest'
-json_file_filtered = './data_result/result_filtered.json'
+json_file_filtered = 'data/output/result_filtered.json'
 
 #instanciation object DataDownloader
 datadownloader = DataDownloader(host,port,data_path,url)

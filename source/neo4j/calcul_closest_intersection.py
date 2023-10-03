@@ -1,4 +1,5 @@
 import osmnx as ox
+from neo4j import GraphDatabase
 
 class Neo4j_Closest_Intersection:
 
@@ -32,7 +33,7 @@ class Neo4j_Closest_Intersection:
     MERGE (p)-[r:NEAREST_INTERSECTION]->(i)
     SET r.length = point.distance(p.location, i.location)
     RETURN COUNT(p)',
-      {batchSize:1000, parallel:false})
+    {batchSize:1000, parallel:false})
     '''
 
     tx.run(near_intersection_query)
