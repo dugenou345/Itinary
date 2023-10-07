@@ -102,9 +102,6 @@
   "hasLocomotionMode": {
     "@type": "LocomotionMode"
   },
-  "hasLocomotionWay": {
-    "@type": "SportsTheme"
-  },
   "appliesOnPeriod": {
     "@type": "Period"
   },

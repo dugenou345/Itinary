@@ -16,7 +16,7 @@ class Neo4j_Shortest_Path:
   def _calcul_shortest_path(self,tx):
     shortest_path_query = ''' 
     MATCH (poi_source:PointOfInterest)-[:NEAREST_INTERSECTION]->(source:Intersection)
-    WHERE poi_source.name CONTAINS "Timhotel Tour Eiffel"
+    WHERE poi_source.name CONTAINS "Tour Eiffel"
     MATCH 
       (poi_dest:PointOfInterest)-[:NEAREST_INTERSECTION]->(dest:Intersection) 
     WHERE poi_dest.name CONTAINS "Musée du Louvre"
