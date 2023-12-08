@@ -347,6 +347,10 @@
   "foaf:homepage": {
     "@type": "xsd:string"
   },
+  "TextPriceSpecification": {
+    "@type": "rdf:langString",
+    "@container": "@language"
+  },
   "charged": {
     "@type": "xsd:boolean"
   },
@@ -550,6 +554,10 @@
   },
   "ebucore:isCoveredBy": {
     "@type": "xsd:string"
+  },
+  "TextOpeningHoursSpecification": {
+    "@type": "rdf:langString",
+    "@container": "@language"
   },
   "minAltitude": {
     "@type": "xsd:float"
