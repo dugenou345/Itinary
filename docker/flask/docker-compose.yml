@@ -1,0 +1,19 @@
+version: '3'
+services:
+  flask_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask
+    ports:
+      - "5000:5000"
+    volumes:
+      - /home/dugenou/data/flask:/app
+    networks:
+      - itinary
+
+networks:
+  itinary:
+  #  name: itinary
+  #  driver: bridge
+    external: true

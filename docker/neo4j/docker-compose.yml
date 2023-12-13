@@ -3,7 +3,7 @@ services:
   
   neo4j:
     image: neo4j:latest
-    container_name: neo4j-container
+    container_name: neo4j
     ports:
       - "7474:7474"
       - "7687:7687"
@@ -17,10 +17,13 @@ services:
       - ./import:/var/lib/neo4j/import
       - ./plugins:/var/lib/neo4j/plugins
     networks:
-      - mynetwork
+      - itinary
+
 
 networks:
-  mynetwork:
+  itinary:
+    name: itinary
+    driver: bridge
 
 volumes:
   neo4j_data:

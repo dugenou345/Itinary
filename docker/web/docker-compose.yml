@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  web_server:
+      image: python:3.8
+      volumes:
+        - ../../source/web:/web
+      working_dir: /web
+      command: python -m http.server
+      ports:
+        - "8000:8000"
+      container_name: web
+      networks:
+        - itinary
+
+networks:
+  itinary:
+  #  name: itinary
+  #  driver: bridge
+    external: true

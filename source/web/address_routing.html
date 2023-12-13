@@ -5,13 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>OpenStreetMap Routing With Neo4j</title>
+    <title>Map</title>
 
     <!-- TODO: add favicon -->
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="docs/images/favicon.ico"
+      href="/img/logo.png"
     />
 
     <!-- CSS for leaflet and leaflet-geoman plugin -->
@@ -58,6 +58,7 @@
         /*the container must be positioned relative:*/
         position: relative;
         display: inline-block;
+        margin-right: 10px;
       }
       input {
         border: 1px solid transparent;
@@ -99,27 +100,41 @@
         background-color: DodgerBlue !important;
         color: #ffffff;
       }
+      header {
+      background-color: #333; /* Couleur d'arrière-plan de l'en-tête */
+      color: #fff; /* Couleur du texte de l'en-tête */
+      padding: 10px; /* Espacement intérieur de l'en-tête */
+      text-align: center; /* Alignement du texte au centre */
+      }
+
+    /* Styles pour le titre */
+    h1 {
+      font-size: 24px; /* Taille de police du titre */
+      margin: 0; /* Supprimer les marges par défaut */
+      }
     </style>
   </head>
+  <header>
+    <h1>Projet itinéraire</h1>
+  </header>
+
   <body>
     <form autocomplete="off" action="/action_page.php">
-      <div class="autocomplete" style="width: 300px">
-        <input id="source" type="text" name="source" placeholder="From" />
-
-        <input id="dest" type="text" name="dest" placeholder="To" />
+      <div class="autocomplete" style="width: 100%">
+        <input id="source" type="text" name="source" placeholder="Départ" style="width: 49.3%; margin-right: 10px;" />
+        <input id="dest" type="text" name="dest" placeholder="Destination" style="width: 49.3%;" />
       </div>
-      <input id="routeButton" type="submit" value="Route" />
+      <input id="routeButton" type="submit" value="Valider" style="margin-top: 10px" />
     </form>
-
     <!-- Fixed size map area -->
-    <div id="map" style="width: 100%; height: 100%"></div>
+    <div id="map" style="width: 100%; height: 70%"></div>
     <!-- TODO: move this into it's own JavaScript file -->
     <!-- TODO: read credentials from env vars -->
 
     <script>
       var driver = neo4j.driver(
-        "<YOUR_NEO4J_URI_HERE>",
-        neo4j.auth.basic("neo4j", "<YOUR_NEO4J_PASSWORD_HERE>")
+        "bolt://localhost:7687",
+        neo4j.auth.basic("neo4j", "Itinary1")
       );
 
       var route = [];
@@ -165,7 +180,7 @@
               CALL 
                 db.index.fulltext.queryNodes("search_index", $searchString) 
                 YIELD node, score
-              RETURN coalesce(node.name, node.full_address) AS value, score, labels(node)[0] AS label, node.id AS id
+              RETURN coalesce(node.name) AS value, score, labels(node)[0] AS label, node.id AS id
               ORDER BY score DESC LIMIT 25
           
           `,
@@ -270,8 +285,8 @@
 
     <script>
       const map = L.map("map", { zoomControl: false }).setView(
-        [37.563434, -122.322255],
-        13
+        [48.8566, 2.3522], // Coordonnées de Paris
+        13 // Niveau de zoom initial
       );
 
       L.control
