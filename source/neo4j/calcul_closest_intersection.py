@@ -36,7 +36,13 @@ class Neo4j_Closest_Intersection:
     {batchSize:1000, parallel:false})
     '''
 
-    tx.run(near_intersection_query)
+    #tx.run(near_intersection_query)
+
+    full_text_query = "CREATE FULLTEXT INDEX search_index IF NOT EXISTS FOR (p:PointOfInterest) ON EACH [p.name]"
+
+    results = tx.run(near_intersection_query)
+    with self._driver.session() as session:
+      results = session.execute_write(lambda tx: tx.run(full_text_query))
 
 
 
